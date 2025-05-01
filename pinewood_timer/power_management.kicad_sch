@@ -2,10 +2,10 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "7e1e04f8-0c92-4449-bd15-70c2b7b0c1c5")
+	(uuid "aafa0def-8f27-4a1e-b094-2409fddfe4f4")
 	(paper "A4")
 	(title_block
-		(title "7-SEG-PLACEMENT")
+		(title "Power management")
 	)
 	(lib_symbols)
 )
