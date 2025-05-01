@@ -4865,8 +4865,8 @@
 		(uuid 5b55f522-4812-4f09-a010-71ecad0ceb4c)
 	)
 	(rectangle
-		(start 13.716 13.9699)
-		(end 110.49 117.602)
+		(start 13.9808 13.9698)
+		(end 110.0986 117.6019)
 		(stroke
 			(width 0)
 			(type dash_dot)
