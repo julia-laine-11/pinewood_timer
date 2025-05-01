@@ -1,0 +1,7056 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b0a62486-219d-435f-a4e5-dab0d042fd95")
+	(paper "B")
+	(lib_symbols
+		(symbol "74xx:74HC138"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "74HC138"
+				(at 2.54 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "demux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SSOP*5.3x6.2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC138_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74HC138_1_1"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{Y5}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~{Y4}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{Y3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "~{Y2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "~{Y1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "~{Y0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{E0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{E1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{Y7}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "~{Y6}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TDCR1050M_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TDCR1050M"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "TDCG1060M_VIS"
+				(at 0.508 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TDCR1050M"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TDCR1050M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TDCG1060M_VIS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TDCR1050M_1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -22.86) (xy 33.02 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -22.86) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -15.24 180)
+					(length 7.62)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -17.78 180)
+					(length 7.62)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TDCR1050M_1_1_0"
+				(text "DP"
+					(at 11.176 -15.24 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "L3"
+					(at 29.21 -15.24 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+			)
+			(symbol "TDCR1050M_1_1_1"
+				(text "A"
+					(at 29.21 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "B"
+					(at 29.21 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "C"
+					(at 29.21 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "D"
+					(at 11.176 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "D1"
+					(at 11.176 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "D2"
+					(at 11.176 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "D3"
+					(at 11.176 -12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "D4"
+					(at 11.176 -17.78 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "E"
+					(at 11.176 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "F"
+					(at 29.21 -12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "G"
+					(at 29.21 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "L12"
+					(at 11.176 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "L12"
+					(at 29.21 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(text "L3"
+					(at 29.21 -17.78 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+			)
+		)
+		(symbol "TLC59210IN_SHIFT_REG:TLC59210IN"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 27.94 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TLC59210IN"
+				(at 27.94 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "N20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TLC59210IN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TLC59210IN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "N20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLC59210IN_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -27.94) (xy 48.26 -27.94)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -27.94)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -27.94) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "*CLR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 -22.86 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -20.32 180)
+					(length 7.62)
+					(name "*Y8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -17.78 180)
+					(length 7.62)
+					(name "*Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -15.24 180)
+					(length 7.62)
+					(name "*Y6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -12.7 180)
+					(length 7.62)
+					(name "*Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -10.16 180)
+					(length 7.62)
+					(name "*Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "*Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "*Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "*Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nMOS_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M1"
+				(at -5.0624 -12.7122 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "N-MOSFET"
+				(at -5.0624 -15.2522 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.8116 -8.6482 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 25.9256 -5.8542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose PNP Transistors"
+				(at -10.922 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOSFET N-channel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "nMOS_1_0_1"
+				(rectangle
+					(start -2.0144 1.7658)
+					(end -1.7604 -1.7902)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.9984 -0.0122)
+					(radius 2.3001)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.0144 -0.0122) (xy -5.5704 -0.0122)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5064 -0.7742) (xy -1.7604 -0.5202)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5064 -0.7742) (xy -0.7444 -1.5362) (xy 0.0176 -2.2982) (xy 0.0176 -5.3462)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5064 0.4958) (xy -0.7444 1.2578) (xy 0.0176 2.0198) (xy 0.0176 4.8138)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.3449 1.1675) (xy -1.5989 0.4055) (xy -0.8369 0.6595) (xy -1.3449 1.1675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "nMOS_1_1_1"
+				(pin passive line
+					(at 0.02 4.8065 270)
+					(length 1.27)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.5704 -0.0122 0)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0.0335 -5.3969 90)
+					(length 1.27)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "nMOS_1_2_1"
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 1.27)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 1.27)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 243.84 93.98) (xy 243.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a31ff8b-fbcc-487f-a9a4-16a2253961cb")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c415e18-a682-4f82-9a2b-7e812ac519f8")
+	)
+	(wire
+		(pts
+			(xy 300.99 93.98) (xy 295.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16186600-f56a-4add-9c23-f869a4aa425a")
+	)
+	(wire
+		(pts
+			(xy 345.44 93.98) (xy 345.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e67fbad-9d82-4c14-a6e1-9e3a14085dde")
+	)
+	(wire
+		(pts
+			(xy 52.07 146.05) (xy 52.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256e3dc5-8abc-47c3-b004-edb241a4eb5c")
+	)
+	(wire
+		(pts
+			(xy 15.24 93.98) (xy 15.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39be3e12-36b8-4473-928e-98b87e9b4b68")
+	)
+	(wire
+		(pts
+			(xy 97.79 93.98) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab74a35-aebc-4515-a775-6bcef065f041")
+	)
+	(wire
+		(pts
+			(xy 377.19 93.98) (xy 372.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d52c8b0-271d-415b-b01c-3ee0577cbba7")
+	)
+	(wire
+		(pts
+			(xy 223.52 93.98) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d8828a-4041-4292-8da0-91d2380a03f9")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb97cad-efd6-4793-b7a4-ef1139e6ef55")
+	)
+	(wire
+		(pts
+			(xy 320.04 93.98) (xy 320.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537263cb-f9e1-4342-bc8c-4202a049de36")
+	)
+	(wire
+		(pts
+			(xy 350.52 93.98) (xy 345.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b259b4-4b07-428f-8118-b58b68554570")
+	)
+	(wire
+		(pts
+			(xy 397.51 93.98) (xy 397.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d1daa4-8441-459f-8d62-a0abe48bb6d5")
+	)
+	(wire
+		(pts
+			(xy 20.32 93.98) (xy 15.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772b4c5b-28dc-4fde-a906-37721bb5f9a9")
+	)
+	(wire
+		(pts
+			(xy 295.91 93.98) (xy 295.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e645d5-8c62-4e72-9b76-4c008d3d933c")
+	)
+	(wire
+		(pts
+			(xy 372.11 93.98) (xy 372.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786388a7-cd0c-4521-98bd-b83d5bcf2eb4")
+	)
+	(wire
+		(pts
+			(xy 386.08 154.94) (xy 391.16 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ca5687-07a7-4b91-9d41-51aabaccc945")
+	)
+	(wire
+		(pts
+			(xy 72.39 93.98) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833c0149-8d63-4edc-a105-359bc326eff5")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abd6aab-bc29-43d9-aaed-6e06632e9f24")
+	)
+	(polyline
+		(pts
+			(xy 288.036 107.442) (xy 288.29 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf01b5e-2fa2-4946-b733-2b9213500d85")
+	)
+	(wire
+		(pts
+			(xy 194.31 93.98) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f4d8f0-2d08-4377-a3c2-2f547d310622")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b3f3f8-096a-4b49-af9f-6de34d624899")
+	)
+	(wire
+		(pts
+			(xy 270.51 93.98) (xy 270.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9730d487-8267-4969-ae16-2f35b24576d5")
+	)
+	(wire
+		(pts
+			(xy 218.44 93.98) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9826a91e-5394-41bf-ba04-f2cfbabc545a")
+	)
+	(wire
+		(pts
+			(xy 181.61 154.94) (xy 186.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd17421-de17-4a38-8548-e4b81b842041")
+	)
+	(wire
+		(pts
+			(xy 173.99 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd96505-7736-4254-b755-0a48fd6f400d")
+	)
+	(wire
+		(pts
+			(xy 199.39 93.98) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dc68f4-587f-4b67-9873-1e53f9a20065")
+	)
+	(wire
+		(pts
+			(xy 275.59 93.98) (xy 270.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2ed741-9274-4a88-aa9b-1ab5596fa2cf")
+	)
+	(polyline
+		(pts
+			(xy 287.782 107.442) (xy 288.036 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41a7f59-60ee-455a-b5c9-706fe79b1311")
+	)
+	(wire
+		(pts
+			(xy 40.64 93.98) (xy 40.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9e5164-632b-4657-8f80-bc5acd87428d")
+	)
+	(wire
+		(pts
+			(xy 325.12 93.98) (xy 320.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e41e82-b971-4d2d-a049-4a7d408f65ff")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9087c12-8de0-4f0e-b525-33b0ed3bdea2")
+	)
+	(wire
+		(pts
+			(xy 402.59 93.98) (xy 397.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa8102d-91ab-4433-86d8-4d99898b399e")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 92.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7057d2-0427-42d7-9c72-8b337ceab1b2")
+	)
+	(polyline
+		(pts
+			(xy 288.036 35.56) (xy 288.036 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e327208e-00af-417e-9fb5-1f003264f314")
+	)
+	(wire
+		(pts
+			(xy 248.92 93.98) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee82b9d0-e82b-4d2e-af0c-a0485ba9a022")
+	)
+	(wire
+		(pts
+			(xy 121.92 93.98) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52e8718-8c21-4237-ad27-8b7fd8c46f46")
+	)
+	(wire
+		(pts
+			(xy 254 146.05) (xy 254 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c0dde0-4975-4845-b05f-3aa45e07f6a0")
+	)
+	(wire
+		(pts
+			(xy 45.72 93.98) (xy 40.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fcc115-0005-49fa-880d-88b2e14610de")
+	)
+	(text "LANE 1"
+		(exclude_from_sim no)
+		(at 59.944 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "201a13c8-01a1-4294-b751-021dce85e045")
+	)
+	(text "LANE 2"
+		(exclude_from_sim no)
+		(at 159.004 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e8e181a-375e-4ffc-9062-658440b1089a")
+	)
+	(text "LANE 3"
+		(exclude_from_sim no)
+		(at 260.858 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4055d8ea-2dee-41bf-add6-2a9b3dd16c8c")
+	)
+	(text "LANE 4"
+		(exclude_from_sim no)
+		(at 360.172 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc13dabf-1c61-431f-9e83-c70e2bde0c37")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 280.69 89.1735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0395f296-548b-45c4-b2e4-7e727ebd360d")
+		(property "Reference" "#PWR07"
+			(at 280.69 92.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 280.69 84.0935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.69 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.69 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 280.69 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc393561-34b3-4358-b473-a8e32a98fc05")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "095e344e-d427-4d57-aabc-5e27696304af")
+		(property "Reference" "#PWR020"
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43dc17f4-9250-4422-a62d-d5fe1238042d")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 102.87 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc13d72-392f-4c29-8dc0-fd6b2dd400dc")
+		(property "Reference" "M4"
+			(at 98.044 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 98.044 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.6816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.7956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 91.948 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1b")
+		)
+		(pin "3"
+			(uuid "b2b49ef4-33b0-4f64-8f42-b9061321304c")
+		)
+		(pin "2"
+			(uuid "8acb21eb-82cc-4208-86d6-c70d8f239c3c")
+		)
+		(pin "1"
+			(uuid "200480b7-65ae-4678-9739-a791bf63682b")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cd")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1249")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 254 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109ec097-0785-4b3d-9c67-9097b17e870c")
+		(property "Reference" "M10"
+			(at 249.174 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 249.174 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.8116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.9256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 243.078 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "71a728f9-2fd8-4557-b8ad-e6febdab8016")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8ad")
+		)
+		(pin "2"
+			(uuid "ca8b733d-8825-42f1-a385-3445e95be751")
+		)
+		(pin "1"
+			(uuid "bebf58ce-7683-444b-9761-47c127dd55d4")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d3")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124f")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 67.31 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11955531-55c1-40c5-98a0-079ec988d2c8")
+		(property "Reference" "R3"
+			(at 69.85 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 69.85 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a009887-52fc-4ea3-9f54-054bf1972996")
+		)
+		(pin "1"
+			(uuid "9e0857cc-f31a-439d-a277-959a151b4270")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 179.07 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17199d5d-5355-428d-83b2-bd7df4b45939")
+		(property "Reference" "M7"
+			(at 174.244 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 174.244 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.8816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.9956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 168.148 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d745340-3d31-42dc-bcee-085209190278")
+		)
+		(pin "3"
+			(uuid "23cd380b-a444-4ccb-9f4c-2a19a4ddd61b")
+		)
+		(pin "2"
+			(uuid "fbed804e-fe17-42cd-8cef-5ee2de7d84e2")
+		)
+		(pin "1"
+			(uuid "884ae7e5-8546-42d0-a2ac-1911b7a10d23")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cc")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1248")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 152.4 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17d9838b-ae84-4775-99b2-bdcd21e61ce2")
+		(property "Reference" "M6"
+			(at 147.574 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 147.574 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.2116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.3256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 141.478 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3fb2d3cc-d448-4849-8497-3e5ebda61bfe")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8ab")
+		)
+		(pin "2"
+			(uuid "bd63e187-a7ab-4b2e-820a-999823e9e8a1")
+		)
+		(pin "1"
+			(uuid "a0d14738-0ef5-4b81-9e3f-85776f010712")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cf")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124b")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 243.84 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a4a34aa-bdbd-4a40-a603-188fd375fd7d")
+		(property "Reference" "R10"
+			(at 246.38 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 246.38 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43cd54b1-e8bb-426e-857e-0a57726e8808")
+		)
+		(pin "1"
+			(uuid "6b64366b-d8be-477a-9f46-813e76261c5b")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2af95fe3-0dbc-40d8-9692-2c45158d6779")
+		(property "Reference" "#PWR014"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58405629-4f7f-4486-b0df-ad52128b9b7c")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 127 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "307f5263-b79f-47dd-a3fd-9d425bd594f1")
+		(property "Reference" "M5"
+			(at 122.174 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 122.174 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.8116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.9256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 116.078 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0c69806f-3c43-450c-856a-f0b1a78f3b6c")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8aa")
+		)
+		(pin "2"
+			(uuid "7b82f49c-c89d-45a3-a01f-9bb990e9d721")
+		)
+		(pin "1"
+			(uuid "1554f8ee-5448-4784-b828-8915b153e149")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cd")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1249")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35000a79-8cf4-422e-bcb5-b44f43357fa5")
+		(property "Reference" "#PWR02"
+			(at 186.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dbf7eb3-0e4c-43fc-b6ed-d8d6df7b9e00")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 372.11 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b7c73e4-7851-41a0-bec5-26a7b602e1ef")
+		(property "Reference" "R15"
+			(at 374.65 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 374.65 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 372.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d0ef76e-3988-43e1-90d1-ae2deb052a8e")
+		)
+		(pin "1"
+			(uuid "25cb056f-4ef0-4136-a9ef-0168e718a7eb")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 228.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40068193-f4ca-497b-89c9-13614a1290dd")
+		(property "Reference" "M9"
+			(at 223.774 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 223.774 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.4116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254.5256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 217.678 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1ee4038a-afc9-43e0-9ff8-be8c3d95b66a")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8ab")
+		)
+		(pin "2"
+			(uuid "835973aa-5c61-438a-b33e-eadd4eceb875")
+		)
+		(pin "1"
+			(uuid "a1ffd9b5-2752-4146-b6aa-56e6dac67f8a")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36ce")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124a")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TDCR1050M_1")
+		(lib_id "4-7-seg-display-TDCR1050M:TDCR1050M")
+		(at 240.03 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "473cb8fc-0d99-419d-8d33-c0aaafe78327")
+		(property "Reference" "U4"
+			(at 260.35 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TDCR1050M"
+			(at 260.35 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TDCG1060M_VIS"
+			(at 240.538 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TDCR1050M"
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b099ae47-18fb-4873-9305-1ae2b1d38474")
+		)
+		(pin "9"
+			(uuid "9afa947f-ab82-45c1-8200-66ea0c40a422")
+		)
+		(pin "2"
+			(uuid "e5f50d19-2fd3-4b1a-9da7-4616b2616bcd")
+		)
+		(pin "6"
+			(uuid "83146e4e-ecc2-494a-b046-6698fac36884")
+		)
+		(pin "5"
+			(uuid "d2185db7-a5f4-451a-832c-6ac7c247ea53")
+		)
+		(pin "7"
+			(uuid "446a9aa3-d310-4a31-bad8-f3f3b39b73fc")
+		)
+		(pin "4"
+			(uuid "ed09c5a1-26a8-462d-ab9b-6b075b981537")
+		)
+		(pin "8"
+			(uuid "d538f360-c29c-491b-84fa-dedbde5d6f3c")
+		)
+		(pin "1"
+			(uuid "31a02a9e-b2f2-4211-8201-a48a95bae18a")
+		)
+		(pin "12"
+			(uuid "34813dcd-0dde-46db-a315-2a747a5a33ec")
+		)
+		(pin "16"
+			(uuid "208ad903-ec3a-4aba-abf7-7f181c7240d1")
+		)
+		(pin "13"
+			(uuid "842876b3-be68-411d-8b2b-c1bc193f34fc")
+		)
+		(pin "15"
+			(uuid "99c41bc6-206a-45e2-bde6-1baedd687783")
+		)
+		(pin "10"
+			(uuid "04466398-d27f-471a-9ddc-3e7d7c0ab91d")
+		)
+		(pin "14"
+			(uuid "b9b8c050-6d80-4705-a5b6-1e46ed9453fb")
+		)
+		(pin "11"
+			(uuid "2eec00dc-909c-40b2-91e9-ae7a2b1d9655")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 382.27 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4883fca3-8a52-4325-ae6d-b8d5e8434132")
+		(property "Reference" "M15"
+			(at 377.444 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 377.444 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 385.0816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.1956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 371.348 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0d596357-7de5-4f91-b520-7915daf193a0")
+		)
+		(pin "3"
+			(uuid "23cd380b-a444-4ccb-9f4c-2a19a4ddd61b")
+		)
+		(pin "2"
+			(uuid "3d97850e-5d87-4acd-9373-2bf363c5e2bf")
+		)
+		(pin "1"
+			(uuid "301a7510-f762-4627-aa3a-104b66fdb111")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cf")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124b")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 77.49 89.1735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a1355a5-e92d-49d5-ac3b-5e6d77228e36")
+		(property "Reference" "#PWR015"
+			(at 77.49 92.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 77.49 84.0935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.49 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.49 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 77.49 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3e04ab-4936-4fff-8f26-33ae75dc525f")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 218.44 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50d9f44a-4cb4-4a73-8eb2-2289158287f7")
+		(property "Reference" "R9"
+			(at 220.98 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 220.98 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdfe8cbe-89dd-4450-a6c8-d193d762c6d7")
+		)
+		(pin "1"
+			(uuid "c1940442-523f-48ed-94e6-75330deab2b3")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 295.91 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5184644b-62be-46cb-a63b-a068672110a1")
+		(property "Reference" "R12"
+			(at 298.45 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 298.45 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 295.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06223efc-4367-4831-98c7-5b61e3bad433")
+		)
+		(pin "1"
+			(uuid "3ef05ba7-e04e-436b-87c7-6c3051e04c9c")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 320.04 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58093954-b7d9-41fb-aad3-2d75546e6ce1")
+		(property "Reference" "R13"
+			(at 322.58 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 322.58 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 320.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a94bcca-1dac-4abe-b720-4962b5313708")
+		)
+		(pin "1"
+			(uuid "66bda7eb-58e2-4c4f-abb7-e5b43f3fea2a")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 382.27 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59f1272e-bc74-4cce-9742-e70b46292d1f")
+		(property "Reference" "#PWR011"
+			(at 382.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 382.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 382.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844642a7-25fc-40bf-b36d-8a37b310e6a8")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 355.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a0713c3-5510-4660-a3a8-486ddaba40db")
+		(property "Reference" "M14"
+			(at 350.774 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 350.774 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.4116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381.5256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 344.678 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3fb2d3cc-d448-4849-8497-3e5ebda61bfe")
+		)
+		(pin "3"
+			(uuid "9c827807-b7ef-4f85-b913-5df124cd8c1e")
+		)
+		(pin "2"
+			(uuid "1ed907bc-7360-48b7-a32a-1b0fe03f3a79")
+		)
+		(pin "1"
+			(uuid "f4dfd749-9e43-48c2-8d69-6dfaef2b347d")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d0")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124c")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 391.16 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672055bc-b63b-4e3f-86ce-ccd432ce1ebc")
+		(property "Reference" "#PWR04"
+			(at 391.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 391.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 391.16 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "207cd50e-c4c8-448e-b8f3-2330eb4c3462")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 204.47 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ba6d8bc-3a84-4e78-870e-2429f7cdc1e6")
+		(property "Reference" "M8"
+			(at 199.644 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 199.644 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.2816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.3956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 193.548 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1b")
+		)
+		(pin "3"
+			(uuid "094300f2-f73c-45b5-bb31-a51c91db2a0d")
+		)
+		(pin "2"
+			(uuid "d767a493-a489-4748-8816-bf69cc0c9f4f")
+		)
+		(pin "1"
+			(uuid "f7428f41-0bd0-4116-901c-b75cde9f867a")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36ce")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124a")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 142.24 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c05e6d2-9f21-4887-b6a9-ad3108c28d7c")
+		(property "Reference" "R6"
+			(at 144.78 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 144.78 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1951931-0f2c-4060-a0e6-f2984cdf1f1c")
+		)
+		(pin "1"
+			(uuid "fa2b8ecf-ef1e-490a-a656-b70f7ff1f9b1")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TDCR1050M_1")
+		(lib_id "4-7-seg-display-TDCR1050M:TDCR1050M")
+		(at 138.43 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d73c8ad-d306-4337-9b49-ea73ab00459f")
+		(property "Reference" "U3"
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TDCR1050M"
+			(at 158.75 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TDCG1060M_VIS"
+			(at 138.938 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TDCR1050M"
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3e17e37b-1593-43b8-9181-6d860868c76c")
+		)
+		(pin "9"
+			(uuid "7bc28fef-ec19-47cf-bd98-0dd8b21840d7")
+		)
+		(pin "2"
+			(uuid "d06477ca-2513-4094-9030-6048489a8a15")
+		)
+		(pin "6"
+			(uuid "5f90bf2e-0a45-49c8-9cc1-96f3b65b68d4")
+		)
+		(pin "5"
+			(uuid "26be3970-21c9-4a12-8998-c101f2cf8886")
+		)
+		(pin "7"
+			(uuid "619aa753-e21f-44bd-a16d-6e566c11bd8e")
+		)
+		(pin "4"
+			(uuid "1bb2a59c-497c-4f41-9c58-b7271eef911a")
+		)
+		(pin "8"
+			(uuid "5020be8d-6689-4f97-a525-1855a76048da")
+		)
+		(pin "1"
+			(uuid "63c471cd-9e5e-48af-a55e-f6d2910a70b9")
+		)
+		(pin "12"
+			(uuid "d28cb749-96c4-4022-9c73-d31d8fe470d5")
+		)
+		(pin "16"
+			(uuid "87503396-f19f-4978-998c-779f680c52c0")
+		)
+		(pin "13"
+			(uuid "87aff788-d902-4693-91f0-c3d1414dd8a5")
+		)
+		(pin "15"
+			(uuid "c8576ff2-c723-424b-8e28-52ad36be4261")
+		)
+		(pin "10"
+			(uuid "be5c8169-2a11-4bc0-b7f6-9b07fe1a22ab")
+		)
+		(pin "14"
+			(uuid "2566c530-b9e7-4117-a4aa-73da3d886b1b")
+		)
+		(pin "11"
+			(uuid "9bac28f3-5188-45a5-ad6b-d194a29b61fd")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd62260-cb91-4bf3-900f-fbf903eb0f4e")
+		(property "Reference" "#PWR016"
+			(at 102.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d489e16-f383-4ca3-a8df-b8f56f0cc11c")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.42 89.1735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f93ed80-0c3a-4dbc-a940-dfe66f5c24f2")
+		(property "Reference" "#PWR018"
+			(at 152.42 92.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 152.42 84.0935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.42 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.42 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.42 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c528b79a-3b1e-4897-a438-f3a64f66833b")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 407.67 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fd5810e-9340-4e04-b7f7-a5cc4f56d7c0")
+		(property "Reference" "#PWR012"
+			(at 407.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 407.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 407.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 407.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1111e502-fc5d-4768-b4ac-8e4acd7a1c6c")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a876a4-61dd-49ca-b8dd-dc06a5e4df1b")
+		(property "Reference" "#PWR03"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "784348a5-8f32-4a8d-85c0-4e42ef0f33fa")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 127.02 89.1735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7792af4d-85bc-4b2c-ad47-cec6b03ad1dc")
+		(property "Reference" "#PWR017"
+			(at 127.02 92.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127.02 84.0935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.02 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.02 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127.02 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534581a9-16ec-4503-adda-5dd11bbd00c9")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 15.24 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bc668f2-3fe7-4234-b4a9-81b37c08e2f1")
+		(property "Reference" "R1"
+			(at 17.78 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 17.78 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 15.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bf4b2be-0695-4339-bcdd-1980c2d8971c")
+		)
+		(pin "1"
+			(uuid "94c49f59-a2b8-47ab-8181-04b227b42a8a")
+		)
+		(instances
+			(project ""
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 330.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "821505b4-c682-41fe-9f9a-a5b27dda65ab")
+		(property "Reference" "M13"
+			(at 325.374 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 325.374 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 333.0116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.1256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 319.278 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b20b5776-b9d2-4b4f-bbc0-3641cf28773f")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8aa")
+		)
+		(pin "2"
+			(uuid "9570dd69-4591-4dba-85a2-209dedcec3b8")
+		)
+		(pin "1"
+			(uuid "5f0fe618-f539-4358-b1e5-6a79ad75f285")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cd")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1249")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 306.07 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8930fdcc-d757-4f36-995b-510668b6a9c8")
+		(property "Reference" "M12"
+			(at 301.244 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 301.244 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.8816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.9956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 295.148 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1c")
+		)
+		(pin "3"
+			(uuid "70777699-53de-41ec-bb4f-8c38abc042b5")
+		)
+		(pin "2"
+			(uuid "4b6da129-e98c-445a-81f2-9b409502453a")
+		)
+		(pin "1"
+			(uuid "19391df5-aab7-4a19-b224-2bd142e8cb80")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d2")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124e")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 25.4 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f38949b-4eb0-4406-a286-22d83f37a603")
+		(property "Reference" "M1"
+			(at 20.574 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 20.574 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.2116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.3256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 14.478 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d745340-3d31-42dc-bcee-085209190278")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8aa")
+		)
+		(pin "2"
+			(uuid "184b51eb-f220-431c-a3a1-8e4e0f50b6ce")
+		)
+		(pin "1"
+			(uuid "49eaefb3-e357-4209-909a-fe1d2de256a4")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cc")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1248")
+		)
+		(instances
+			(project ""
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "914e4d82-cb58-43c7-93e3-d51b06d56cbf")
+		(property "Reference" "#PWR06"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a1ac6ab-b31c-4949-bb26-6f007808ef8f")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLC59210IN_SHIFT_REG:TLC59210IN")
+		(at 125.73 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92c02ac8-25f5-4dce-9a20-f90c8e81f01f")
+		(property "Reference" "U8"
+			(at 153.67 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC59210IN"
+			(at 153.67 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "N20"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TLC59210IN"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "3ced72ee-e667-4f77-90d7-2d9ddb6923d9")
+		)
+		(pin "18"
+			(uuid "ebadc875-e514-43d6-92f1-919de2c1326c")
+		)
+		(pin "2"
+			(uuid "35ee363e-ddbb-4edb-9fc3-504ca1f9fc72")
+		)
+		(pin "15"
+			(uuid "b5ff8e10-5048-4a4e-9585-f77811d348c6")
+		)
+		(pin "9"
+			(uuid "5d5ce662-ce34-42f5-8344-36c11e399885")
+		)
+		(pin "10"
+			(uuid "958a45fa-3633-4e4a-bc91-b556a2297054")
+		)
+		(pin "1"
+			(uuid "19188ee9-2496-484f-a879-68c525ac8976")
+		)
+		(pin "11"
+			(uuid "4d24f910-1f14-4ab3-b4b7-f609efe26dd2")
+		)
+		(pin "5"
+			(uuid "58c9cddf-a5cf-4389-a32c-6a1306c40ab6")
+		)
+		(pin "20"
+			(uuid "da5a1f29-ec1b-4721-8943-49aa44256be7")
+		)
+		(pin "12"
+			(uuid "c31e8467-4464-4d67-96b8-045c8c5454b3")
+		)
+		(pin "14"
+			(uuid "e798efcc-1af1-4f7e-b024-e3705c0dbba4")
+		)
+		(pin "8"
+			(uuid "efa86c68-fb6f-4d32-abbc-ff824e9f235d")
+		)
+		(pin "6"
+			(uuid "0a1d3c1a-492a-4cd3-adb8-324e95587876")
+		)
+		(pin "17"
+			(uuid "ec9c53da-4efb-4457-a188-06255ede4355")
+		)
+		(pin "3"
+			(uuid "329c030d-1480-421d-80a8-0898a86778d4")
+		)
+		(pin "4"
+			(uuid "27e25556-7dbf-46fd-84ec-8ae549f7bc49")
+		)
+		(pin "19"
+			(uuid "92e40ab2-276b-4a3c-8f3e-9265742440db")
+		)
+		(pin "13"
+			(uuid "f631c646-4a28-47eb-91a3-9867deb3315c")
+		)
+		(pin "16"
+			(uuid "b85ea58d-e3a8-4ea6-8852-22599a56e88c")
+		)
+		(instances
+			(project ""
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.07 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95ca45bb-0497-474b-b004-69be57e8db86")
+		(property "Reference" "#PWR019"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2db33aa-2137-42e1-bb6e-8a753b84b35a")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "961bd3ec-eb8d-4f63-b4c2-560658bb2a30")
+		(property "Reference" "#PWR013"
+			(at 25.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 25.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516b0a17-d100-4c28-9f43-44a8cda71626")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 407.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "978b392a-2479-4a46-bd7b-81f786e0058c")
+		(property "Reference" "M16"
+			(at 402.844 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 402.844 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 410.4816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.5956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 396.748 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "831f639b-1af2-437d-89ab-f9fdc60ef81c")
+		)
+		(pin "3"
+			(uuid "094300f2-f73c-45b5-bb31-a51c91db2a0d")
+		)
+		(pin "2"
+			(uuid "530151e4-35c0-4f81-b80e-1af1c9777845")
+		)
+		(pin "1"
+			(uuid "570dee4b-8b52-4eab-9d9f-c49e30ca81d6")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d1")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124d")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 254 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4d1fae-f15c-4933-ad25-94b38e0db420")
+		(property "Reference" "U7"
+			(at 256.1941 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 256.1941 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7ccbb598-8636-463f-be40-d986774a6438")
+		)
+		(pin "4"
+			(uuid "9505e877-60e5-467c-91c0-254e887abfc1")
+		)
+		(pin "14"
+			(uuid "dd64ae27-330c-4562-816e-82907704057d")
+		)
+		(pin "15"
+			(uuid "8da81d26-8558-45d6-89b0-fd1f96f44e54")
+		)
+		(pin "9"
+			(uuid "2bef5102-2e07-4155-acf0-7fda471e728e")
+		)
+		(pin "12"
+			(uuid "d45867f2-614a-4fbd-929f-1dbbfc56adf8")
+		)
+		(pin "11"
+			(uuid "3d7f46f7-29a6-4dac-b4a1-d9986d36cfe0")
+		)
+		(pin "7"
+			(uuid "ebb7677f-b610-47a9-8681-29ea491e0a28")
+		)
+		(pin "1"
+			(uuid "6d0fe259-69c1-4818-8596-7d336d25ca67")
+		)
+		(pin "5"
+			(uuid "5dcae7fe-4c1b-48f6-ab4b-c43e91459cf8")
+		)
+		(pin "6"
+			(uuid "621a66ae-a2e0-4c82-af59-b5fe9172d8fa")
+		)
+		(pin "8"
+			(uuid "d59e7e77-0928-4602-92ec-c7ead34f26f8")
+		)
+		(pin "10"
+			(uuid "2b68e0eb-79d6-484b-97c3-2697695557cd")
+		)
+		(pin "16"
+			(uuid "323730d0-f766-496e-8cae-f1d8fd1fbe1c")
+		)
+		(pin "2"
+			(uuid "deb0d2f6-1035-4ad7-98ed-9afbcdb6a4e3")
+		)
+		(pin "3"
+			(uuid "78885877-4947-498c-905a-dae1ded493f6")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 397.51 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ee6437c-1007-47eb-a459-924847acfe0c")
+		(property "Reference" "R16"
+			(at 400.05 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 400.05 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 397.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 397.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aef5d5e2-dad9-4c90-959b-93171fbe6034")
+		)
+		(pin "1"
+			(uuid "7cd53d53-1758-4bfa-9d06-1fe0125f82ba")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLC59210IN_SHIFT_REG:TLC59210IN")
+		(at 330.2 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a951e6bc-8ade-4dcf-97fb-d0338dfd863a")
+		(property "Reference" "U9"
+			(at 358.14 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC59210IN"
+			(at 358.14 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "N20"
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TLC59210IN"
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "27ba32cc-d664-4167-bae7-da993f940317")
+		)
+		(pin "18"
+			(uuid "7a70bb1d-54e1-4df2-b336-a64f636d06db")
+		)
+		(pin "2"
+			(uuid "5beb6b36-a109-4607-9c27-e703fe4fb60e")
+		)
+		(pin "15"
+			(uuid "eb23689e-d84e-47e9-ada2-916d2f24cdb7")
+		)
+		(pin "9"
+			(uuid "b912f325-4854-4140-a8c2-470f755debf0")
+		)
+		(pin "10"
+			(uuid "d07c2a7f-2f48-483f-9781-5b0a22d69ff5")
+		)
+		(pin "1"
+			(uuid "3b6ef55a-de1c-4a99-87aa-83106273ad46")
+		)
+		(pin "11"
+			(uuid "83e8f3f4-ac2a-4fbe-b18e-e4db858b111b")
+		)
+		(pin "5"
+			(uuid "faa40bad-36e1-4d40-b598-4414ca6aaece")
+		)
+		(pin "20"
+			(uuid "c96c52fb-9cdd-4140-ad66-b67ff3d2d84c")
+		)
+		(pin "12"
+			(uuid "a6490055-2781-4418-9b86-2d9181ae28e0")
+		)
+		(pin "14"
+			(uuid "643bb6d5-d28d-4ee7-8617-24ff590d9e13")
+		)
+		(pin "8"
+			(uuid "16d61e7d-74b3-4d13-88b5-0b6bc5082e89")
+		)
+		(pin "6"
+			(uuid "45eaf09d-ac23-42c3-a908-c10ce4cb611b")
+		)
+		(pin "17"
+			(uuid "8027535a-8a0c-4c3e-b8bc-6e5452721c11")
+		)
+		(pin "3"
+			(uuid "8c317a6c-3c86-44b3-89d2-1b725ee7433e")
+		)
+		(pin "4"
+			(uuid "f8cbc7c4-dab1-4201-be43-ccb3a143da4c")
+		)
+		(pin "19"
+			(uuid "a624e3c9-955a-453a-8106-ee5fb999e684")
+		)
+		(pin "13"
+			(uuid "7e4830dc-6362-4242-973b-b70a16be58d2")
+		)
+		(pin "16"
+			(uuid "f0790deb-b732-4cf5-8ef7-8fc41162c816")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TDCR1050M_1")
+		(lib_id "4-7-seg-display-TDCR1050M:TDCR1050M")
+		(at 339.09 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aadc55e9-6b34-40b6-be55-7d156ded925b")
+		(property "Reference" "U5"
+			(at 359.41 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TDCR1050M"
+			(at 359.41 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TDCG1060M_VIS"
+			(at 339.598 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TDCR1050M"
+			(at 339.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ecd1f20b-bef8-4ec6-a000-cc6b2c6c8fa8")
+		)
+		(pin "9"
+			(uuid "d33b1ca7-70ec-4548-bc72-442a211d3c05")
+		)
+		(pin "2"
+			(uuid "81828ee4-3d06-4479-88e3-5f8815182ee2")
+		)
+		(pin "6"
+			(uuid "98f07d31-ad23-4603-8100-da85d2913198")
+		)
+		(pin "5"
+			(uuid "edf8733a-2e21-4b1b-b341-502ff628f23c")
+		)
+		(pin "7"
+			(uuid "c88141f3-526e-445f-ba0d-9392448907bf")
+		)
+		(pin "4"
+			(uuid "7ff57689-6e4a-4ab8-846c-4f9f9a38e556")
+		)
+		(pin "8"
+			(uuid "898b26b7-753b-4ad6-8df7-0ac532c4bb65")
+		)
+		(pin "1"
+			(uuid "3c00a188-2b2c-4fd8-970c-c6bf1a06c229")
+		)
+		(pin "12"
+			(uuid "a91f8964-71a3-4e93-a79a-9a630ea8da2b")
+		)
+		(pin "16"
+			(uuid "a9774aae-0d18-4e22-bb83-c76516972b7a")
+		)
+		(pin "13"
+			(uuid "75741ea9-e278-450f-a5a4-07b76eac5891")
+		)
+		(pin "15"
+			(uuid "f645f2e4-0021-4629-b2cc-f51885c475d9")
+		)
+		(pin "10"
+			(uuid "da55337c-7b02-4958-9443-b5a8cef6c763")
+		)
+		(pin "14"
+			(uuid "dbfdcbf9-8c9d-4de0-8d74-aef305c02889")
+		)
+		(pin "11"
+			(uuid "cac075e1-c00e-445e-9c92-de0182d1f407")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 77.47 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1328ecc-fa55-4a02-8f31-683064a8616b")
+		(property "Reference" "M3"
+			(at 72.644 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 72.644 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.2816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.3956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 66.548 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d745340-3d31-42dc-bcee-085209190278")
+		)
+		(pin "3"
+			(uuid "ba36f006-5249-4649-b340-da6cafaaaf2d")
+		)
+		(pin "2"
+			(uuid "6adb3a64-3770-47b8-9fe5-dd7d32319882")
+		)
+		(pin "1"
+			(uuid "2bcc0e50-068a-4eec-bad7-35b9f95f80aa")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cc")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1248")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b847f7c1-630d-46ea-9f91-d59baec8dea0")
+		(property "Reference" "#PWR05"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23912992-2a0a-4e46-8168-0a73c665e6cb")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c656c6b6-6b31-440a-b855-b13d0b99a562")
+		(property "Reference" "R7"
+			(at 171.45 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 171.45 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0116df17-c2cf-41c3-a7e8-3cb80af3734e")
+		)
+		(pin "1"
+			(uuid "d79336e4-f1da-4d86-9532-5fa141d03c4e")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 194.31 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4a2cae3-cdc2-4738-bda5-14b4d437611b")
+		(property "Reference" "R8"
+			(at 196.85 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 196.85 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9aca36dd-2610-4390-adca-7b0c64d5d9c4")
+		)
+		(pin "1"
+			(uuid "f56fcddc-b77a-40fe-b7a5-3cc32850e27f")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 306.07 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d82b506a-5ef1-4308-9357-c61e4b1c89f0")
+		(property "Reference" "#PWR08"
+			(at 306.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 306.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 306.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95ca67c9-5e32-4808-ae28-047517b91305")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 355.62 89.1735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8b1059f-a18f-4926-81f4-e412b247b361")
+		(property "Reference" "#PWR010"
+			(at 355.62 92.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 355.62 84.0935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.62 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.62 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 355.62 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dff65581-5db3-4db6-9bfe-3c1f5693c88c")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da5424e5-d0e6-407a-aad4-991b030cdb41")
+		(property "Reference" "#PWR01"
+			(at 52.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199792d7-ca30-4009-b023-a5e8d3c1b6d0")
+		)
+		(instances
+			(project ""
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 92.71 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc4e5208-2793-4872-b369-ba9b1cc426ab")
+		(property "Reference" "R4"
+			(at 95.25 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 95.25 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b712c7c-9438-4b49-a327-068ca71313c0")
+		)
+		(pin "1"
+			(uuid "e9757e52-be1c-49f3-9f1a-cd6ef6579237")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 345.44 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e597b239-d6ea-4a58-91a9-49fc77287f58")
+		(property "Reference" "R14"
+			(at 347.98 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 347.98 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 345.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b20e45f6-7c18-40f6-b889-8d2db8d25833")
+		)
+		(pin "1"
+			(uuid "941db0ca-1637-49b1-9d71-54fc7748e403")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6bcc7b6-aaac-4704-9929-ce26c1af3436")
+		(property "Reference" "R5"
+			(at 119.38 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 119.38 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d61dc40-466f-4038-8c8e-6b73c50eed10")
+		)
+		(pin "1"
+			(uuid "8ff9dbaf-308e-42af-8c34-d366abeadf34")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 52.07 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e98bc7f9-033e-4b21-85eb-60d2d914896e")
+		(property "Reference" "U6"
+			(at 54.2641 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 54.2641 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "104f1f29-0879-46ef-90ba-a0d690c5690a")
+		)
+		(pin "4"
+			(uuid "69a5c153-e865-472e-b1e3-541b1e102f00")
+		)
+		(pin "14"
+			(uuid "d4c98a09-7313-45c3-8dd0-649ce0926e65")
+		)
+		(pin "15"
+			(uuid "c42abe26-f177-4b3e-a45d-280c56d890eb")
+		)
+		(pin "9"
+			(uuid "cf98dcc1-bff4-494b-b4b2-6104f9c7625b")
+		)
+		(pin "12"
+			(uuid "8296b7ce-d115-4339-a2e6-bab1c6c423ba")
+		)
+		(pin "11"
+			(uuid "1d89f62a-9659-4bf3-903c-a4dcfd9d3b10")
+		)
+		(pin "7"
+			(uuid "966155ef-eec6-42c3-b978-a68fcd357c31")
+		)
+		(pin "1"
+			(uuid "ac1b8f2d-4e90-437b-874b-940b6e0934ed")
+		)
+		(pin "5"
+			(uuid "a9b476cc-aaa2-452e-9272-d2d27edf6161")
+		)
+		(pin "6"
+			(uuid "6355af35-563f-4c8b-bf76-970999b51f10")
+		)
+		(pin "8"
+			(uuid "2416123a-3aaf-41cf-a792-3543f6dfa6eb")
+		)
+		(pin "10"
+			(uuid "8fd80079-12e2-4596-b999-1aa0d66ead05")
+		)
+		(pin "16"
+			(uuid "d98712bf-7da6-4724-b6cf-98b420160911")
+		)
+		(pin "2"
+			(uuid "f7745975-71f1-4bc9-a892-c6bf42de4a82")
+		)
+		(pin "3"
+			(uuid "a3f13548-e31e-4f36-9cba-508f3201230d")
+		)
+		(instances
+			(project ""
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 40.64 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb80f19b-9074-4a12-a5d4-d983ba0f5b4e")
+		(property "Reference" "R2"
+			(at 43.18 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 43.18 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "472c3f5c-ab3d-417e-836b-70bb07b8dcd8")
+		)
+		(pin "1"
+			(uuid "585d2365-e203-4193-a4a0-d6b4606a14db")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 330.22 89.1735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eba9e2fc-e288-42bb-ac13-a9087eb4bbe1")
+		(property "Reference" "#PWR09"
+			(at 330.22 92.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 330.22 84.0935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.22 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.22 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 330.22 89.1735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8598c876-1f68-4519-a39a-13e4d294ca1e")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 280.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebc7cb03-91eb-4d30-811a-5c8e3980ee7e")
+		(property "Reference" "M11"
+			(at 275.844 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 275.844 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.4816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.5956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 269.748 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a018c9fe-e00f-48ba-9ee3-1263928f8bed")
+		)
+		(pin "3"
+			(uuid "ba36f006-5249-4649-b340-da6cafaaaf2d")
+		)
+		(pin "2"
+			(uuid "bdedfe8c-de99-49ca-9096-b9ebb4726c9b")
+		)
+		(pin "1"
+			(uuid "1422f719-97ef-46c2-b749-ff8f5d1affdc")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cc")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1248")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 50.8 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef4eab05-f54f-4693-bec6-e93d804628ee")
+		(property "Reference" "M2"
+			(at 45.974 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 45.974 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.6116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.7256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 39.878 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1b")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8aa")
+		)
+		(pin "2"
+			(uuid "ebfb69e4-acb1-4710-863e-872c4fe5f0a7")
+		)
+		(pin "1"
+			(uuid "1ec6387c-6280-4f21-bccd-a3f572bd272e")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cc")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1248")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TDCR1050M_1")
+		(lib_id "4-7-seg-display-TDCR1050M:TDCR1050M")
+		(at 39.37 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f974e98f-ed6b-49f1-bae9-536ff9155f19")
+		(property "Reference" "U2"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TDCR1050M"
+			(at 59.69 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TDCG1060M_VIS"
+			(at 39.878 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TDCR1050M"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb2fd8f8-2470-4425-803f-320605810b09")
+		)
+		(pin "9"
+			(uuid "ef7f3d0f-20e9-4303-b922-dd8a2f892337")
+		)
+		(pin "2"
+			(uuid "fe127237-fc1c-48b8-9c37-1c762e764800")
+		)
+		(pin "6"
+			(uuid "20f65976-dec4-4c12-9b90-206f9aa302f3")
+		)
+		(pin "5"
+			(uuid "642f4228-832b-4d4c-8b27-d293379fd126")
+		)
+		(pin "7"
+			(uuid "269f66a3-1295-40b3-9862-abb6da9837e9")
+		)
+		(pin "4"
+			(uuid "2d7a7258-a595-47aa-83a5-65a58fe31111")
+		)
+		(pin "8"
+			(uuid "efc04c1d-3157-4039-9b61-a546c5731f53")
+		)
+		(pin "1"
+			(uuid "d9676318-fb66-4b69-bbc7-73df87f5ff11")
+		)
+		(pin "12"
+			(uuid "0e3ab031-9aed-495a-85a9-222882946d4d")
+		)
+		(pin "16"
+			(uuid "581fbd29-0196-4158-a76f-187ff3b575f9")
+		)
+		(pin "13"
+			(uuid "7e3017c3-1cef-416c-9690-6823e96d5169")
+		)
+		(pin "15"
+			(uuid "e92795fd-7c47-4446-b4c3-130cf8244f14")
+		)
+		(pin "10"
+			(uuid "023eadb8-a9cd-422a-8b0c-3bcdcebfd54e")
+		)
+		(pin "14"
+			(uuid "2024b5e9-a0a4-4d15-b1cd-f7df20253a3e")
+		)
+		(pin "11"
+			(uuid "2026ba23-462c-4360-9b06-40647d6c99cc")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 270.51 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb526768-16b4-451f-91a5-e25e15f08e3d")
+		(property "Reference" "R11"
+			(at 273.05 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 273.05 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 270.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cf9dc95-4daa-4b4a-a9bb-8d372ec67969")
+		)
+		(pin "1"
+			(uuid "1610e472-b80d-4c02-9959-1e8f89020862")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
