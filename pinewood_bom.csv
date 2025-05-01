@@ -1,9 +1,0 @@
-BOM,,,,,
-ITEM,AMOUNT,PRICE (ESTIMATE),TOT,WEBSITE,COMMENTS
-TLC59211,3,$3.01 ,$9.03 ,https://www.mouser.com/ProductDetail/Texas-Instruments/TLC59211IN?qs=sGAEpiMZZMuYcNW8K9wAngiV4I6kFSSRgepRexQb%2FiY%3D,NOT KEPT IN STOCK DIGIKEY
-74HC138,3,1.1,$3.30 ,,
-pn2907a,20,$0.46 ,$9.20 ,https://www.digikey.com/en/products/detail/central-semiconductor-corp/PN2907A-PBFREE/4806938,OBSOLETE
-150 ohm resistors,20,0.1,$2.00 ,,
-STM32F091RC,1,10,$10.00 ,,
-,,,,,
-,,,$33.53 ,,
