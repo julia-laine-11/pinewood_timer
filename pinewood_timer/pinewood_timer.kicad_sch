@@ -2558,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 68.58) (xy 185.42 68.58)
+			(xy 179.07 68.58) (xy 184.15 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 185.42 71.12)
+			(xy 179.07 71.12) (xy 184.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 66.04) (xy 185.42 66.04)
+			(xy 179.07 66.04) (xy 184.15 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3118,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 73.66) (xy 185.42 73.66)
+			(xy 179.07 73.66) (xy 184.15 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3264,9 +3264,9 @@
 	)
 	(rectangle
 		(start 182.88 64.77)
-		(end 189.7433 74.5907)
+		(end 194.31 74.93)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type default)
 		)
 		(fill
@@ -3288,9 +3288,9 @@
 	)
 	(rectangle
 		(start 182.88 36.83)
-		(end 189.738 64.77)
+		(end 194.31 64.77)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type default)
 		)
 		(fill
@@ -3362,6 +3362,16 @@
 		)
 		(uuid "25592cd8-febc-4486-826e-602f9ea14a3c")
 	)
+	(text "(OUTPUT)\n"
+		(exclude_from_sim no)
+		(at 198.12 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d712709-035f-467a-9fab-62d153f07872")
+	)
 	(text "REQUIRED FOR THE STM\n"
 		(exclude_from_sim no)
 		(at 279.4 16.002 0)
@@ -3395,6 +3405,27 @@
 		)
 		(uuid "3e45902b-c68a-4128-ac36-9ee084364e78")
 	)
+	(text "(INPUT)\n"
+		(exclude_from_sim no)
+		(at 197.358 69.596 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "423f577f-c448-4ce7-8667-c0d053db054b")
+	)
+	(text "PC0-7 output shift reg\nPC8-10 mux\nPB0-7 output shift reg\nPB8-10 mux\n"
+		(exclude_from_sim no)
+		(at 20.32 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bec56ec-bc2b-4f01-9d79-9fd1f89cbd82")
+	)
 	(text "MUX"
 		(exclude_from_sim no)
 		(at 193.548 104.394 90)
@@ -3417,7 +3448,7 @@
 	)
 	(text "LANE PLACEMENT"
 		(exclude_from_sim no)
-		(at 191.77 50.8 90)
+		(at 195.58 51.054 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3427,7 +3458,7 @@
 	)
 	(text "SENSORS"
 		(exclude_from_sim no)
-		(at 191.516 74.422 90)
+		(at 195.58 74.422 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3435,6 +3466,27 @@
 			(justify left)
 		)
 		(uuid "9799b576-1aa2-47d7-820b-83de6ee643f8")
+	)
+	(text "(OUTPUT)\n"
+		(exclude_from_sim no)
+		(at 199.136 93.726 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c24f397d-0c09-4615-ad93-20bbec495906")
+	)
+	(text "PA10-14 input to read if car/not"
+		(exclude_from_sim no)
+		(at 20.32 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3292934-b94a-4967-8a3a-148096d70fc4")
 	)
 	(text "MUX"
 		(exclude_from_sim no)
@@ -3465,6 +3517,16 @@
 			)
 		)
 		(uuid "ed7394ae-d04a-4711-8957-02a54e728657")
+	)
+	(text "(OUTPUT)\n"
+		(exclude_from_sim no)
+		(at 125.476 71.374 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efde0aeb-1c6a-40bf-8388-a36259cdcbf7")
 	)
 	(text "SHIFT REG"
 		(exclude_from_sim no)
@@ -3648,6 +3710,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_OUT2"
+		(shape input)
+		(at 184.15 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47491cb7-cbdb-414b-b842-cfeedc5395ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.0295 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3982,6 +4066,28 @@
 			)
 		)
 	)
+	(global_label "V_OUT1"
+		(shape input)
+		(at 184.15 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91bd4553-5ba7-4b65-903f-d14a1fb4ffe7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.0295 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB0"
 		(shape input)
 		(at 184.15 81.28 0)
@@ -4158,6 +4264,28 @@
 			)
 		)
 	)
+	(global_label "V_OUT3"
+		(shape input)
+		(at 184.15 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd1533e3-976d-4d48-a839-e4986aca97a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.0295 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PC7"
 		(shape input)
 		(at 139.7 76.2 180)
@@ -4242,6 +4370,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_OUT4"
+		(shape input)
+		(at 184.15 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e42d2680-4f0a-450e-93f4-a9b315a47c43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.0295 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
