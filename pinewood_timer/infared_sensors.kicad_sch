@@ -2795,13 +2795,14 @@
 		)
 		(uuid "a0cf9fa2-cef8-4a66-aeff-6271320b1c34")
 	)
-	(text "this wont be a pot forever, \nit is jsut to adjust for the distance.\nafterwards, the resistor value will\nbe taken and the pot will be replaced"
+	(text "this wont be a pot forever, \nit is jsut to adjust for the output/\n\nafterwards, the resistor value will\nbe taken and the pot will be replaced"
 		(exclude_from_sim no)
-		(at 143.51 95.504 0)
+		(at 153.416 84.582 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
 		(uuid "afa6b916-7764-4263-aa54-b730ca508d59")
 	)

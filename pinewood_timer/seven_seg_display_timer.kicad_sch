@@ -5549,7 +5549,7 @@
 	)
 	(text "NOTHING"
 		(exclude_from_sim no)
-		(at 84.5272 56.57 0)
+		(at 71.628 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5579,7 +5579,7 @@
 	)
 	(text "NOTHING"
 		(exclude_from_sim no)
-		(at 83.312 53.086 0)
+		(at 69.85 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5589,7 +5589,7 @@
 	)
 	(text "NOTHING"
 		(exclude_from_sim no)
-		(at 36.068 46.482 0)
+		(at 51.562 45.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5679,7 +5679,7 @@
 	)
 	(text "NOTHING"
 		(exclude_from_sim no)
-		(at 85.09 48.006 0)
+		(at 69.342 48.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5706,6 +5706,16 @@
 			)
 		)
 		(uuid "c6042447-0f1f-406f-8889-861d3cae1096")
+	)
+	(text "connectors to main"
+		(exclude_from_sim no)
+		(at 213.868 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7760987-83da-431d-aeba-ffb1a95df74f")
 	)
 	(text "PB8-10\n"
 		(exclude_from_sim no)

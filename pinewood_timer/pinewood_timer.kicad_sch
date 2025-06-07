@@ -630,6 +630,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F0:STM32F091RCTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2375,7 +2544,7 @@
 		(uuid "5e97a565-0b8e-458e-a768-a8dc3d53cc04")
 	)
 	(junction
-		(at 269.24 123.19)
+		(at 269.24 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c855e3-b666-4d73-9cbe-993a466794ff")
@@ -2399,7 +2568,7 @@
 		(uuid "a6afbc47-1296-461d-a744-d6a759ebe5a0")
 	)
 	(junction
-		(at 265.43 129.54)
+		(at 265.43 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d316bbab-52bf-43f0-8e1b-58463d887cd7")
@@ -2648,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 124.46) (xy 269.24 123.19)
+			(xy 269.24 152.4) (xy 269.24 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 129.54) (xy 265.43 125.73)
+			(xy 265.43 157.48) (xy 265.43 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 129.54) (xy 265.43 129.54)
+			(xy 269.24 157.48) (xy 265.43 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 123.19) (xy 265.43 123.19)
+			(xy 269.24 151.13) (xy 265.43 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3188,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 123.19) (xy 271.78 123.19)
+			(xy 269.24 151.13) (xy 271.78 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3275,8 +3444,8 @@
 		(uuid a64ca652-42fc-4385-b348-c1b3917d2ddd)
 	)
 	(rectangle
-		(start 255.27 113.03)
-		(end 279.4 135.89)
+		(start 255.27 140.97)
+		(end 279.4 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -3285,6 +3454,18 @@
 			(type none)
 		)
 		(uuid d6f0db46-5464-4b8e-a0fa-28bc11aa86a5)
+	)
+	(rectangle
+		(start 224.79 113.03)
+		(end 279.4 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e6f90575-acc1-4b93-bbcf-3d100c0da883)
 	)
 	(rectangle
 		(start 182.88 36.83)
@@ -3310,7 +3491,18 @@
 		)
 		(uuid fdbe96d4-d2ec-4e34-a4c4-c5c5159178bf)
 	)
-	(text "Power should come in through a barrel jack \nfor easier use. I should find one with a long\ncable so it doesn't become a pain. \nLikely 12v or 5v so should have a linear reg\nto take the voltage down to 3.3v."
+	(text "i want to have a large reset button\nthat is accessible to reset the track\neach run. i also want to have one on\nthe board for funzies"
+		(exclude_from_sim no)
+		(at 282.194 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "02a15ffe-9c32-47e4-8ac2-eb1e814cd3fe")
+	)
+	(text "barrel jack\n3.3v in only\n"
 		(exclude_from_sim no)
 		(at 21.336 106.172 0)
 		(effects
@@ -3500,13 +3692,24 @@
 	)
 	(text "RESET Button"
 		(exclude_from_sim no)
-		(at 262.636 115.316 0)
+		(at 262.636 143.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "c86984d2-1826-477a-8a49-596f65b4d467")
+	)
+	(text "status leds?\n*red - rebooting\n*green - ready\n*amber - timing?"
+		(exclude_from_sim no)
+		(at 226.314 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d4c70c33-8c6a-4ae7-9132-227ba126a722")
 	)
 	(text "STM power in decoupling caps"
 		(exclude_from_sim no)
@@ -3606,7 +3809,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 271.78 123.19 0)
+		(at 271.78 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3616,7 +3819,7 @@
 		)
 		(uuid "18b8acc6-7ce0-4307-b64e-822f66ef8683")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.5428 123.19 0)
+			(at 279.5428 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +5057,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 129.54 0)
+		(at 265.43 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4863,7 +5066,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a9f2c33-af38-4c0d-9337-35bf47d836b4")
 		(property "Reference" "#PWR054"
-			(at 265.43 135.89 0)
+			(at 265.43 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +5075,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 134.62 0)
+			(at 265.43 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +5083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 129.54 0)
+			(at 265.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +5092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 129.54 0)
+			(at 265.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +5101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 129.54 0)
+			(at 265.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5188,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 269.24 127 0)
+		(at 269.24 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4994,7 +5197,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e05186b-b54b-4c41-b833-3176b4fbefee")
 		(property "Reference" "C1"
-			(at 271.78 125.7362 0)
+			(at 271.78 153.6762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5206,7 @@
 			)
 		)
 		(property "Value" ".1uF"
-			(at 271.78 128.2762 0)
+			(at 271.78 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5215,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 269.24 127 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 127 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5233,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 269.24 127 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,6 +5580,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 248.92 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68a775c7-a10d-42e9-81b8-b98ba041d849")
+		(property "Reference" "D5"
+			(at 252.73 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 252.73 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 248.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7b8c167-961f-48ee-b143-76d5b5f5a1a6")
+		)
+		(pin "2"
+			(uuid "3bf9d717-4ba4-4fa4-b965-e000ba1a8cc3")
+		)
+		(instances
+			(project ""
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 232.41 69.85 0)
 		(unit 1)
@@ -5440,6 +5713,76 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 270.51 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84216c0c-6c93-45d3-abce-e2f4385935dc")
+		(property "Reference" "D6"
+			(at 274.32 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 274.32 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 270.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2ae0f46-5812-41a4-8f75-7ec00b76ec16")
+		)
+		(pin "2"
+			(uuid "2c74ea4b-2564-42fe-bbb0-98d6f3f10b59")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5789,6 +6132,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 259.08 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a46aae-908e-43fc-bf31-2bb7ee311cc6")
+		(property "Reference" "D7"
+			(at 262.89 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 262.89 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "010b834d-9bd1-442b-b853-e591b4b3ee9f")
+		)
+		(pin "2"
+			(uuid "fd231956-24ff-4710-b467-db6b60fac4f2")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 270.51 63.5 0)
 		(unit 1)
@@ -6060,7 +6473,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 260.35 123.19 0)
+		(at 260.35 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6068,7 +6481,7 @@
 		(dnp no)
 		(uuid "f3fe244d-27cd-49ea-846e-67bdef2ccd6c")
 		(property "Reference" "RST_Button1"
-			(at 262.128 119.888 0)
+			(at 262.128 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6489,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 259.842 117.602 0)
+			(at 259.842 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6498,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
-			(at 260.35 123.19 0)
+			(at 260.35 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 123.19 0)
+			(at 260.35 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6516,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 260.35 123.19 0)
+			(at 260.35 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
