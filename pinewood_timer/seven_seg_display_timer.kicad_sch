@@ -1083,187 +1083,6 @@
 				)
 			)
 		)
-		(symbol "R_Small_US_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R1"
-				(at 6.096 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "reveiver"
-				(at 6.096 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0.762 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "led receiver"
-				(at -8.89 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_0_1"
-				(polyline
-					(pts
-						(xy -4.572 0) (xy -2.032 0) (xy -0.762 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 2.032 0) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 4.572) (xy -0.508 3.048) (xy -1.27 3.302) (xy -0.508 3.048) (xy -0.762 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 4.572) (xy 0.762 3.048) (xy 0 3.302) (xy 0.762 3.048) (xy 0.508 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_US_1_1_1"
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy 1.778 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.8536 1.5649) (xy 1.5113 1.8625) (xy 1.5173 1.0178) (xy 0.8644 1.5468)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "TDCR1050M_1"
 			(pin_names
 				(offset 0.254)
@@ -12214,78 +12033,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_US_1")
-		(lib_id "Device:R_Small_US")
-		(at 15.24 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bc668f2-3fe7-4234-b4a9-81b37c08e2f1")
-		(property "Reference" "R1"
-			(at 21.336 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "reveiver"
-			(at 21.336 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 15.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.002 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "led receiver"
-			(at 6.35 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6bf4b2be-0695-4339-bcdd-1980c2d8971c")
-		)
-		(pin "1"
-			(uuid "94c49f59-a2b8-47ab-8181-04b227b42a8a")
-		)
-		(instances
-			(project ""
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/9c18d310-d9ca-41af-922a-8b61f0cbe385"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 52.07 176.53 0)
 		(unit 1)
@@ -14867,6 +14614,75 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 15.24 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4ee8f45-7841-4a08-b2a4-9c0f02172c55")
+		(property "Reference" "R1"
+			(at 17.78 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 17.78 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 15.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0dae3f7-0355-452c-982e-d7127f87fe4d")
+		)
+		(pin "1"
+			(uuid "d10e854c-01fa-43ad-9c13-f8aeae682d69")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "R1")
 					(unit 1)
 				)
 			)

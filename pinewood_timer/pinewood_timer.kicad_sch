@@ -3312,7 +3312,7 @@
 	)
 	(text "Power should come in through a barrel jack \nfor easier use. I should find one with a long\ncable so it doesn't become a pain. \nLikely 12v or 5v so should have a linear reg\nto take the voltage down to 3.3v."
 		(exclude_from_sim no)
-		(at 21.336 107.442 0)
+		(at 21.336 106.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3333,7 +3333,7 @@
 	)
 	(text "4 single 7-segment displays. goes \nabove/below time display. should just \ndisplay place of each lane."
 		(exclude_from_sim no)
-		(at 21.082 78.994 0)
+		(at 21.082 77.724 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3394,9 +3394,9 @@
 		)
 		(uuid "35801628-aa40-47a5-b509-4bbf34a2382c")
 	)
-	(text "4 IR sensors to go under the track. \ndetects if car is above using IR receiver \nand IR LED. Also has an opamp to make it \ntoggle. might need adc still."
+	(text "4 IR sensors to go under the track. \ndetects if car is above using IR receiver \nand IR LED. Also has a comparator to make it \ntoggle. might need adc still."
 		(exclude_from_sim no)
-		(at 21.082 53.594 0)
+		(at 21.082 52.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3417,7 +3417,7 @@
 	)
 	(text "PC0-7 output shift reg\nPC8-10 mux\nPB0-7 output shift reg\nPB8-10 mux\n"
 		(exclude_from_sim no)
-		(at 20.32 92.71 0)
+		(at 20.32 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3479,7 +3479,7 @@
 	)
 	(text "PA10-14 input to read if car/not"
 		(exclude_from_sim no)
-		(at 20.32 66.04 0)
+		(at 20.32 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3560,6 +3560,50 @@
 			)
 		)
 	)
+	(global_label "PA2"
+		(shape input)
+		(at 207.01 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "027371e1-b29a-432e-8c64-fd16cde0ca8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA4"
+		(shape input)
+		(at 207.01 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11160b46-6bab-4900-b8a7-aadc1c94dd34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 271.78 123.19 0)
@@ -3626,6 +3670,28 @@
 			)
 		)
 	)
+	(global_label "PA3"
+		(shape input)
+		(at 207.01 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2101f9b7-310c-4697-a90b-aeb40dbd12df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PC12 PROGRAMMER"
 		(shape input)
 		(at 140.97 88.9 180)
@@ -3644,6 +3710,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA7"
+		(shape input)
+		(at 207.01 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f80a4d8-e0e9-440c-a417-e440130e5db8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4000,6 +4088,28 @@
 			)
 		)
 	)
+	(global_label "PA6"
+		(shape input)
+		(at 207.01 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8111d64f-4a45-417e-965b-59bf32f206af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PC6"
 		(shape input)
 		(at 139.7 73.66 180)
@@ -4040,6 +4150,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA0"
+		(shape input)
+		(at 207.01 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ffe9d4f-104f-4f3c-baaf-cbc10526e658")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4110,6 +4242,28 @@
 			)
 		)
 	)
+	(global_label "PA1"
+		(shape input)
+		(at 207.01 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92ac20ed-c6cd-4987-925e-f0d3ecf15b80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 163.83 30.48 90)
@@ -4145,6 +4299,28 @@
 		(uuid "aab0530e-6bc1-411d-8f9f-bfb6ab76853d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.8847 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA10"
+		(shape input)
+		(at 207.01 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1e77aa2-da62-4956-b32f-b63aee8d5f78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,6 +4506,28 @@
 			)
 		)
 	)
+	(global_label "PA5"
+		(shape input)
+		(at 207.01 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dabd0d8b-c214-4163-9b9d-f15d0f7858f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB9"
 		(shape input)
 		(at 139.7 81.28 180)
@@ -4374,6 +4572,28 @@
 			)
 		)
 	)
+	(global_label "PA9"
+		(shape input)
+		(at 207.01 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0bf4393-3c47-4006-897b-581ad4dc660a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_OUT4"
 		(shape input)
 		(at 184.15 73.66 0)
@@ -4387,6 +4607,28 @@
 		(uuid "e42d2680-4f0a-450e-93f4-a9b315a47c43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.0295 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA8"
+		(shape input)
+		(at 207.01 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec0371ec-ada3-4300-bcaf-47c9b74bf60f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5633 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,8 +6127,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 101.6)
-		(size 45.72 16.51)
+		(at 20.32 100.33)
+		(size 46.99 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5897,7 +6139,7 @@
 		)
 		(uuid "31c2e8b2-d194-4ebb-9ae4-9d308b537f49")
 		(property "Sheetname" "power_management"
-			(at 20.32 100.8884 0)
+			(at 20.32 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +6148,7 @@
 			)
 		)
 		(property "Sheetfile" "power_management.kicad_sch"
-			(at 20.32 118.6946 0)
+			(at 20.32 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,8 +6165,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 74.93)
-		(size 45.72 17.78)
+		(at 20.32 73.66)
+		(size 46.99 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5935,7 +6177,7 @@
 		)
 		(uuid "3afa3ac3-963c-4392-ab61-de1e7344ddd6")
 		(property "Sheetname" "seven_seg_display_timer"
-			(at 20.32 74.2184 0)
+			(at 20.32 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6186,7 @@
 			)
 		)
 		(property "Sheetfile" "seven_seg_display_timer.kicad_sch"
-			(at 20.32 93.2946 0)
+			(at 20.32 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +6204,7 @@
 	)
 	(sheet
 		(at 20.32 20.32)
-		(size 48.26 17.78)
+		(size 46.99 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6008,8 +6250,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 48.26)
-		(size 45.72 17.78)
+		(at 20.32 46.99)
+		(size 46.99 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6020,7 +6262,7 @@
 		)
 		(uuid "9c18d310-d9ca-41af-922a-8b61f0cbe385")
 		(property "Sheetname" "infared_sensors"
-			(at 20.32 47.5484 0)
+			(at 20.32 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6271,7 @@
 			)
 		)
 		(property "Sheetfile" "infared_sensors.kicad_sch"
-			(at 20.32 66.6246 0)
+			(at 20.32 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
