@@ -8094,7 +8094,7 @@
 			(uuid "ec374460-5c76-4e8e-912c-d60b71f9ab63")
 		)
 		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b0")
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b1")
 		)
 		(pin "2"
 			(uuid "0959694e-2f16-4b7f-9e9b-a47b23dc63ae")
@@ -8103,10 +8103,10 @@
 			(uuid "a965e368-d652-44de-8c66-de66e8849e4c")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36db")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36dc")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1257")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1258")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10481,7 +10481,7 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d745340-3d31-42dc-bcee-08520919027a")
+			(uuid "4d745340-3d31-42dc-bcee-08520919027b")
 		)
 		(pin "3"
 			(uuid "bb39bf73-27b0-4bd0-b002-b43e7bdb315e")
@@ -10493,10 +10493,10 @@
 			(uuid "bedfbdcf-94f6-421d-ad13-c79b37d11239")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d9")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36da")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1255")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1256")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10687,10 +10687,10 @@
 			(uuid "1a815883-e625-46e9-a0ad-28dc58732fb0")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cd")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36ce")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1249")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124a")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10975,10 +10975,10 @@
 			(uuid "6d3ab545-b722-446c-a6d4-c57788d2dda2")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d8")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1254")
 		)
 		(instances
 			(project "pinewood_timer"
