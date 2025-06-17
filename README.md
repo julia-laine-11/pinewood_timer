@@ -27,8 +27,6 @@ pins needed:
 
 
 
-https://www.st.com/content/st_com/en/stm32-mcu-developer-zone/mcu-portfolio.html
-
 Sensors
 - it looks like the stop sensors go below the track (ir sensors)
 - online, a derby timer company uses a microswitch attached to the lever to start the timer
@@ -38,5 +36,54 @@ Sensors
     - transceiver : 5.09
     - led and receiver: 2.00
 
-    
-    
+
+vars
+
+- 1x placement -> int 1234
+  
+    when ir sensor crossed 
+    1234 / 1000 (as an int) gives 1st number
+    to update: (1234 % 1000) * 10 brings it to 2340 and its ready for the next one
+
+- 4x times -> int xxxx
+  
+    dp is always on so i dont have to deal with decimals :)
+    counts up to 1 with each 1khz tick
+        starts -> interrupt enabled by lever
+        stops  -> interrupt disabled by lever
+
+- 4x running -> 1 or 0
+      0 at reset
+      1 when lever
+      0 when ir crossed
+
+
+things to control
+
+faster than 1khz (probs 2k is ok)
+- check lever
+- check ir lane 1 
+- check ir lane 2
+- check ir lane 3
+- check ir lane 4
+
+faster than updates (1k < refresh rate < 2k)
+- run lanes 1 & 2 disp
+- run lanes 2 & 3 disp
+- run score disp
+
+exactly 1khz
+- update time for each lane
+
+now i gotta decide how many timers i need for this and if the c091rct6 has enough :(
+
+chips i was looking at:
+
+|  chip  | timers | price |
+|--------|--------|-------|
+| c091rc | 7      | $2.24 |
+| l010r8 | 4      | $2.25 |
+| g070rb | 6      | $2.35 |
+| l051r6 | 4      | $2.67 |
+| l071rb | 7      | $3.62 |
+| f030rc | 8      | $3.78 |
