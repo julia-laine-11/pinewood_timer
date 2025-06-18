@@ -143,6 +143,8 @@ ICs
 
 [16mhz osc](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2520MV-160-CN-TR/9742387)
 
+[bjt](https://www.digikey.com/en/products/detail/anbon-semiconductor-int-l-limited/MMBT4403/17284370)
+
 
 
 Misc
