@@ -150,6 +150,6 @@ Misc
 [spdt boot0](https://www.digikey.com/en/products/detail/nidec-components-corporation/CSS-1210TB/1124209
 )
 
-[ferrite bead (0805) ](https://www.digikey.com/en/products/detail/murata-electronics/BLM18KG121TN1D/1982762)
+[ferrite bead (0805) ](https://www.digikey.com/en/products/detail/vishay-dale/ILHB0805ER121V/2575017)
 
 
