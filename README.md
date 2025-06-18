@@ -139,7 +139,7 @@ led driver
 https://www.digikey.com/en/products/detail/texas-instruments/TLC59211IPWR/2183121
 
 mux
-https://www.digikey.com/en/products/detail/onsemi/MC74HC138ADR2G-Q/23329470
+https://www.digikey.com/en/products/detail/texas-instruments/SN74HC138DR/276836
 
 3.3v reg
 https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/AMS1117-3-3-SOT-223/21853079
