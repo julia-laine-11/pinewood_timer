@@ -87,3 +87,72 @@ chips i was looking at:
 | l051r6 | 4      | $2.67 |
 | l071rb | 7      | $3.62 |
 | f030rc | 8      | $3.78 |
+
+my bom is read only on this computer so i cant edit it currently :(
+Resistors: (all 0805 imperial)
+
+56k
+https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD563J/10236546
+
+10k
+https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241
+
+1k5
+https://www.digikey.com/en/products/detail/yageo/RC0805FR-071K5L/727496
+
+1k https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD1K00/2240229
+
+220
+https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD221J/10236562
+
+150
+https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD151J/10236460
+
+51
+https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD510J/10236476
+
+
+Capacitors:
+
+22uf
+https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758
+
+10uf
+https://www.digikey.com/en/products/detail/kemet/C0805C103K5RACTU/411157
+
+1uf
+https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687
+
+.1uf (100nf) decoupling:
+https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874
+
+10nf (10k pf, .01 uf)
+https://www.digikey.com/en/products/detail/kemet/C0805C103K5RACTU/411157
+
+10pf 
+https://www.digikey.com/en/products/detail/yageo/CC0805JRNPO9BN100/302833
+
+
+ICs
+
+led driver
+https://www.digikey.com/en/products/detail/texas-instruments/TLC59211IPWR/2183121
+
+mux
+https://www.digikey.com/en/products/detail/onsemi/MC74HC138ADR2G-Q/23329470
+
+3.3v reg
+https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/AMS1117-3-3-SOT-223/21853079
+
+16mhz osc
+https://www.digikey.com/en/products/detail/ecs-inc/ECS-2520MV-160-CN-TR/9742387
+
+
+Misc
+
+spdt boot0
+https://www.digikey.com/en/products/detail/nidec-components-corporation/CSS-1210TB/1124209
+
+ferrite bead
+https://www.digikey.com/en/products/detail/murata-electronics/BLM18KG121TN1D/1982762
+
