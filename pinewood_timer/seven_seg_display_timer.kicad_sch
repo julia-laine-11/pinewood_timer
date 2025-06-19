@@ -2715,6 +2715,86 @@
 		(color 0 0 0 0)
 		(uuid "fa27adcc-7765-41e3-b7b3-161b073a1627")
 	)
+	(no_connect
+		(at 80.01 53.34)
+		(uuid "1e1c2f66-c009-4366-bc59-c80459a3659e")
+	)
+	(no_connect
+		(at 290.83 154.94)
+		(uuid "21fe5e42-d9c8-4827-a3d1-e8ab5cbc0c6d")
+	)
+	(no_connect
+		(at 280.67 48.26)
+		(uuid "2e0809b3-042d-413e-b3f8-7e003863cf7a")
+	)
+	(no_connect
+		(at 290.83 177.8)
+		(uuid "414fef16-0b7c-4449-98e5-682f851f1887")
+	)
+	(no_connect
+		(at 80.01 48.26)
+		(uuid "44408e04-f7eb-4a4f-aa64-76c7eeab8938")
+	)
+	(no_connect
+		(at 379.73 48.26)
+		(uuid "50332c4c-38ee-486f-a52e-96ef5a2beda6")
+	)
+	(no_connect
+		(at 280.67 53.34)
+		(uuid "659d0245-a2bd-4ddd-8696-3a2ad5474fa1")
+	)
+	(no_connect
+		(at 339.09 45.72)
+		(uuid "676d6351-1cfb-476c-bdfa-8f06c9cb9c65")
+	)
+	(no_connect
+		(at 240.03 45.72)
+		(uuid "73fd053a-ce39-4a48-85d0-3392f9185fcf")
+	)
+	(no_connect
+		(at 138.43 45.72)
+		(uuid "76eb105e-3554-455c-9219-d125f80f15dd")
+	)
+	(no_connect
+		(at 179.07 55.88)
+		(uuid "93505091-315f-481c-8dbf-b7a630111fba")
+	)
+	(no_connect
+		(at 379.73 53.34)
+		(uuid "99c10e2f-98fa-4db3-af2a-d99b163878b8")
+	)
+	(no_connect
+		(at 379.73 55.88)
+		(uuid "a0249285-ff85-47c3-a6e2-17cb5da68cf8")
+	)
+	(no_connect
+		(at 280.67 55.88)
+		(uuid "a1996e5d-9793-43ab-a558-8c88c26d5a4b")
+	)
+	(no_connect
+		(at 101.6 154.94)
+		(uuid "b752992a-8801-4007-a8d8-b211a3464ae6")
+	)
+	(no_connect
+		(at 101.6 177.8)
+		(uuid "bc778a9b-c2bd-469b-b6e2-58b06ef89e72")
+	)
+	(no_connect
+		(at 179.07 53.34)
+		(uuid "c88ad5bf-4044-4db5-92e1-79ddbe7bcad2")
+	)
+	(no_connect
+		(at 80.01 55.88)
+		(uuid "dde920ae-457d-4f62-b18a-5c0449e2a0f2")
+	)
+	(no_connect
+		(at 39.37 45.72)
+		(uuid "f519f009-5100-401b-899f-f45ff2da897a")
+	)
+	(no_connect
+		(at 179.07 48.26)
+		(uuid "f6678c5b-1d9e-47ae-a6ac-0124ebdd9942")
+	)
 	(wire
 		(pts
 			(xy 184.15 22.86) (xy 184.15 43.18)
@@ -2727,16 +2807,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 162.56) (xy 393.7 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0098d62d-c0c3-4bf6-ac31-d26d9ebcd395")
-	)
-	(wire
-		(pts
 			(xy 185.42 40.64) (xy 186.69 40.64)
 		)
 		(stroke
@@ -2744,6 +2814,16 @@
 			(type default)
 		)
 		(uuid "011091fc-193c-452c-984d-d20161b73d9b")
+	)
+	(wire
+		(pts
+			(xy 288.29 175.26) (xy 290.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011a250b-e3cf-43fd-b5d9-20922a5fcddc")
 	)
 	(wire
 		(pts
@@ -2764,6 +2844,16 @@
 			(type default)
 		)
 		(uuid "04fb8198-968c-40b2-ab9b-b9e89c2e373c")
+	)
+	(wire
+		(pts
+			(xy 288.29 172.72) (xy 290.83 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c4cd41-9369-40ef-b7f2-3b39a2d6b137")
 	)
 	(wire
 		(pts
@@ -3567,6 +3657,26 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 165.1) (xy 290.83 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522a8748-8d5f-4fdb-9cef-a23c78b1d065")
+	)
+	(wire
+		(pts
+			(xy 346.71 167.64) (xy 381 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a488b2-fd95-453f-8a90-561142f8f287")
+	)
+	(wire
+		(pts
 			(xy 86.36 45.72) (xy 86.36 21.59)
 		)
 		(stroke
@@ -3637,6 +3747,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 170.18) (xy 374.65 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585c324c-567f-4e2d-b26f-a8de4bcb5595")
+	)
+	(wire
+		(pts
 			(xy 39.37 165.1) (xy 39.37 167.64)
 		)
 		(stroke
@@ -3697,16 +3817,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 165.1) (xy 387.35 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4593f3-15e7-47ee-a1b6-3e9b652cae0e")
-	)
-	(wire
-		(pts
 			(xy 181.61 167.64) (xy 157.48 167.64)
 		)
 		(stroke
@@ -3744,16 +3854,6 @@
 			(type default)
 		)
 		(uuid "62f31db5-d1d0-4fd6-9c09-dea4afa8a1cf")
-	)
-	(wire
-		(pts
-			(xy 346.71 172.72) (xy 368.3 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636de5dd-60f2-4ea4-9b27-2bd15a6e342d")
 	)
 	(wire
 		(pts
@@ -3947,6 +4047,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 162.56) (xy 290.83 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a7cbae-1ff3-4b6c-b903-b00c31d66832")
+	)
+	(wire
+		(pts
 			(xy 383.54 21.59) (xy 383.54 45.72)
 		)
 		(stroke
@@ -4037,16 +4147,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 167.64) (xy 381 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f717d45-ed8c-4ca4-82e6-8bb7e6dab870")
-	)
-	(wire
-		(pts
 			(xy 66.04 165.1) (xy 62.23 165.1)
 		)
 		(stroke
@@ -4054,6 +4154,26 @@
 			(type default)
 		)
 		(uuid "7fe2ae6e-f853-4c05-8690-541993e5f021")
+	)
+	(wire
+		(pts
+			(xy 346.71 157.48) (xy 406.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a46523-9f4f-411e-ab61-f93c3bc9ae35")
+	)
+	(wire
+		(pts
+			(xy 346.71 175.26) (xy 361.95 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82adb679-8392-4df3-b2b0-87e5178ad7f1")
 	)
 	(wire
 		(pts
@@ -4094,6 +4214,16 @@
 			(type default)
 		)
 		(uuid "836091af-6894-4b22-a008-daaefe541129")
+	)
+	(wire
+		(pts
+			(xy 346.71 172.72) (xy 368.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849c1ede-9b16-44c7-88cb-70a085bf5d27")
 	)
 	(wire
 		(pts
@@ -4154,6 +4284,16 @@
 			(type default)
 		)
 		(uuid "8a6b33bb-9bee-45b6-9eca-b439285d4630")
+	)
+	(wire
+		(pts
+			(xy 288.29 160.02) (xy 290.83 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a959159-73a6-4690-a131-6b86336983ee")
 	)
 	(wire
 		(pts
@@ -4487,16 +4627,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 170.18) (xy 374.65 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a505a2d8-f264-499a-b9e9-8825214f69d0")
-	)
-	(wire
-		(pts
 			(xy 102.87 99.06) (xy 102.87 102.87)
 		)
 		(stroke
@@ -4504,6 +4634,16 @@
 			(type default)
 		)
 		(uuid "a624226d-d200-4694-97bc-5c2b8bbd813d")
+	)
+	(wire
+		(pts
+			(xy 288.29 170.18) (xy 290.83 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9102624-cbcd-4edf-bbdf-9d2a772796ca")
 	)
 	(wire
 		(pts
@@ -4534,16 +4674,6 @@
 			(type default)
 		)
 		(uuid "af8df9f7-25f5-46d5-9d2d-d42dbc95862d")
-	)
-	(wire
-		(pts
-			(xy 346.71 157.48) (xy 406.4 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b04ad84a-10d2-4af3-b50a-c5536d4ef2ff")
 	)
 	(wire
 		(pts
@@ -4755,6 +4885,16 @@
 		)
 		(uuid "c3149422-c3a1-46bd-928b-58a68e97bb23")
 	)
+	(wire
+		(pts
+			(xy 288.29 167.64) (xy 290.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d24be5-f272-421a-9eec-dab5cef50bee")
+	)
 	(polyline
 		(pts
 			(xy 213.36 102.616) (xy 213.614 102.616)
@@ -4834,6 +4974,16 @@
 			(type default)
 		)
 		(uuid "c7958018-a340-4c8a-95ad-697db31a35d1")
+	)
+	(wire
+		(pts
+			(xy 346.71 162.56) (xy 393.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9363194-f86e-46c2-8972-2b5c713255e7")
 	)
 	(wire
 		(pts
@@ -5084,6 +5234,16 @@
 			(type default)
 		)
 		(uuid "dee42106-6bb7-4980-b3c0-87287b65da65")
+	)
+	(wire
+		(pts
+			(xy 288.29 157.48) (xy 290.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc5a93c-146c-4ef1-81c3-40b34d74514e")
 	)
 	(wire
 		(pts
@@ -5387,16 +5547,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 175.26) (xy 361.95 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b5d9c3-9689-4373-b107-bd860ec9aaf8")
-	)
-	(wire
-		(pts
 			(xy 45.72 93.98) (xy 40.64 93.98)
 		)
 		(stroke
@@ -5414,6 +5564,16 @@
 			(type default)
 		)
 		(uuid "fb695c16-d8d3-47da-9b5d-7e421085e5d8")
+	)
+	(wire
+		(pts
+			(xy 346.71 165.1) (xy 387.35 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe01a249-6413-46c3-bf63-1d2907a8cf2a")
 	)
 	(wire
 		(pts
@@ -5517,26 +5677,6 @@
 		)
 		(uuid db80edd0-73f8-4730-8a26-ceb8bcf436b9)
 	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 184.658 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0612aaed-6530-4c0d-a845-16ec93f2b1ac")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 384.556 48.006 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1019dd25-7983-47d4-a5ea-0242739f3b8d")
-	)
 	(text "LANE 1"
 		(exclude_from_sim no)
 		(at 59.944 17.526 0)
@@ -5546,16 +5686,6 @@
 			)
 		)
 		(uuid "201a13c8-01a1-4294-b751-021dce85e045")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 71.628 56.388 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3a4963d9-81d5-4747-932c-3430ebc67e71")
 	)
 	(text "LANE 2"
 		(exclude_from_sim no)
@@ -5577,136 +5707,6 @@
 		)
 		(uuid "4055d8ea-2dee-41bf-add6-2a9b3dd16c8c")
 	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 69.85 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4dd6646d-b027-4ab9-a48e-d6a8dc14159d")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 51.562 45.974 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64abbe3b-d8dd-4fac-a933-27228c955e2c")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 334.518 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d9f0bbe-51c9-4819-93f6-829cea0007c8")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 287.782 180.086 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "77a49513-cbb4-4682-9aef-a20fb50f2735")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 386.08 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7db1f96d-ee1d-40b4-878f-d47946665ef8")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 284.734 54.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8ee43935-d9ee-46ad-b1db-59c36f5769fa")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 135.128 46.482 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "963318b7-4c6d-4a73-bc84-959a43068e27")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 287.3967 155.081 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "98eb68ae-ff09-40ae-89b0-0b1645812bdc")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 286.9407 56.2901 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a70c6af1-f601-4660-8191-3498e425ef76")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 385.4277 56.2901 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a94921a4-9cbd-41ec-8997-dbe9a3b9c43b")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 69.342 48.514 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a9ff3dfc-2b4e-4227-b6e9-4fc4a6e7e988")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 182.88 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c3be6865-0042-4bcb-9d98-ebe5e0bf149b")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 184.15 53.848 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c6042447-0f1f-406f-8889-861d3cae1096")
-	)
 	(text "connectors to main"
 		(exclude_from_sim no)
 		(at 213.868 243.84 0)
@@ -5727,36 +5727,6 @@
 		)
 		(uuid "c93d9cca-aba1-4e06-9d86-3786868b13b9")
 	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 285.242 49.022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cd2544ac-4aab-4801-be78-014448f280c3")
-	)
-	(text "NOTHING\n"
-		(exclude_from_sim no)
-		(at 98.806 179.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cfa5c9d1-e81a-464b-8892-13d6ee84573c")
-	)
-	(text "NOTHING"
-		(exclude_from_sim no)
-		(at 235.458 46.736 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d91ad533-822b-4f87-899e-ab8897e26673")
-	)
 	(text "LANE 4"
 		(exclude_from_sim no)
 		(at 360.172 17.272 0)
@@ -5766,16 +5736,6 @@
 			)
 		)
 		(uuid "dc13dabf-1c61-431f-9e83-c70e2bde0c37")
-	)
-	(text "NOTHING\n"
-		(exclude_from_sim no)
-		(at 99.314 154.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e5432198-3a92-42c9-9075-f016c19c8420")
 	)
 	(global_label "R6"
 		(shape input)
@@ -9259,170 +9219,6 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 102.87 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0dc13d72-392f-4c29-8dc0-fd6b2dd400dc")
-		(property "Reference" "M4"
-			(at 98.044 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 98.044 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.6816 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.7956 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 91.948 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1b")
-		)
-		(pin "3"
-			(uuid "b2b49ef4-33b0-4f64-8f42-b9061321304c")
-		)
-		(pin "2"
-			(uuid "8acb21eb-82cc-4208-86d6-c70d8f239c3c")
-		)
-		(pin "1"
-			(uuid "200480b7-65ae-4678-9739-a791bf63682b")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cd")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1249")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 254 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "109ec097-0785-4b3d-9c67-9097b17e870c")
-		(property "Reference" "M10"
-			(at 249.174 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 249.174 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.8116 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.9256 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 243.078 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "71a728f9-2fd8-4557-b8ad-e6febdab8016")
-		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8ad")
-		)
-		(pin "2"
-			(uuid "ca8b733d-8825-42f1-a385-3445e95be751")
-		)
-		(pin "1"
-			(uuid "bebf58ce-7683-444b-9761-47c127dd55d4")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d3")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124f")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 67.31 102.87 0)
 		(unit 1)
@@ -9563,15 +9359,15 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 179.07 93.98 0)
+		(at 50.8 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "17199d5d-5355-428d-83b2-bd7df4b45939")
-		(property "Reference" "M7"
-			(at 174.244 77.47 0)
+		(uuid "1648a712-b2f4-4410-9bac-d05480438999")
+		(property "Reference" "M2"
+			(at 45.974 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9376,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 174.244 80.01 0)
+			(at 45.974 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,8 +9384,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.8816 102.6282 0)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 53.6116 102.6282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,8 +9393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 204.9956 99.8342 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 76.7256 99.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9403,7 @@
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 168.148 79.756 0)
+			(at 39.878 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,27 +9412,139 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d745340-3d31-42dc-bcee-085209190278")
+			(uuid "659b3690-dc3a-4454-8d9e-fa61eb6bec98")
 		)
 		(pin "3"
-			(uuid "23cd380b-a444-4ccb-9f4c-2a19a4ddd61b")
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
 		)
 		(pin "2"
-			(uuid "fbed804e-fe17-42cd-8cef-5ee2de7d84e2")
+			(uuid "22a5b500-b135-4f91-801c-1a5a5f7583d2")
 		)
 		(pin "1"
-			(uuid "884ae7e5-8546-42d0-a2ac-1911b7a10d23")
+			(uuid "a39cce72-3ffc-416e-b875-7c3a5ded792a")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cc")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1248")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M7")
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC138")
+		(at 254 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16c2e332-c40d-45f1-a205-61549d6baf10")
+		(property "Reference" "U1"
+			(at 256.1941 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC138"
+			(at 256.1941 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SN74HC138DR-MUX:SOIC127P600X175-16N"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls107g/scls107g.pdf"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "c7dbb517-640e-4ddf-a4cd-964c05985016")
+		)
+		(pin "4"
+			(uuid "6a5c07a3-80db-4aee-b7f6-6d179ea730d2")
+		)
+		(pin "14"
+			(uuid "a1343daa-6e01-4643-8260-76a500b9ac90")
+		)
+		(pin "15"
+			(uuid "7ee00782-7d7c-49c4-8041-8d140a77c131")
+		)
+		(pin "9"
+			(uuid "9ef1df5f-9d72-4f1a-9b1d-698f9d38aefd")
+		)
+		(pin "12"
+			(uuid "458fae2d-da48-45ec-a898-73c44704fb2f")
+		)
+		(pin "11"
+			(uuid "94cf1dd2-85a5-4af4-9a0e-1a23474ca662")
+		)
+		(pin "7"
+			(uuid "9784fbe8-3f60-41fc-bd1d-984af364e4d4")
+		)
+		(pin "1"
+			(uuid "fbdc3199-4ab8-4a18-8fda-cf204567dc7f")
+		)
+		(pin "5"
+			(uuid "bcaec099-5da2-475e-87b0-895b4dd2b312")
+		)
+		(pin "6"
+			(uuid "445c3b4c-b14b-4f13-87a4-2604000aca2b")
+		)
+		(pin "8"
+			(uuid "c52fb3aa-ba10-43df-a1ed-92710c2740f8")
+		)
+		(pin "10"
+			(uuid "66ca9958-d330-423e-ad96-114c138cbf1c")
+		)
+		(pin "16"
+			(uuid "6cb1f892-fcf8-4184-a0bb-7300e033bac6")
+		)
+		(pin "2"
+			(uuid "663554bc-65d6-44cf-ac1b-c87aca5a3e42")
+		)
+		(pin "3"
+			(uuid "54eac8c5-860b-40d3-8636-1ff044e42a6a")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9645,15 +9553,15 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 152.4 93.98 0)
+		(at 355.6 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "17d9838b-ae84-4775-99b2-bdcd21e61ce2")
-		(property "Reference" "M6"
-			(at 147.574 77.47 0)
+		(uuid "16c446c0-658b-4894-83a2-790c78d56d29")
+		(property "Reference" "M14"
+			(at 350.774 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,7 +9570,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 147.574 80.01 0)
+			(at 350.774 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,8 +9578,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 155.2116 102.6282 0)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 358.4116 102.6282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,8 +9587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 178.3256 99.8342 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 381.5256 99.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +9597,7 @@
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 141.478 79.756 0)
+			(at 344.678 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9698,27 +9606,27 @@
 			)
 		)
 		(pin "3"
-			(uuid "3fb2d3cc-d448-4849-8497-3e5ebda61bfe")
+			(uuid "15205603-ea87-422d-ab79-b63de6fe710d")
 		)
 		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8ab")
+			(uuid "df3a4d1b-61d0-4036-b5f1-5ee5ca076d42")
 		)
 		(pin "2"
-			(uuid "bd63e187-a7ab-4b2e-820a-999823e9e8a1")
+			(uuid "8f5866e4-0305-421b-8fcf-4b73948bcdf6")
 		)
 		(pin "1"
-			(uuid "a0d14738-0ef5-4b81-9e3f-85776f010712")
+			(uuid "0adba987-4191-4bf8-a282-c1e8b354e475")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cf")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36db")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124b")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1257")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M6")
+					(reference "M14")
 					(unit 1)
 				)
 			)
@@ -9996,15 +9904,15 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 127 93.98 0)
+		(at 254 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "307f5263-b79f-47dd-a3fd-9d425bd594f1")
-		(property "Reference" "M5"
-			(at 122.174 77.47 0)
+		(uuid "2e06bcee-d470-40fd-a7ac-110d79463a15")
+		(property "Reference" "M10"
+			(at 249.174 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +9921,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 122.174 80.01 0)
+			(at 249.174 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,8 +9929,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.8116 102.6282 0)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 256.8116 102.6282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,8 +9938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 152.9256 99.8342 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 279.9256 99.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,7 +9948,7 @@
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 116.078 79.756 0)
+			(at 243.078 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,27 +9957,27 @@
 			)
 		)
 		(pin "3"
-			(uuid "0c69806f-3c43-450c-856a-f0b1a78f3b6c")
+			(uuid "659b3690-dc3a-4454-8d9e-fa61eb6bec98")
 		)
 		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8aa")
+			(uuid "fc6fb470-3fe4-4d8b-a01c-658db032fde9")
 		)
 		(pin "2"
-			(uuid "7b82f49c-c89d-45a3-a01f-9bb990e9d721")
+			(uuid "19143f9b-e397-416e-927a-693be1831836")
 		)
 		(pin "1"
-			(uuid "1554f8ee-5448-4784-b828-8915b153e149")
+			(uuid "d1b35c5f-6caf-4161-8a9a-c5436c66094e")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36ce")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d8")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124a")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1254")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M5")
+					(reference "M10")
 					(unit 1)
 				)
 			)
@@ -10420,88 +10328,6 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 228.6 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40068193-f4ca-497b-89c9-13614a1290dd")
-		(property "Reference" "M9"
-			(at 223.774 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 223.774 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.4116 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254.5256 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 217.678 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1ee4038a-afc9-43e0-9ff8-be8c3d95b66a")
-		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8ac")
-		)
-		(pin "2"
-			(uuid "835973aa-5c61-438a-b33e-eadd4eceb875")
-		)
-		(pin "1"
-			(uuid "a1ffd9b5-2752-4146-b6aa-56e6dac67f8a")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d0")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124c")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "TDCR1050M_1")
 		(lib_id "4-7-seg-display-TDCR1050M:TDCR1050M")
 		(at 240.03 38.1 0)
@@ -10528,7 +10354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDCG1060M_VIS"
+		(property "Footprint" ""
 			(at 240.538 31.75 0)
 			(effects
 				(font
@@ -10615,88 +10441,6 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 382.27 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4883fca3-8a52-4325-ae6d-b8d5e8434132")
-		(property "Reference" "M15"
-			(at 377.444 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 377.444 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 385.0816 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 408.1956 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 371.348 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0d596357-7de5-4f91-b520-7915daf193a0")
-		)
-		(pin "3"
-			(uuid "23cd380b-a444-4ccb-9f4c-2a19a4ddd61c")
-		)
-		(pin "2"
-			(uuid "3d97850e-5d87-4acd-9373-2bf363c5e2bf")
-		)
-		(pin "1"
-			(uuid "301a7510-f762-4627-aa3a-104b66fdb111")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d1")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124d")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 77.49 89.1735 0)
 		(unit 1)
@@ -10756,6 +10500,88 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 330.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c3ccc55-2f43-419b-9874-4bdffe7e5364")
+		(property "Reference" "M13"
+			(at 325.374 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 325.374 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 333.0116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 356.1256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 319.278 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "14f3fa23-5937-4125-887e-da4bf4e8cf90")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b2")
+		)
+		(pin "2"
+			(uuid "3ac57ae7-0225-46e6-bdeb-e9678359b419")
+		)
+		(pin "1"
+			(uuid "b441f146-aaaa-464f-929c-a33b4ab5120d")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36dc")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1258")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M13")
 					(unit 1)
 				)
 			)
@@ -10897,6 +10723,88 @@
 		)
 	)
 	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 228.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51814677-8648-48c3-80a7-1228669869ab")
+		(property "Reference" "M9"
+			(at 223.774 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 223.774 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 231.4116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 254.5256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 217.678 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2805b15a-4548-44ce-be77-cf0ba27c6102")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
+		)
+		(pin "2"
+			(uuid "b6c93db1-e35b-44a3-9685-50e0b59f9cd0")
+		)
+		(pin "1"
+			(uuid "ecd1d1ca-8fff-4665-b844-f608e485f5ae")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 295.91 102.87 0)
 		(unit 1)
@@ -10960,6 +10868,88 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 179.07 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56e6249b-dbba-4e83-acae-99c72d9b41a9")
+		(property "Reference" "M7"
+			(at 174.244 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 174.244 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 181.8816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 204.9956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 168.148 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fca374b0-e31f-45f1-879a-53970542acaf")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
+		)
+		(pin "2"
+			(uuid "6c037cf6-772c-4f6f-897c-eb8f3649c48c")
+		)
+		(pin "1"
+			(uuid "50656964-3287-4094-a4ce-ee980ffba9f5")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M7")
 					(unit 1)
 				)
 			)
@@ -11094,88 +11084,6 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 355.6 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a0713c3-5510-4660-a3a8-486ddaba40db")
-		(property "Reference" "M14"
-			(at 350.774 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 350.774 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.4116 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381.5256 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 344.678 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3fb2d3cc-d448-4849-8497-3e5ebda61bff")
-		)
-		(pin "3"
-			(uuid "9c827807-b7ef-4f85-b913-5df124cd8c1e")
-		)
-		(pin "2"
-			(uuid "1ed907bc-7360-48b7-a32a-1b0fe03f3a79")
-		)
-		(pin "1"
-			(uuid "f4dfd749-9e43-48c2-8d69-6dfaef2b347d")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d2")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124e")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M14")
 					(unit 1)
 				)
 			)
@@ -11318,88 +11226,6 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 204.47 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ba6d8bc-3a84-4e78-870e-2429f7cdc1e6")
-		(property "Reference" "M8"
-			(at 199.644 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 199.644 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.2816 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 230.3956 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 193.548 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1c")
-		)
-		(pin "3"
-			(uuid "094300f2-f73c-45b5-bb31-a51c91db2a0d")
-		)
-		(pin "2"
-			(uuid "d767a493-a489-4748-8816-bf69cc0c9f4f")
-		)
-		(pin "1"
-			(uuid "f7428f41-0bd0-4116-901c-b75cde9f867a")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d4")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1250")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 142.24 102.87 0)
 		(unit 1)
@@ -11495,7 +11321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDCG1060M_VIS"
+		(property "Footprint" ""
 			(at 138.938 31.75 0)
 			(effects
 				(font
@@ -12111,15 +11937,15 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 330.2 93.98 0)
+		(at 152.4 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "821505b4-c682-41fe-9f9a-a5b27dda65ab")
-		(property "Reference" "M13"
-			(at 325.374 77.47 0)
+		(uuid "82aa97c3-edd7-4beb-82cb-50421cf540d6")
+		(property "Reference" "M6"
+			(at 147.574 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12128,7 +11954,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 325.374 80.01 0)
+			(at 147.574 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12136,8 +11962,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 333.0116 102.6282 0)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 155.2116 102.6282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12145,8 +11971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 356.1256 99.8342 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 178.3256 99.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,7 +11981,7 @@
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 319.278 79.756 0)
+			(at 141.478 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12164,27 +11990,27 @@
 			)
 		)
 		(pin "3"
-			(uuid "b20b5776-b9d2-4b4f-bbc0-3641cf28773f")
+			(uuid "4d745340-3d31-42dc-bcee-085209190279")
 		)
 		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8ae")
+			(uuid "df3a4d1b-61d0-4036-b5f1-5ee5ca076d42")
 		)
 		(pin "2"
-			(uuid "9570dd69-4591-4dba-85a2-209dedcec3b8")
+			(uuid "b4f03a04-3397-4e9d-ac57-2b53d8bed237")
 		)
 		(pin "1"
-			(uuid "5f0fe618-f539-4358-b1e5-6a79ad75f285")
+			(uuid "1efa1a0f-0dc8-4018-8117-2238cbeb5a35")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d5")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1251")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M13")
+					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -12262,88 +12088,6 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 306.07 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8930fdcc-d757-4f36-995b-510668b6a9c8")
-		(property "Reference" "M12"
-			(at 301.244 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 301.244 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.8816 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.9956 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 295.148 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1d")
-		)
-		(pin "3"
-			(uuid "70777699-53de-41ec-bb4f-8c38abc042b5")
-		)
-		(pin "2"
-			(uuid "4b6da129-e98c-445a-81f2-9b409502453a")
-		)
-		(pin "1"
-			(uuid "19391df5-aab7-4a19-b224-2bd142e8cb80")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d6")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1252")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
 		(at 25.4 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12369,7 +12113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
 			(at 28.2116 102.6282 0)
 			(effects
 				(font
@@ -12378,7 +12122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
 			(at 51.3256 99.8342 0)
 			(effects
 				(font
@@ -12496,7 +12240,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "92c02ac8-25f5-4dce-9a20-f90c8e81f01f")
 		(property "Reference" "U8"
 			(at 129.54 144.78 0)
@@ -12514,7 +12257,17 @@
 				)
 			)
 		)
-		(property "Footprint" "N20"
+		(property "Footprint" "TLC59211IPWR-LEDDRIVER:SOP65P640X120-20N"
+			(at 114.554 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc59211.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750286456300&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlc59211"
 			(at 101.6 154.94 0)
 			(effects
 				(font
@@ -12524,17 +12277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TLC59210IN"
-			(at 101.6 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "led driver"
 			(at 101.6 154.94 0)
 			(effects
 				(font
@@ -12812,88 +12555,6 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 407.67 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "978b392a-2479-4a46-bd7b-81f786e0058c")
-		(property "Reference" "M16"
-			(at 402.844 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOSFET"
-			(at 402.844 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 410.4816 102.6282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 433.5956 99.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose PNP Transistors"
-			(at 396.748 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "831f639b-1af2-437d-89ab-f9fdc60ef81c")
-		)
-		(pin "3"
-			(uuid "094300f2-f73c-45b5-bb31-a51c91db2a0e")
-		)
-		(pin "2"
-			(uuid "530151e4-35c0-4f81-b80e-1af1c9777845")
-		)
-		(pin "1"
-			(uuid "570dee4b-8b52-4eab-9d9f-c49e30ca81d6")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d8")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1254")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 374.65 186.69 0)
 		(mirror y)
@@ -12958,118 +12619,6 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC138")
-		(at 254 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b4d1fae-f15c-4933-ad25-94b38e0db420")
-		(property "Reference" "U7"
-			(at 256.1941 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC138"
-			(at 256.1941 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
-			(at 254 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
-			(at 254 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "7ccbb598-8636-463f-be40-d986774a6438")
-		)
-		(pin "4"
-			(uuid "9505e877-60e5-467c-91c0-254e887abfc1")
-		)
-		(pin "14"
-			(uuid "dd64ae27-330c-4562-816e-82907704057d")
-		)
-		(pin "15"
-			(uuid "8da81d26-8558-45d6-89b0-fd1f96f44e54")
-		)
-		(pin "9"
-			(uuid "2bef5102-2e07-4155-acf0-7fda471e728e")
-		)
-		(pin "12"
-			(uuid "d45867f2-614a-4fbd-929f-1dbbfc56adf8")
-		)
-		(pin "11"
-			(uuid "3d7f46f7-29a6-4dac-b4a1-d9986d36cfe0")
-		)
-		(pin "7"
-			(uuid "ebb7677f-b610-47a9-8681-29ea491e0a28")
-		)
-		(pin "1"
-			(uuid "6d0fe259-69c1-4818-8596-7d336d25ca67")
-		)
-		(pin "5"
-			(uuid "5dcae7fe-4c1b-48f6-ab4b-c43e91459cf8")
-		)
-		(pin "6"
-			(uuid "621a66ae-a2e0-4c82-af59-b5fe9172d8fa")
-		)
-		(pin "8"
-			(uuid "d59e7e77-0928-4602-92ec-c7ead34f26f8")
-		)
-		(pin "10"
-			(uuid "2b68e0eb-79d6-484b-97c3-2697695557cd")
-		)
-		(pin "16"
-			(uuid "323730d0-f766-496e-8cae-f1d8fd1fbe1c")
-		)
-		(pin "2"
-			(uuid "deb0d2f6-1035-4ad7-98ed-9afbcdb6a4e3")
-		)
-		(pin "3"
-			(uuid "78885877-4947-498c-905a-dae1ded493f6")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13210,6 +12759,88 @@
 		)
 	)
 	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 382.27 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a768e963-d7a9-46d3-ae02-c0dd04791b62")
+		(property "Reference" "M15"
+			(at 377.444 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 377.444 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 385.0816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 408.1956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 371.348 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fca374b0-e31f-45f1-879a-53970542acaf")
+		)
+		(pin "3"
+			(uuid "09118da1-e0e7-4812-9388-992aa3bde7af")
+		)
+		(pin "2"
+			(uuid "3ff2bf77-978a-493c-bd1e-f28b62ee93f9")
+		)
+		(pin "1"
+			(uuid "ecc63d02-5f78-4e91-be40-c86996774333")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d9")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1255")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 177.8 0)
 		(unit 1)
@@ -13283,9 +12914,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a951e6bc-8ade-4dcf-97fb-d0338dfd863a")
-		(property "Reference" "U9"
+		(uuid "aa5f8299-a613-4872-92fb-22ee170acb3c")
+		(property "Reference" "U7"
 			(at 318.77 144.78 0)
 			(effects
 				(font
@@ -13301,7 +12931,17 @@
 				)
 			)
 		)
-		(property "Footprint" "N20"
+		(property "Footprint" "TLC59211IPWR-LEDDRIVER:SOP65P640X120-20N"
+			(at 303.784 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc59211.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750286456300&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlc59211"
 			(at 290.83 154.94 0)
 			(effects
 				(font
@@ -13311,17 +12951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TLC59210IN"
-			(at 290.83 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "led driver"
 			(at 290.83 154.94 0)
 			(effects
 				(font
@@ -13331,69 +12961,69 @@
 			)
 		)
 		(pin "7"
-			(uuid "27ba32cc-d664-4167-bae7-da993f940317")
+			(uuid "26c9b39b-e126-42a3-856b-a67b467b5814")
 		)
 		(pin "18"
-			(uuid "7a70bb1d-54e1-4df2-b336-a64f636d06db")
+			(uuid "4efe07df-69eb-494f-8077-491a9fc6b26a")
 		)
 		(pin "2"
-			(uuid "5beb6b36-a109-4607-9c27-e703fe4fb60e")
+			(uuid "3d263055-1730-4ed4-92b9-237a2bfec773")
 		)
 		(pin "15"
-			(uuid "eb23689e-d84e-47e9-ada2-916d2f24cdb7")
+			(uuid "e5b959cc-c75f-4a28-99cf-137ba94ff944")
 		)
 		(pin "9"
-			(uuid "b912f325-4854-4140-a8c2-470f755debf0")
+			(uuid "d685252d-a132-47aa-b9f1-8b9dbfc0ced7")
 		)
 		(pin "10"
-			(uuid "d07c2a7f-2f48-483f-9781-5b0a22d69ff5")
+			(uuid "c0e14a6d-a35c-44a1-b023-54edf301f54b")
 		)
 		(pin "1"
-			(uuid "3b6ef55a-de1c-4a99-87aa-83106273ad46")
+			(uuid "968d961a-32f9-40f8-b493-6ba28a9c1bd4")
 		)
 		(pin "11"
-			(uuid "83e8f3f4-ac2a-4fbe-b18e-e4db858b111b")
+			(uuid "288220ea-3f67-4870-83c3-a08622f4934b")
 		)
 		(pin "5"
-			(uuid "faa40bad-36e1-4d40-b598-4414ca6aaece")
+			(uuid "1e669f3c-c949-4513-9ca2-a8bf9974b1e5")
 		)
 		(pin "20"
-			(uuid "c96c52fb-9cdd-4140-ad66-b67ff3d2d84c")
+			(uuid "ab51e774-d61b-4ceb-a361-2ca48c3bda98")
 		)
 		(pin "12"
-			(uuid "a6490055-2781-4418-9b86-2d9181ae28e0")
+			(uuid "dabd4295-cd0a-4d38-bd68-9fa9d3cc5516")
 		)
 		(pin "14"
-			(uuid "643bb6d5-d28d-4ee7-8617-24ff590d9e13")
+			(uuid "a2a68287-de99-4475-9f66-89c031bfc176")
 		)
 		(pin "8"
-			(uuid "16d61e7d-74b3-4d13-88b5-0b6bc5082e89")
+			(uuid "6ef7f38b-7a62-4aa5-9edd-1ee47e5434ae")
 		)
 		(pin "6"
-			(uuid "45eaf09d-ac23-42c3-a908-c10ce4cb611b")
+			(uuid "639f8cae-0a77-4493-9b96-9d30c11825b5")
 		)
 		(pin "17"
-			(uuid "8027535a-8a0c-4c3e-b8bc-6e5452721c11")
+			(uuid "2b0bf6e5-241f-493c-b703-a00dce5ea19d")
 		)
 		(pin "3"
-			(uuid "8c317a6c-3c86-44b3-89d2-1b725ee7433e")
+			(uuid "af5ca8e8-63bb-4091-bc06-0cc9444261df")
 		)
 		(pin "4"
-			(uuid "f8cbc7c4-dab1-4201-be43-ccb3a143da4c")
+			(uuid "897fdb3e-4cd2-4d58-baa7-65d55d0bbfe1")
 		)
 		(pin "19"
-			(uuid "a624e3c9-955a-453a-8106-ee5fb999e684")
+			(uuid "62499749-67be-4dfd-8482-3d17045930ae")
 		)
 		(pin "13"
-			(uuid "7e4830dc-6362-4242-973b-b70a16be58d2")
+			(uuid "e4aec8f7-e634-45f1-8ac8-77a9bd7fe973")
 		)
 		(pin "16"
-			(uuid "f0790deb-b732-4cf5-8ef7-8fc41162c816")
+			(uuid "fca34678-009b-443e-ba80-4f6da782d464")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13426,7 +13056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDCG1060M_VIS"
+		(property "Footprint" ""
 			(at 339.598 31.75 0)
 			(effects
 				(font
@@ -13513,6 +13143,88 @@
 		)
 	)
 	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 280.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2c5e41-450b-4c34-bfa0-62e2ffb75614")
+		(property "Reference" "M11"
+			(at 275.844 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 275.844 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 283.4816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 306.5956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 269.748 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e4fd9ee1-3b21-4bcf-aa5f-af11d74af7ef")
+		)
+		(pin "3"
+			(uuid "40a15791-3d6b-4409-8c73-3ca6c2c50f6b")
+		)
+		(pin "2"
+			(uuid "c0abff59-f072-406a-813a-c0738d1d3556")
+		)
+		(pin "1"
+			(uuid "31817053-cdef-4945-b639-34ebda95a7d9")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36de")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c125a")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 177.8 0)
 		(unit 1)
@@ -13581,15 +13293,15 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 77.47 93.98 0)
+		(at 204.47 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1328ecc-fa55-4a02-8f31-683064a8616b")
-		(property "Reference" "M3"
-			(at 72.644 77.47 0)
+		(uuid "b1a291c1-1921-4745-8b6d-ff8361c2023f")
+		(property "Reference" "M8"
+			(at 199.644 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13598,7 +13310,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 72.644 80.01 0)
+			(at 199.644 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13606,8 +13318,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 80.2816 102.6282 0)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 207.2816 102.6282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,8 +13327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 103.3956 99.8342 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 230.3956 99.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13625,7 +13337,7 @@
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 66.548 79.756 0)
+			(at 193.548 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13634,27 +13346,27 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d745340-3d31-42dc-bcee-08520919027a")
+			(uuid "c2f2ff0b-9046-4fee-bcc7-fbceb327bc85")
 		)
 		(pin "3"
-			(uuid "ba36f006-5249-4649-b340-da6cafaaaf2d")
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
 		)
 		(pin "2"
-			(uuid "6adb3a64-3770-47b8-9fe5-dd7d32319882")
+			(uuid "360ce1ac-8468-42eb-8d99-e766fc75a345")
 		)
 		(pin "1"
-			(uuid "2bcc0e50-068a-4eec-bad7-35b9f95f80aa")
+			(uuid "a3edaabf-c76c-4d50-933c-41296fedf262")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d9")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1255")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M3")
+					(reference "M8")
 					(unit 1)
 				)
 			)
@@ -13989,6 +13701,88 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 306.07 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3f2ce1d-041a-4b9c-82d2-0b47109802ea")
+		(property "Reference" "M12"
+			(at 301.244 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 301.244 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 308.8816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 331.9956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 295.148 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d745340-3d31-42dc-bcee-08520919027a")
+		)
+		(pin "3"
+			(uuid "a7b72d08-6754-4759-a292-baa8ef09fca4")
+		)
+		(pin "2"
+			(uuid "f66c38d5-0f46-485c-8be6-5d9e59ab2e39")
+		)
+		(pin "1"
+			(uuid "38092f91-500a-47d4-809d-6de3c1396295")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36da")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1256")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M12")
 					(unit 1)
 				)
 			)
@@ -14496,6 +14290,88 @@
 		)
 	)
 	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 407.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcbbe9cd-5ecd-41c8-a7f6-1aedbe01ef6d")
+		(property "Reference" "M16"
+			(at 402.844 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 402.844 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 410.4816 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 433.5956 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 396.748 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c526c8b3-d03b-49f8-b257-1b60bb437f88")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b3")
+		)
+		(pin "2"
+			(uuid "5b0e78aa-3cb9-46a0-9458-92c0ab992b49")
+		)
+		(pin "1"
+			(uuid "dd28ad64-b4a8-4f87-8270-03c051b1b82e")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36dd")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1259")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 40.64 170.18 0)
 		(unit 1)
@@ -14555,6 +14431,88 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
+		(at 127 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3e2433e-5499-4dd5-a1bf-89a1d76222f9")
+		(property "Reference" "M5"
+			(at 122.174 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N-MOSFET"
+			(at 122.174 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 129.8116 102.6282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 152.9256 99.8342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistors"
+			(at 116.078 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "09861bb6-b1fe-4ae2-9526-383755276813")
+		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
+		)
+		(pin "2"
+			(uuid "32c8e370-1b62-4535-bc90-d9480f1603d7")
+		)
+		(pin "1"
+			(uuid "2c73abec-afd4-491a-9ff7-05916134f91e")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
+					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -14864,7 +14822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SN74HC138DR-MUX:SOIC127P600X175-16N"
 			(at 52.07 162.56 0)
 			(effects
 				(font
@@ -14873,7 +14831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls107g/scls107g.pdf"
 			(at 52.07 162.56 0)
 			(effects
 				(font
@@ -15085,15 +15043,15 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 280.67 93.98 0)
+		(at 102.87 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ebc7cb03-91eb-4d30-811a-5c8e3980ee7e")
-		(property "Reference" "M11"
-			(at 275.844 77.47 0)
+		(uuid "ed8b6089-5c35-4493-85b2-c10401560adc")
+		(property "Reference" "M4"
+			(at 98.044 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15060,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 275.844 80.01 0)
+			(at 98.044 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15110,8 +15068,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 283.4816 102.6282 0)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 105.6816 102.6282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15119,8 +15077,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 306.5956 99.8342 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 128.7956 99.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15129,7 +15087,7 @@
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 269.748 79.756 0)
+			(at 91.948 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15138,27 +15096,27 @@
 			)
 		)
 		(pin "3"
-			(uuid "a018c9fe-e00f-48ba-9ee3-1263928f8bed")
+			(uuid "4d745340-3d31-42dc-bcee-085209190279")
 		)
 		(pin "3"
-			(uuid "ba36f006-5249-4649-b340-da6cafaaaf2e")
+			(uuid "efe6e3f0-5276-4579-adf4-2dee1246e323")
 		)
 		(pin "2"
-			(uuid "bdedfe8c-de99-49ca-9096-b9ebb4726c9b")
+			(uuid "e8cff1bb-7eaf-483d-a555-0d3080c42eec")
 		)
 		(pin "1"
-			(uuid "1422f719-97ef-46c2-b749-ff8f5d1affdc")
+			(uuid "2f7d0e27-9a19-4537-bb15-c543ad058b40")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36da")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1256")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M11")
+					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -15237,15 +15195,15 @@
 	(symbol
 		(lib_name "nMOS_1")
 		(lib_id "2N2907A_NMOS:nMOS")
-		(at 50.8 93.98 0)
+		(at 77.47 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ef4eab05-f54f-4693-bec6-e93d804628ee")
-		(property "Reference" "M2"
-			(at 45.974 77.47 0)
+		(uuid "f1fb2450-08f1-4180-aa14-5236bb54a1fc")
+		(property "Reference" "M3"
+			(at 72.644 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15254,7 +15212,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 45.974 80.01 0)
+			(at 72.644 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15262,8 +15220,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.6116 102.6282 0)
+		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
+			(at 80.2816 102.6282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15271,8 +15229,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 76.7256 99.8342 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
+			(at 103.3956 99.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15281,7 +15239,7 @@
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 39.878 79.756 0)
+			(at 66.548 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15290,27 +15248,27 @@
 			)
 		)
 		(pin "3"
-			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1e")
+			(uuid "e4fd9ee1-3b21-4bcf-aa5f-af11d74af7ef")
 		)
 		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b0")
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
 		)
 		(pin "2"
-			(uuid "ebfb69e4-acb1-4710-863e-872c4fe5f0a7")
+			(uuid "92a80fdb-3e03-4a86-a488-930a38aad72c")
 		)
 		(pin "1"
-			(uuid "1ec6387c-6280-4f21-bccd-a3f572bd272e")
+			(uuid "0d5f72dc-3aac-44fc-af4f-31afa55fbc51")
 		)
 		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36db")
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
 		)
 		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1257")
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/3afa3ac3-963c-4392-ab61-de1e7344ddd6"
-					(reference "M2")
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -15441,7 +15399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDCG1060M_VIS"
+		(property "Footprint" ""
 			(at 39.878 31.75 0)
 			(effects
 				(font

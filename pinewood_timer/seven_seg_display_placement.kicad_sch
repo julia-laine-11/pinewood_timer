@@ -9901,7 +9901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N20"
+		(property "Footprint" ""
 			(at 375.92 66.04 0)
 			(effects
 				(font
