@@ -12,6 +12,8 @@ Timer system for a pinewood derby track. My grandma asked me to help her make on
   - nothing yet
 * Mainboard
   - nothing yet
+* Program
+  - platformio project
 
 ### Overview
 #### Overall Requirements
