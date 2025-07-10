@@ -1,18 +1,21 @@
 # pinewood_timer
 Timer system for a pinewood derby track. My grandma asked me to help her make one since her boy scout troop's track does not have one. I currently havent seen it yet but I want to be able to tell her what I can do when I get home
 
-* [Main schematic](https://github.com/julia-laine-11/pinewood_timer/tree/main/pinewood_timer)
+#### [Hardware](https://github.com/julia-laine-11/pinewood_timer/blob/main/Hardware/hardware.md)
+* [Main schematic](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/pinewood_timer)
   - kicad project
-* [Timer Display](https://github.com/julia-laine-11/pinewood_timer/blob/main/timer_display_pcb/tim_disp.md)
+* [Timer Display](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/timer_display_pcb)
   - kicad project
   - readme
-* [Placement Display](https://github.com/julia-laine-11/pinewood_timer/blob/main/placement_disp/plc_dsp.md)
+* [Placement Display](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/placement_disp)
   - readme
 * End of track sensors
   - nothing yet
-* Mainboard
-  - nothing yet
-* Program
+* [Mainboard](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/breakout_board)
+  - kicad project
+ 
+#### [Software](https://github.com/julia-laine-11/pinewood_timer/blob/main/Software/code.md)
+* [Program](https://github.com/julia-laine-11/pinewood_timer/tree/main/Software/code/pinewood_program)
   - platformio project
 
 ### Overview
