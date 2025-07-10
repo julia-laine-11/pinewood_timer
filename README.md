@@ -1,46 +1,40 @@
 # pinewood_timer
 Timer system for a pinewood derby track. My grandma asked me to help her make one since her boy scout troop's track does not have one. I currently havent seen it yet but I want to be able to tell her what I can do when I get home
 
-Main schematic
-Timer Display
-Placement Display
-End of track sensors
-Mainboard
+* [Main schematic](https://github.com/julia-laine-11/pinewood_timer/tree/main/pinewood_timer)
+  - kicad project
+* [Timer Display](https://github.com/julia-laine-11/pinewood_timer/blob/main/timer_display_pcb/tim_disp.md)
+  - kicad project
+  - readme
+* [Placement Display](https://github.com/julia-laine-11/pinewood_timer/blob/main/placement_disp/plc_dsp.md)
+  - readme
+* End of track sensors
+  - nothing yet
+* Mainboard
+  - nothing yet
 
-#### requirements for sure:
-- be able to be operated by random people
+### Overview
+#### Overall Requirements
+- easy operation -> plug and play
 - 4 lanes
 - time to the thousandths
-- display placement
+- displays time in each lane
+- displays placement in each lane
 
-(for a total of 20 7-seg displays)
+##### Requirements per each lane
+- start sensor - same trigger for all lanes
+- stop sensor - seperate per each lane
+- time display - 4 seven seg displays
+- placement display - 1 larger seven seg display
 
-each lane:
-    - stop sensor
-    - start sensor? or are they uniformly released
-    - 4 small seven seg displays (probs a TDCR1050M)
-    - 1 larger seven seg display
-    
-- 3 tlc59211 shift reg (display bits to 8 segment displays each)
-- 3 74HC138 to multiplex the signal
-- 20 pn2907a one for each display's anode
-- 20 150 ohm resistors
-
-pins needed:
-- 3 per 74hc138  (9)
-- 7 per tlc59211 (21)
-- 1 per sensor   (8 max, 4 min) //probs at least 1 adc too if the sensor returns an analog value
-
-
-
-Sensors
-- it looks like the stop sensors go below the track (ir sensors)
-- online, a derby timer company uses a microswitch attached to the lever to start the timer
-
-- ir transceiver instead of ir led and receiver
-
-    - transceiver : 5.09
-    - led and receiver: 2.00
+##### Sensors
+- Start sensor triggered by lever release
+  - Microswitch is easy to install and get output from
+  - I have to wait and see what my grandfather builds as the start mechanism
+- Stop sensor - IR LED and IR Receiver
+  - Sits in the middle of the groove the cars ride on underneath the finish line
+  - Since it will likely be in a gym, the IR receiver should point down for less interference from the large lamps
+  - A comparator or the STM ADC can be used if the voltage doesnt drop to an amount the STM recognizes as 0
 
 
 vars
@@ -80,14 +74,3 @@ faster than updates (1k < refresh rate < 2k)
 
 exactly 1khz
 - update time for each lane
-
-chips i was looking at:
-
-|  chip  | timers | price |
-|--------|--------|-------|
-| c091rc | 7      | $2.24 |
-| l010r8 | 4      | $2.25 |
-| g070rb | 6      | $2.35 |
-| l051r6 | 4      | $2.67 |
-| l071rb | 7      | $3.62 |
-| f030rc | 8      | $3.78 |
