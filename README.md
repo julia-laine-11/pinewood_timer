@@ -1,6 +1,7 @@
 # pinewood_timer
 Timer system for a pinewood derby track. My grandma asked me to help her make one since her boy scout troop's track does not have one. I currently havent seen it yet but I want to be able to tell her what I can do when I get home
 
+Main schematic
 Timer Display
 Placement Display
 End of track sensors
