@@ -2,7 +2,7 @@
 Timer system for a pinewood derby track. My grandma asked me to help her make one since her boy scout troop's track does not have one. I hope that I can make these more affordable so that her troop and other troops can get accurate timers that dont cost an arm and a leg.
 
 *so whats in here?*
-#### [Hardware:](https://github.com/julia-laine-11/pinewood_timer/blob/main/Hardware/hardware.md)
+### [Hardware:](https://github.com/julia-laine-11/pinewood_timer/blob/main/Hardware/hardware.md)
 * [Main schematic](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/pinewood_timer)
   - kicad project
 * [Timer Display](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/timer_display_pcb)
@@ -15,7 +15,7 @@ Timer system for a pinewood derby track. My grandma asked me to help her make on
 * [Mainboard](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/breakout_board)
   - kicad project
  
-#### [Software:](https://github.com/julia-laine-11/pinewood_timer/blob/main/Software/code.md)
+### [Software:](https://github.com/julia-laine-11/pinewood_timer/blob/main/Software/code.md)
   - readme
 * [Program](https://github.com/julia-laine-11/pinewood_timer/tree/main/Software/code/pinewood_program)
   - platformio project
