@@ -2137,60 +2137,50 @@
 				)
 			)
 		)
-		(symbol "nMOS_1"
-			(pin_numbers hide)
+		(symbol "pn2907a-smt:PMBT2907A_235"
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M1"
-				(at -5.0624 -12.7122 0)
+			(property "Reference" "Q"
+				(at 10.16 2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "N-MOSFET"
-				(at -5.0624 -15.2522 0)
+			(property "Value" "PMBT2907A_235"
+				(at 21.336 -5.588 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 2.8116 -8.6482 0)
+			(property "Footprint" "TO-236AB_SOT23_NEX"
+				(at -6.858 10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 25.9256 -5.8542 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "General Purpose PNP Transistors"
-				(at -10.922 14.224 0)
+			(property "Datasheet" "PMBT2907A_235"
+				(at -7.874 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "MOSFET N-channel"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2199,10 +2189,109 @@
 					(hide yes)
 				)
 			)
-			(symbol "nMOS_1_0_1"
-				(rectangle
-					(start -2.0144 1.7658)
-					(end -1.7604 -1.7902)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PMBT2907A,235"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-236AB_SOT23_NEX TO-236AB_SOT23_NEX-M TO-236AB_SOT23_NEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMBT2907A_235_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.2098) (xy 3.81 2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.9398) (xy 7.62 -2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.9398) (xy 7.62 2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.2098) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.0198 -2.2098) (xy 6.35 -1.27) (xy 4.7498 -1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2212,82 +2301,20 @@
 					)
 				)
 				(circle
-					(center -0.9984 -0.0122)
-					(radius 2.3001)
+					(center 5.3848 0)
+					(radius 3.81)
 					(stroke
-						(width 0.1778)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.0144 -0.0122) (xy -5.5704 -0.0122)
-					)
-					(stroke
-						(width 0.2286)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5064 -0.7742) (xy -1.7604 -0.5202)
-					)
-					(stroke
-						(width 0.2286)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5064 -0.7742) (xy -0.7444 -1.5362) (xy 0.0176 -2.2982) (xy 0.0176 -5.3462)
-					)
-					(stroke
-						(width 0.2286)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5064 0.4958) (xy -0.7444 1.2578) (xy 0.0176 2.0198) (xy 0.0176 4.8138)
-					)
-					(stroke
-						(width 0.2286)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.3449 1.1675) (xy -1.5989 0.4055) (xy -0.8369 0.6595) (xy -1.3449 1.1675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "nMOS_1_1_1"
-				(pin passive line
-					(at 0.02 4.8065 270)
-					(length 1.27)
-					(name "E"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2302,10 +2329,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.5704 -0.0122 0)
-					(length 1.27)
-					(name "B"
+				(pin unspecified line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2320,10 +2347,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0.0335 -5.3969 90)
-					(length 1.27)
-					(name "C"
+				(pin unspecified line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2331,98 +2358,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "nMOS_1_2_1"
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 1.27)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 1.27)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2827,6 +2762,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 87.63) (xy 181.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d85584-8329-4a36-a07a-d4be2445843a")
+	)
+	(wire
+		(pts
 			(xy 179.07 38.1) (xy 186.69 38.1)
 		)
 		(stroke
@@ -2837,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 99.06) (xy 204.47 102.87)
+			(xy 207.01 99.06) (xy 207.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2907,13 +2852,23 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 99.06) (xy 407.67 102.87)
+			(xy 410.21 99.06) (xy 410.21 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0cc0ba8b-be9c-41df-87cd-091ded954a7d")
+	)
+	(wire
+		(pts
+			(xy 27.94 87.63) (xy 27.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f196951-09e5-462a-90ea-6e58b01d8cdd")
 	)
 	(wire
 		(pts
@@ -2924,6 +2879,16 @@
 			(type default)
 		)
 		(uuid "0f617209-7cda-4d26-a2b1-98ec956ad1fb")
+	)
+	(wire
+		(pts
+			(xy 105.41 87.63) (xy 105.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b104ab-59ea-4650-a272-280ff9389feb")
 	)
 	(wire
 		(pts
@@ -3057,6 +3022,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 87.63) (xy 384.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3c63eb-9bbf-4595-aa89-12ca914c5e18")
+	)
+	(wire
+		(pts
 			(xy 335.28 48.26) (xy 339.09 48.26)
 		)
 		(stroke
@@ -3107,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 99.06) (xy 254 102.87)
+			(xy 256.54 99.06) (xy 256.54 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3257,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 99.06) (xy 382.27 102.87)
+			(xy 384.81 99.06) (xy 384.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3357,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 87.63) (xy 231.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc6ab25-a80d-4b46-8fe3-86bde3b7245d")
+	)
+	(wire
+		(pts
 			(xy 200.66 200.66) (xy 200.66 186.69)
 		)
 		(stroke
@@ -3364,6 +3349,16 @@
 			(type default)
 		)
 		(uuid "3d03bb47-9955-4245-a381-aa40f3d16612")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d334a49-df25-4f8e-b427-be44225302ca")
 	)
 	(wire
 		(pts
@@ -3497,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 99.06) (xy 280.67 102.87)
+			(xy 283.21 99.06) (xy 283.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3537,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 99.06) (xy 25.4 102.87)
+			(xy 27.94 99.06) (xy 27.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3637,6 +3632,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 87.63) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50255477-7aad-4e89-9448-315bcffebdc6")
+	)
+	(wire
+		(pts
 			(xy 168.91 172.72) (xy 157.48 172.72)
 		)
 		(stroke
@@ -3644,6 +3649,16 @@
 			(type default)
 		)
 		(uuid "50eae51a-ef47-4267-abe7-8482fdbec7b9")
+	)
+	(wire
+		(pts
+			(xy 53.34 87.63) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513ffb79-52d1-425c-9b89-f482e4fa6fa9")
 	)
 	(wire
 		(pts
@@ -3967,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 87.63) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbded84-429e-4f63-8086-07ef6ef1c001")
+	)
+	(wire
+		(pts
 			(xy 241.3 167.64) (xy 243.84 167.64)
 		)
 		(stroke
@@ -3977,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 99.06) (xy 330.2 102.87)
+			(xy 332.74 99.06) (xy 332.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3997,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 99.06) (xy 179.07 102.87)
+			(xy 181.61 99.06) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4054,6 +4079,16 @@
 			(type default)
 		)
 		(uuid "74a7cbae-1ff3-4b6c-b903-b00c31d66832")
+	)
+	(wire
+		(pts
+			(xy 283.21 87.63) (xy 283.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765b80fd-61e1-4a7d-9d95-a7278b6dbc70")
 	)
 	(wire
 		(pts
@@ -4127,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 152.4 102.87)
+			(xy 154.94 99.06) (xy 154.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 99.06) (xy 355.6 102.87)
+			(xy 358.14 99.06) (xy 358.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 99.06) (xy 306.07 102.87)
+			(xy 308.61 99.06) (xy 308.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4662,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 102.87 102.87)
+			(xy 105.41 99.06) (xy 105.41 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4657,6 +4692,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 87.63) (xy 332.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf48e05-c03c-413d-a27b-dcfd1655e5a0")
+	)
+	(wire
+		(pts
 			(xy 275.59 93.98) (xy 270.51 93.98)
 		)
 		(stroke
@@ -4677,7 +4722,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 77.47 102.87)
+			(xy 80.01 99.06) (xy 80.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4694,6 +4739,16 @@
 			(type default)
 		)
 		(uuid "b09a35c6-5577-4b9b-88b6-daaeae7d3f9c")
+	)
+	(wire
+		(pts
+			(xy 256.54 87.63) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2327e8a-d93b-49a2-a8a4-74bf0f975e87")
 	)
 	(wire
 		(pts
@@ -4787,6 +4842,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 87.63) (xy 410.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf040ca-5b8a-4679-9578-81639e4986f0")
+	)
+	(wire
+		(pts
 			(xy 361.95 175.26) (xy 361.95 184.15)
 		)
 		(stroke
@@ -4794,6 +4859,16 @@
 			(type default)
 		)
 		(uuid "bbff9aea-4850-4d3f-8db0-67cce1467b75")
+	)
+	(wire
+		(pts
+			(xy 358.14 87.63) (xy 358.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7092f9-70cc-4d28-8479-14e639136de8")
 	)
 	(wire
 		(pts
@@ -4827,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 99.06) (xy 50.8 102.87)
+			(xy 53.34 99.06) (xy 53.34 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5117,6 +5192,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 87.63) (xy 308.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d503fd5b-25bc-4d28-85bc-bdc1736c0ffa")
+	)
+	(wire
+		(pts
 			(xy 187.96 200.66) (xy 187.96 186.69)
 		)
 		(stroke
@@ -5287,7 +5372,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 228.6 102.87)
+			(xy 231.14 99.06) (xy 231.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5304,6 +5389,16 @@
 			(type default)
 		)
 		(uuid "e3acffe3-3d1f-4b79-aa37-16b031aed93d")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b58203-4d0c-415c-bb82-5ef24863fa99")
 	)
 	(wire
 		(pts
@@ -5377,7 +5472,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 127 102.87)
+			(xy 129.54 99.06) (xy 129.54 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5783,22 +5878,22 @@
 	)
 	(global_label "C10"
 		(shape input)
-		(at 254 102.87 0)
+		(at 256.54 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0797f9c4-b318-448d-b245-b7ba0615d313")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.4647 102.87 0)
+			(at 256.54 109.5442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5937,22 +6032,22 @@
 	)
 	(global_label "C14"
 		(shape input)
-		(at 355.6 102.87 0)
+		(at 358.14 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "09ba3313-c3cc-462f-88b9-f54f2c5e8731")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.0647 102.87 0)
+			(at 358.14 109.5442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6377,22 +6472,22 @@
 	)
 	(global_label "C8"
 		(shape input)
-		(at 204.47 102.87 0)
+		(at 207.01 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2c0dbd35-f6ef-4836-8061-5725191d26d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.9347 102.87 0)
+			(at 207.01 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6663,22 +6758,22 @@
 	)
 	(global_label "C12"
 		(shape input)
-		(at 306.07 102.87 0)
+		(at 308.61 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "48665434-1b7e-41e3-a44a-cefa185c6d4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.5347 102.87 0)
+			(at 308.61 109.5442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6883,22 +6978,22 @@
 	)
 	(global_label "C15"
 		(shape input)
-		(at 382.27 102.87 0)
+		(at 384.81 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "50264563-7827-4118-ad9a-33b1e55df065")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.7347 102.87 0)
+			(at 384.81 109.5442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6949,22 +7044,22 @@
 	)
 	(global_label "C13"
 		(shape input)
-		(at 330.2 102.87 0)
+		(at 332.74 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "577239ca-08ef-450f-8fec-6cddba99051a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.6647 102.87 0)
+			(at 332.74 109.5442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7191,22 +7286,22 @@
 	)
 	(global_label "C6"
 		(shape input)
-		(at 152.4 102.87 0)
+		(at 154.94 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "67b2fed8-0747-4498-86cc-bc941d12c38d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.8647 102.87 0)
+			(at 154.94 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7279,22 +7374,22 @@
 	)
 	(global_label "C3"
 		(shape input)
-		(at 77.47 102.87 0)
+		(at 80.01 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6d8fbcbc-0e9a-442b-90f9-34dce57da33b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 102.87 0)
+			(at 80.01 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7345,22 +7440,22 @@
 	)
 	(global_label "C4"
 		(shape input)
-		(at 102.87 102.87 0)
+		(at 105.41 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "73acc4f6-25ed-4bc5-8fae-74a37d1ceefe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3347 102.87 0)
+			(at 105.41 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7543,22 +7638,22 @@
 	)
 	(global_label "C7"
 		(shape input)
-		(at 179.07 102.87 0)
+		(at 181.61 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7baef191-07db-47f5-962f-f446f1512310")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.5347 102.87 0)
+			(at 181.61 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7785,22 +7880,22 @@
 	)
 	(global_label "C11"
 		(shape input)
-		(at 280.67 102.87 0)
+		(at 283.21 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "91c2cad1-9159-45ab-83fd-5bbebf1d0bb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.1347 102.87 0)
+			(at 283.21 109.5442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8423,22 +8518,22 @@
 	)
 	(global_label "C16"
 		(shape input)
-		(at 407.67 102.87 0)
+		(at 410.21 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dbbf7bbf-143b-4237-b0a3-03668bb64f76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.1347 102.87 0)
+			(at 410.21 109.5442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8467,44 +8562,44 @@
 	)
 	(global_label "C9"
 		(shape input)
-		(at 228.6 102.87 0)
+		(at 231.14 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e8d82191-4e19-4c05-9dc4-0577a225d284")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.0647 102.87 0)
+			(at 231.14 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "C5"
 		(shape input)
-		(at 127 102.87 0)
+		(at 129.54 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e918713a-4935-41b8-9739-df0885b28461")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4647 102.87 0)
+			(at 129.54 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8863,44 +8958,44 @@
 	)
 	(global_label "C2"
 		(shape input)
-		(at 50.8 102.87 0)
+		(at 53.34 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fe18ebe9-297d-4d5a-bda4-0a78470fb3fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.2647 102.87 0)
+			(at 53.34 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "C1"
 		(shape input)
-		(at 25.4 102.87 0)
+		(at 27.94 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fe64c965-aec7-4885-a894-473f7d5be5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.8647 102.87 0)
+			(at 27.94 108.3347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9020,7 +9115,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 280.69 89.1735 0)
+		(at 283.21 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9028,7 +9123,7 @@
 		(dnp no)
 		(uuid "0395f296-548b-45c4-b2e4-7e727ebd360d")
 		(property "Reference" "#PWR07"
-			(at 280.69 92.9835 0)
+			(at 283.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,7 +9132,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 280.69 84.0935 0)
+			(at 283.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,7 +9140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.69 89.1735 0)
+			(at 283.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +9149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.69 89.1735 0)
+			(at 283.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 280.69 89.1735 0)
+			(at 283.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +9250,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 204.47 88.9 0)
+		(at 207.01 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9163,7 +9258,7 @@
 		(dnp no)
 		(uuid "095e344e-d427-4d57-aabc-5e27696304af")
 		(property "Reference" "#PWR020"
-			(at 204.47 92.71 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +9267,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 204.47 83.82 0)
+			(at 207.01 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 88.9 0)
+			(at 207.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 88.9 0)
+			(at 207.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,7 +9293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 204.47 88.9 0)
+			(at 207.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,9 +9452,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 50.8 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 45.72 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9367,7 +9461,7 @@
 		(dnp no)
 		(uuid "1648a712-b2f4-4410-9bac-d05480438999")
 		(property "Reference" "M2"
-			(at 45.974 77.47 0)
+			(at 40.894 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9376,7 +9470,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 45.974 80.01 0)
+			(at 40.894 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,26 +9478,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 53.6116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 38.862 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 76.7256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 37.846 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 39.878 79.756 0)
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9414,20 +9510,11 @@
 		(pin "3"
 			(uuid "659b3690-dc3a-4454-8d9e-fa61eb6bec98")
 		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
-		)
 		(pin "2"
 			(uuid "22a5b500-b135-4f91-801c-1a5a5f7583d2")
 		)
 		(pin "1"
 			(uuid "a39cce72-3ffc-416e-b875-7c3a5ded792a")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -9551,9 +9638,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 355.6 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 350.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9561,7 +9647,7 @@
 		(dnp no)
 		(uuid "16c446c0-658b-4894-83a2-790c78d56d29")
 		(property "Reference" "M14"
-			(at 350.774 77.47 0)
+			(at 345.694 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9570,7 +9656,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 350.774 80.01 0)
+			(at 345.694 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,26 +9664,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 358.4116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 343.662 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 381.5256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 342.646 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 344.678 79.756 0)
+			(at 350.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,20 +9696,11 @@
 		(pin "3"
 			(uuid "15205603-ea87-422d-ab79-b63de6fe710d")
 		)
-		(pin "3"
-			(uuid "df3a4d1b-61d0-4036-b5f1-5ee5ca076d42")
-		)
 		(pin "2"
 			(uuid "8f5866e4-0305-421b-8fcf-4b73948bcdf6")
 		)
 		(pin "1"
 			(uuid "0adba987-4191-4bf8-a282-c1e8b354e475")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36db")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1257")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -9838,7 +9917,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 50.8 88.9 0)
+		(at 53.34 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9846,7 +9925,7 @@
 		(dnp no)
 		(uuid "2af95fe3-0dbc-40d8-9692-2c45158d6779")
 		(property "Reference" "#PWR014"
-			(at 50.8 92.71 0)
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +9934,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 50.8 83.82 0)
+			(at 53.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,7 +9942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 88.9 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,7 +9951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 88.9 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +9960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 88.9 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,9 +9981,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 254 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 248.92 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9912,7 +9990,7 @@
 		(dnp no)
 		(uuid "2e06bcee-d470-40fd-a7ac-110d79463a15")
 		(property "Reference" "M10"
-			(at 249.174 77.47 0)
+			(at 244.094 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +9999,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 249.174 80.01 0)
+			(at 244.094 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,26 +10007,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 256.8116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 242.062 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 279.9256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 241.046 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 243.078 79.756 0)
+			(at 248.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,22 +10037,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "659b3690-dc3a-4454-8d9e-fa61eb6bec98")
-		)
-		(pin "3"
-			(uuid "fc6fb470-3fe4-4d8b-a01c-658db032fde9")
+			(uuid "659b3690-dc3a-4454-8d9e-fa61eb6bec99")
 		)
 		(pin "2"
 			(uuid "19143f9b-e397-416e-927a-693be1831836")
 		)
 		(pin "1"
 			(uuid "d1b35c5f-6caf-4161-8a9a-c5436c66094e")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d8")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1254")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10442,7 +10513,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 77.49 89.1735 0)
+		(at 80.01 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10450,7 +10521,7 @@
 		(dnp no)
 		(uuid "4a1355a5-e92d-49d5-ac3b-5e6d77228e36")
 		(property "Reference" "#PWR015"
-			(at 77.49 92.9835 0)
+			(at 80.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,7 +10530,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 77.49 84.0935 0)
+			(at 80.01 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.49 89.1735 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +10547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.49 89.1735 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +10556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 77.49 89.1735 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,9 +10577,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 330.2 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 325.12 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10516,7 +10586,7 @@
 		(dnp no)
 		(uuid "4c3ccc55-2f43-419b-9874-4bdffe7e5364")
 		(property "Reference" "M13"
-			(at 325.374 77.47 0)
+			(at 320.294 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +10595,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 325.374 80.01 0)
+			(at 320.294 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,26 +10603,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 333.0116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 318.262 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 356.1256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 317.246 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 319.278 79.756 0)
+			(at 325.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10563,20 +10635,11 @@
 		(pin "3"
 			(uuid "14f3fa23-5937-4125-887e-da4bf4e8cf90")
 		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b2")
-		)
 		(pin "2"
 			(uuid "3ac57ae7-0225-46e6-bdeb-e9678359b419")
 		)
 		(pin "1"
 			(uuid "b441f146-aaaa-464f-929c-a33b4ab5120d")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36dc")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1258")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10723,9 +10786,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 228.6 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 223.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10733,7 +10795,7 @@
 		(dnp no)
 		(uuid "51814677-8648-48c3-80a7-1228669869ab")
 		(property "Reference" "M9"
-			(at 223.774 77.47 0)
+			(at 218.694 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +10804,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 223.774 80.01 0)
+			(at 218.694 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,26 +10812,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 231.4116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 216.662 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 254.5256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 215.646 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 217.678 79.756 0)
+			(at 223.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,20 +10844,11 @@
 		(pin "3"
 			(uuid "2805b15a-4548-44ce-be77-cf0ba27c6102")
 		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
-		)
 		(pin "2"
 			(uuid "b6c93db1-e35b-44a3-9685-50e0b59f9cd0")
 		)
 		(pin "1"
 			(uuid "ecd1d1ca-8fff-4665-b844-f608e485f5ae")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10874,9 +10929,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 179.07 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 173.99 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10884,7 +10938,7 @@
 		(dnp no)
 		(uuid "56e6249b-dbba-4e83-acae-99c72d9b41a9")
 		(property "Reference" "M7"
-			(at 174.244 77.47 0)
+			(at 169.164 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +10947,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 174.244 80.01 0)
+			(at 169.164 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,26 +10955,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 181.8816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 167.132 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 204.9956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 166.116 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 168.148 79.756 0)
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,20 +10987,11 @@
 		(pin "3"
 			(uuid "fca374b0-e31f-45f1-879a-53970542acaf")
 		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
-		)
 		(pin "2"
 			(uuid "6c037cf6-772c-4f6f-897c-eb8f3649c48c")
 		)
 		(pin "1"
 			(uuid "50656964-3287-4094-a4ce-ee980ffba9f5")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -11026,7 +11073,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 382.27 88.9 0)
+		(at 384.81 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11034,7 +11081,7 @@
 		(dnp no)
 		(uuid "59f1272e-bc74-4cce-9742-e70b46292d1f")
 		(property "Reference" "#PWR011"
-			(at 382.27 92.71 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,7 +11090,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 382.27 83.82 0)
+			(at 384.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,7 +11098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 88.9 0)
+			(at 384.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11060,7 +11107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 88.9 0)
+			(at 384.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,7 +11116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 382.27 88.9 0)
+			(at 384.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11409,7 +11456,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 102.87 88.9 0)
+		(at 105.41 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11417,7 +11464,7 @@
 		(dnp no)
 		(uuid "6dd62260-cb91-4bf3-900f-fbf903eb0f4e")
 		(property "Reference" "#PWR016"
-			(at 102.87 92.71 0)
+			(at 105.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11473,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 102.87 83.82 0)
+			(at 105.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +11481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 88.9 0)
+			(at 105.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 88.9 0)
+			(at 105.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11452,7 +11499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 102.87 88.9 0)
+			(at 105.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,7 +11521,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.42 89.1735 0)
+		(at 154.94 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11482,7 +11529,7 @@
 		(dnp no)
 		(uuid "6f93ed80-0c3a-4dbc-a940-dfe66f5c24f2")
 		(property "Reference" "#PWR018"
-			(at 152.42 92.9835 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,7 +11538,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 152.42 84.0935 0)
+			(at 154.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.42 89.1735 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +11555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.42 89.1735 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +11564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.42 89.1735 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11539,7 +11586,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 407.67 88.9 0)
+		(at 410.21 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11547,7 +11594,7 @@
 		(dnp no)
 		(uuid "6fd5810e-9340-4e04-b7f7-a5cc4f56d7c0")
 		(property "Reference" "#PWR012"
-			(at 407.67 92.71 0)
+			(at 410.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,7 +11603,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 407.67 83.82 0)
+			(at 410.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +11611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 407.67 88.9 0)
+			(at 410.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11573,7 +11620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 407.67 88.9 0)
+			(at 410.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,7 +11629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 407.67 88.9 0)
+			(at 410.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11805,7 +11852,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 127.02 89.1735 0)
+		(at 129.54 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11813,7 +11860,7 @@
 		(dnp no)
 		(uuid "7792af4d-85bc-4b2c-ad47-cec6b03ad1dc")
 		(property "Reference" "#PWR017"
-			(at 127.02 92.9835 0)
+			(at 129.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,7 +11869,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 127.02 84.0935 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11830,7 +11877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.02 89.1735 0)
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.02 89.1735 0)
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11848,7 +11895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127.02 89.1735 0)
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,9 +11982,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 152.4 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 147.32 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11945,7 +11991,7 @@
 		(dnp no)
 		(uuid "82aa97c3-edd7-4beb-82cb-50421cf540d6")
 		(property "Reference" "M6"
-			(at 147.574 77.47 0)
+			(at 142.494 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11954,7 +12000,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 147.574 80.01 0)
+			(at 142.494 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,26 +12008,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 155.2116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 140.462 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 178.3256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 139.446 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 141.478 79.756 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,20 +12040,11 @@
 		(pin "3"
 			(uuid "4d745340-3d31-42dc-bcee-085209190279")
 		)
-		(pin "3"
-			(uuid "df3a4d1b-61d0-4036-b5f1-5ee5ca076d42")
-		)
 		(pin "2"
 			(uuid "b4f03a04-3397-4e9d-ac57-2b53d8bed237")
 		)
 		(pin "1"
 			(uuid "1efa1a0f-0dc8-4018-8117-2238cbeb5a35")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -12086,9 +12125,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 25.4 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 20.32 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12096,7 +12134,7 @@
 		(dnp no)
 		(uuid "8f38949b-4eb0-4406-a286-22d83f37a603")
 		(property "Reference" "M1"
-			(at 20.574 77.47 0)
+			(at 15.494 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12105,7 +12143,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 20.574 80.01 0)
+			(at 15.494 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,26 +12151,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 28.2116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 13.462 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 51.3256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 12.446 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 14.478 79.756 0)
+			(at 20.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,22 +12181,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d745340-3d31-42dc-bcee-085209190279")
-		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
+			(uuid "4d745340-3d31-42dc-bcee-08520919027a")
 		)
 		(pin "2"
 			(uuid "184b51eb-f220-431c-a3a1-8e4e0f50b6ce")
 		)
 		(pin "1"
 			(uuid "49eaefb3-e357-4209-909a-fe1d2de256a4")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project ""
@@ -12169,7 +12200,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 254 88.9 0)
+		(at 256.54 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12177,7 +12208,7 @@
 		(dnp no)
 		(uuid "914e4d82-cb58-43c7-93e3-d51b06d56cbf")
 		(property "Reference" "#PWR06"
-			(at 254 92.71 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +12217,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 254 83.82 0)
+			(at 256.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12194,7 +12225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 88.9 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12203,7 +12234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 88.9 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,7 +12243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 254 88.9 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12426,7 +12457,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.07 88.9 0)
+		(at 181.61 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12434,7 +12465,7 @@
 		(dnp no)
 		(uuid "95ca45bb-0497-474b-b004-69be57e8db86")
 		(property "Reference" "#PWR019"
-			(at 179.07 92.71 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12443,7 +12474,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 179.07 83.82 0)
+			(at 181.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 88.9 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +12491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 88.9 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12469,7 +12500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 88.9 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,7 +12522,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 25.4 88.9 0)
+		(at 27.94 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12499,7 +12530,7 @@
 		(dnp no)
 		(uuid "961bd3ec-eb8d-4f63-b4c2-560658bb2a30")
 		(property "Reference" "#PWR013"
-			(at 25.4 92.71 0)
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +12539,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 25.4 83.82 0)
+			(at 27.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 88.9 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 88.9 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12534,7 +12565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 88.9 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,9 +12790,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 382.27 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 377.19 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12769,7 +12799,7 @@
 		(dnp no)
 		(uuid "a768e963-d7a9-46d3-ae02-c0dd04791b62")
 		(property "Reference" "M15"
-			(at 377.444 77.47 0)
+			(at 372.364 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12778,7 +12808,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 377.444 80.01 0)
+			(at 372.364 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12786,26 +12816,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 385.0816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 370.332 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 408.1956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 369.316 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 371.348 79.756 0)
+			(at 377.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,22 +12846,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "fca374b0-e31f-45f1-879a-53970542acaf")
-		)
-		(pin "3"
-			(uuid "09118da1-e0e7-4812-9388-992aa3bde7af")
+			(uuid "fca374b0-e31f-45f1-879a-53970542acb0")
 		)
 		(pin "2"
 			(uuid "3ff2bf77-978a-493c-bd1e-f28b62ee93f9")
 		)
 		(pin "1"
 			(uuid "ecc63d02-5f78-4e91-be40-c86996774333")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d9")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1255")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -13143,9 +13166,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 280.67 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 275.59 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13153,7 +13175,7 @@
 		(dnp no)
 		(uuid "ad2c5e41-450b-4c34-bfa0-62e2ffb75614")
 		(property "Reference" "M11"
-			(at 275.844 77.47 0)
+			(at 270.764 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,7 +13184,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 275.844 80.01 0)
+			(at 270.764 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,26 +13192,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 283.4816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 268.732 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 306.5956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 267.716 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 269.748 79.756 0)
+			(at 275.59 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13200,20 +13224,11 @@
 		(pin "3"
 			(uuid "e4fd9ee1-3b21-4bcf-aa5f-af11d74af7ef")
 		)
-		(pin "3"
-			(uuid "40a15791-3d6b-4409-8c73-3ca6c2c50f6b")
-		)
 		(pin "2"
 			(uuid "c0abff59-f072-406a-813a-c0738d1d3556")
 		)
 		(pin "1"
 			(uuid "31817053-cdef-4945-b639-34ebda95a7d9")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36de")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c125a")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -13291,9 +13306,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 204.47 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 199.39 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13301,7 +13315,7 @@
 		(dnp no)
 		(uuid "b1a291c1-1921-4745-8b6d-ff8361c2023f")
 		(property "Reference" "M8"
-			(at 199.644 77.47 0)
+			(at 194.564 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13310,7 +13324,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 199.644 80.01 0)
+			(at 194.564 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,26 +13332,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 207.2816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 192.532 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 230.3956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 191.516 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 193.548 79.756 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,20 +13364,11 @@
 		(pin "3"
 			(uuid "c2f2ff0b-9046-4fee-bcc7-fbceb327bc85")
 		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
-		)
 		(pin "2"
 			(uuid "360ce1ac-8468-42eb-8d99-e766fc75a345")
 		)
 		(pin "1"
 			(uuid "a3edaabf-c76c-4d50-933c-41296fedf262")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -13509,7 +13516,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 228.6 88.9 0)
+		(at 231.14 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13517,7 +13524,7 @@
 		(dnp no)
 		(uuid "b847f7c1-630d-46ea-9f91-d59baec8dea0")
 		(property "Reference" "#PWR05"
-			(at 228.6 92.71 0)
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13526,7 +13533,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 228.6 83.82 0)
+			(at 231.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13534,7 +13541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 88.9 0)
+			(at 231.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13543,7 +13550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 88.9 0)
+			(at 231.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13552,7 +13559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 88.9 0)
+			(at 231.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13707,9 +13714,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 306.07 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 300.99 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13717,7 +13723,7 @@
 		(dnp no)
 		(uuid "d3f2ce1d-041a-4b9c-82d2-0b47109802ea")
 		(property "Reference" "M12"
-			(at 301.244 77.47 0)
+			(at 296.164 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13726,7 +13732,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 301.244 80.01 0)
+			(at 296.164 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,26 +13740,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 308.8816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 294.132 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 331.9956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 293.116 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 295.148 79.756 0)
+			(at 300.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13762,22 +13770,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d745340-3d31-42dc-bcee-08520919027a")
-		)
-		(pin "3"
-			(uuid "a7b72d08-6754-4759-a292-baa8ef09fca4")
+			(uuid "4d745340-3d31-42dc-bcee-08520919027b")
 		)
 		(pin "2"
 			(uuid "f66c38d5-0f46-485c-8be6-5d9e59ab2e39")
 		)
 		(pin "1"
 			(uuid "38092f91-500a-47d4-809d-6de3c1396295")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36da")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1256")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -13928,7 +13927,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 306.07 88.9 0)
+		(at 308.61 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13936,7 +13935,7 @@
 		(dnp no)
 		(uuid "d82b506a-5ef1-4308-9357-c61e4b1c89f0")
 		(property "Reference" "#PWR08"
-			(at 306.07 92.71 0)
+			(at 308.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13945,7 +13944,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 306.07 83.82 0)
+			(at 308.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,7 +13952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 88.9 0)
+			(at 308.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13962,7 +13961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 88.9 0)
+			(at 308.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13971,7 +13970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 306.07 88.9 0)
+			(at 308.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +13992,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 355.62 89.1735 0)
+		(at 358.14 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14001,7 +14000,7 @@
 		(dnp no)
 		(uuid "d8b1059f-a18f-4926-81f4-e412b247b361")
 		(property "Reference" "#PWR010"
-			(at 355.62 92.9835 0)
+			(at 358.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14010,7 +14009,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 355.62 84.0935 0)
+			(at 358.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14018,7 +14017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.62 89.1735 0)
+			(at 358.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14027,7 +14026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.62 89.1735 0)
+			(at 358.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14036,7 +14035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 355.62 89.1735 0)
+			(at 358.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14290,9 +14289,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 407.67 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 402.59 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14300,7 +14298,7 @@
 		(dnp no)
 		(uuid "dcbbe9cd-5ecd-41c8-a7f6-1aedbe01ef6d")
 		(property "Reference" "M16"
-			(at 402.844 77.47 0)
+			(at 397.764 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14309,7 +14307,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 402.844 80.01 0)
+			(at 397.764 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14317,26 +14315,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 410.4816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 395.732 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 433.5956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 394.716 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 396.748 79.756 0)
+			(at 402.59 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14347,20 +14347,11 @@
 		(pin "3"
 			(uuid "c526c8b3-d03b-49f8-b257-1b60bb437f88")
 		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b3")
-		)
 		(pin "2"
 			(uuid "5b0e78aa-3cb9-46a0-9458-92c0ab992b49")
 		)
 		(pin "1"
 			(uuid "dd28ad64-b4a8-4f87-8270-03c051b1b82e")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36dd")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1259")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -14437,9 +14428,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 127 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 121.92 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14447,7 +14437,7 @@
 		(dnp no)
 		(uuid "e3e2433e-5499-4dd5-a1bf-89a1d76222f9")
 		(property "Reference" "M5"
-			(at 122.174 77.47 0)
+			(at 117.094 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14456,7 +14446,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 122.174 80.01 0)
+			(at 117.094 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,26 +14454,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 129.8116 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 115.062 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 152.9256 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 114.046 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 116.078 79.756 0)
+			(at 121.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,20 +14486,11 @@
 		(pin "3"
 			(uuid "09861bb6-b1fe-4ae2-9526-383755276813")
 		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
-		)
 		(pin "2"
 			(uuid "32c8e370-1b62-4535-bc90-d9480f1603d7")
 		)
 		(pin "1"
 			(uuid "2c73abec-afd4-491a-9ff7-05916134f91e")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -14977,7 +14960,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 330.22 89.1735 0)
+		(at 332.74 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14985,7 +14968,7 @@
 		(dnp no)
 		(uuid "eba9e2fc-e288-42bb-ac13-a9087eb4bbe1")
 		(property "Reference" "#PWR09"
-			(at 330.22 92.9835 0)
+			(at 332.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +14977,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 330.22 84.0935 0)
+			(at 332.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15002,7 +14985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.22 89.1735 0)
+			(at 332.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15011,7 +14994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.22 89.1735 0)
+			(at 332.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15020,7 +15003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 330.22 89.1735 0)
+			(at 332.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,9 +15024,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 102.87 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 97.79 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15051,7 +15033,7 @@
 		(dnp no)
 		(uuid "ed8b6089-5c35-4493-85b2-c10401560adc")
 		(property "Reference" "M4"
-			(at 98.044 77.47 0)
+			(at 92.964 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15060,7 +15042,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 98.044 80.01 0)
+			(at 92.964 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15068,26 +15050,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 105.6816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 90.932 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 128.7956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 89.916 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 91.948 79.756 0)
+			(at 97.79 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15096,22 +15080,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d745340-3d31-42dc-bcee-085209190279")
-		)
-		(pin "3"
-			(uuid "efe6e3f0-5276-4579-adf4-2dee1246e323")
+			(uuid "4d745340-3d31-42dc-bcee-08520919027c")
 		)
 		(pin "2"
 			(uuid "e8cff1bb-7eaf-483d-a555-0d3080c42eec")
 		)
 		(pin "1"
 			(uuid "2f7d0e27-9a19-4537-bb15-c543ad058b40")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -15193,9 +15168,8 @@
 		)
 	)
 	(symbol
-		(lib_name "nMOS_1")
-		(lib_id "2N2907A_NMOS:nMOS")
-		(at 77.47 93.98 0)
+		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(at 72.39 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15203,7 +15177,7 @@
 		(dnp no)
 		(uuid "f1fb2450-08f1-4180-aa14-5236bb54a1fc")
 		(property "Reference" "M3"
-			(at 72.644 77.47 0)
+			(at 67.564 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15186,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 72.644 80.01 0)
+			(at 67.564 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15220,26 +15194,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PMBT2907A_235:TO-236AB_SOT23_NEX-M"
-			(at 80.2816 102.6282 0)
+		(property "Footprint" "TO-236AB_SOT23_NEX"
+			(at 65.532 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4994/DS_4530_MMBT4403.pdf"
-			(at 103.3956 99.8342 0)
+		(property "Datasheet" "PMBT2907A_235"
+			(at 64.516 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 66.548 79.756 0)
+			(at 72.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15248,22 +15224,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "e4fd9ee1-3b21-4bcf-aa5f-af11d74af7ef")
-		)
-		(pin "3"
-			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
+			(uuid "e4fd9ee1-3b21-4bcf-aa5f-af11d74af7f0")
 		)
 		(pin "2"
 			(uuid "92a80fdb-3e03-4a86-a488-930a38aad72c")
 		)
 		(pin "1"
 			(uuid "0d5f72dc-3aac-44fc-af4f-31afa55fbc51")
-		)
-		(pin "5"
-			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
-		)
-		(pin "4"
-			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"

@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "78ee3e98-fb3d-4210-9692-4d335f53f951")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 24.13 71.12)
+		(size 58.42 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50e4659a-a69d-4e7c-9e84-cd1a86a745dc")
+		(property "Sheetname" "plc_disp"
+			(at 24.13 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "plc_disp.kicad_sch"
+			(at 24.13 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "display_15_in"
+				(path "/78ee3e98-fb3d-4210-9692-4d335f53f951"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 24.13)
+		(size 58.42 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d44dc49b-d144-4093-812d-94ea76f30d61")
+		(property "Sheetname" "tim_disp"
+			(at 24.13 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tim_disp.kicad_sch"
+			(at 24.13 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "display_15_in"
+				(path "/78ee3e98-fb3d-4210-9692-4d335f53f951"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

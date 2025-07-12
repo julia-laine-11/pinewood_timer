@@ -2223,50 +2223,60 @@
 				)
 			)
 		)
-		(symbol "pn2907a-smt:PMBT2907A_235"
+		(symbol "nMOS_1"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0.254)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 10.16 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PMBT2907A_235"
-				(at 21.336 -5.588 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TO-236AB_SOT23_NEX"
-				(at -6.858 10.414 0)
+			(property "Reference" "M1"
+				(at -5.0624 -12.7122 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "N-MOSFET"
+				(at -5.0624 -15.2522 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.8116 -8.6482 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "PMBT2907A_235"
-				(at -7.874 8.382 0)
+			(property "Datasheet" ""
+				(at 25.9256 -5.8542 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "General Purpose PNP Transistors"
+				(at -10.922 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOSFET N-channel"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2275,109 +2285,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PMBT2907A,235"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-236AB_SOT23_NEX TO-236AB_SOT23_NEX-M TO-236AB_SOT23_NEX-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMBT2907A_235_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.2098) (xy 3.81 2.2098)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -0.9398) (xy 7.62 -2.2098)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.9398) (xy 7.62 2.2098)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 -2.2098)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.2098) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.0198 -2.2098) (xy 6.35 -1.27) (xy 4.7498 -1.27)
-					)
+			(symbol "nMOS_1_0_1"
+				(rectangle
+					(start -2.0144 1.7658)
+					(end -1.7604 -1.7902)
 					(stroke
 						(width 0)
 						(type default)
@@ -2387,20 +2298,82 @@
 					)
 				)
 				(circle
-					(center 5.3848 0)
-					(radius 3.81)
+					(center -0.9984 -0.0122)
+					(radius 2.3001)
 					(stroke
-						(width 0.254)
+						(width 0.1778)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
+				(polyline
+					(pts
+						(xy -2.0144 -0.0122) (xy -5.5704 -0.0122)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5064 -0.7742) (xy -1.7604 -0.5202)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5064 -0.7742) (xy -0.7444 -1.5362) (xy 0.0176 -2.2982) (xy 0.0176 -5.3462)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5064 0.4958) (xy -0.7444 1.2578) (xy 0.0176 2.0198) (xy 0.0176 4.8138)
+					)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.3449 1.1675) (xy -1.5989 0.4055) (xy -0.8369 0.6595) (xy -1.3449 1.1675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "nMOS_1_1_1"
+				(pin passive line
+					(at 0.02 4.8065 270)
+					(length 1.27)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2415,10 +2388,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name ""
+				(pin input line
+					(at -5.5704 -0.0122 0)
+					(length 1.27)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2433,10 +2406,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 5.08 270)
-					(length 2.54)
-					(name ""
+				(pin passive line
+					(at 0.0335 -5.3969 90)
+					(length 1.27)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2444,6 +2417,98 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "nMOS_1_2_1"
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 1.27)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 1.27)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3237,16 +3302,6 @@
 			(type default)
 		)
 		(uuid "328d61f3-38f3-47ff-a82d-cc88fa59490c")
-	)
-	(wire
-		(pts
-			(xy 369.57 21.59) (xy 369.57 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34601c51-32a4-4490-9b34-751748dc7f91")
 	)
 	(wire
 		(pts
@@ -4070,16 +4125,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 17.78) (xy 373.38 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ecab6d6-48c9-40f4-9c7b-86a602503c92")
-	)
-	(wire
-		(pts
 			(xy 52.07 41.91) (xy 54.61 41.91)
 		)
 		(stroke
@@ -4597,16 +4642,6 @@
 			(type default)
 		)
 		(uuid "c0dcb0d8-a0a7-4d04-9bf1-84c5403d7968")
-	)
-	(wire
-		(pts
-			(xy 373.38 17.78) (xy 373.38 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1afc090-7d2e-405f-b07f-3074750c0a96")
 	)
 	(wire
 		(pts
@@ -5201,7 +5236,7 @@
 	)
 	(text "if i do it this way then all of the code can be set up the same\n"
 		(exclude_from_sim no)
-		(at 534.67 12.7 0)
+		(at 468.63 44.196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6886,6 +6921,71 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 369.57 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1aa35c52-4b5d-41f6-9422-928d54bbda8b")
+		(property "Reference" "#PWR073"
+			(at 369.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 369.57 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 369.57 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75a810a7-f90c-4861-9550-a4dd4cada66a")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 125.73 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6944,6 +7044,71 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 344.17 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30eb3a05-8cfb-4dae-bb73-f5804d31219c")
+		(property "Reference" "#PWR070"
+			(at 344.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 344.17 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 344.17 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310855dc-75cb-4011-9fd6-8df770b55389")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7398,7 +7563,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 30.48 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7424,28 +7590,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 23.622 63.246 0)
+		(property "Footprint" ""
+			(at 33.2916 82.3082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 22.606 65.278 0)
+		(property "Datasheet" ""
+			(at 56.4056 79.5142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 30.48 73.66 0)
+			(at 19.558 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,11 +7620,20 @@
 		(pin "3"
 			(uuid "4d745340-3d31-42dc-bcee-085209190279")
 		)
+		(pin "3"
+			(uuid "3835531c-9fb0-46f9-ad6b-f30866f4cbf8")
+		)
 		(pin "2"
 			(uuid "a963543d-42d7-48a3-bb43-16945a8df6f2")
 		)
 		(pin "1"
 			(uuid "3d36b83d-f00c-4d16-967a-369f2046d6b0")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d7")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1253")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -7472,7 +7645,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 369.57 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7498,28 +7672,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 362.712 16.256 0)
+		(property "Footprint" ""
+			(at 372.3816 35.3182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 361.696 18.288 0)
+		(property "Datasheet" ""
+			(at 395.4956 32.5242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 369.57 26.67 0)
+			(at 358.648 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,11 +7702,20 @@
 		(pin "3"
 			(uuid "ae12935d-dfc1-4f26-83f8-3dcb6c6faab4")
 		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b0")
+		)
 		(pin "2"
 			(uuid "2972f44d-1ac7-4a47-b648-cfcc42c3b13d")
 		)
 		(pin "1"
 			(uuid "5118d7bf-fcf5-4d9e-8ac8-b962d611dd75")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36db")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1257")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -7615,7 +7796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 421.64 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7641,28 +7823,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 414.782 16.256 0)
+		(property "Footprint" ""
+			(at 424.4516 35.3182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 413.766 18.288 0)
+		(property "Datasheet" ""
+			(at 447.5656 32.5242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 421.64 26.67 0)
+			(at 410.718 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,11 +7853,20 @@
 		(pin "3"
 			(uuid "606978d5-6d76-4075-8c50-8edbebf39e62")
 		)
+		(pin "3"
+			(uuid "b2b49ef4-33b0-4f64-8f42-b9061321304c")
+		)
 		(pin "2"
 			(uuid "d4c6daae-2a39-42a3-804c-c45853ba2df5")
 		)
 		(pin "1"
 			(uuid "9186e2c2-2860-4f95-b68b-185fad536b8f")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36cd")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1249")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -7847,7 +8036,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 63.5 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7873,28 +8063,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 56.642 63.246 0)
+		(property "Footprint" ""
+			(at 66.3116 82.3082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 55.626 65.278 0)
+		(property "Datasheet" ""
+			(at 89.4256 79.5142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 63.5 73.66 0)
+			(at 52.578 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,11 +8093,20 @@
 		(pin "3"
 			(uuid "ec374460-5c76-4e8e-912c-d60b71f9ab63")
 		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8b1")
+		)
 		(pin "2"
 			(uuid "0959694e-2f16-4b7f-9e9b-a47b23dc63ae")
 		)
 		(pin "1"
 			(uuid "a965e368-d652-44de-8c66-de66e8849e4c")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36dc")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1258")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -8578,6 +8775,71 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 421.64 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ff2176a-2f59-4f1a-8a61-4f942da74fad")
+		(property "Reference" "#PWR077"
+			(at 421.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 421.64 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 421.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 421.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b522466b-e359-4a7c-9398-7cd5129fad5f")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9522,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 396.24 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9286,28 +9549,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 389.382 16.256 0)
+		(property "Footprint" ""
+			(at 399.0516 35.3182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 388.366 18.288 0)
+		(property "Datasheet" ""
+			(at 422.1656 32.5242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 396.24 26.67 0)
+			(at 385.318 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,11 +9579,20 @@
 		(pin "3"
 			(uuid "4d745340-3d31-42dc-bcee-08520919027a")
 		)
+		(pin "3"
+			(uuid "e4e02a3b-326c-4926-a100-31b7574ee92a")
+		)
 		(pin "2"
 			(uuid "5f50e184-9a97-4cec-8e93-c37a0d3fd4c8")
 		)
 		(pin "1"
 			(uuid "7d8eca2d-6541-4131-be17-d4fbd60930b4")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d9")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1255")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -9724,136 +9994,6 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 398.78 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3a05088-6af7-48ed-b324-aa611fd56570")
-		(property "Reference" "#PWR076"
-			(at 398.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 394.97 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 398.78 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a5bad80-29d4-4c42-94ea-d793bf9be359")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 373.38 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6c6afbb-34ca-4b7f-af66-d0bc87469c98")
-		(property "Reference" "#PWR073"
-			(at 373.38 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 369.57 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86569e97-0d8c-428a-ab3a-ebb78e76b2fc")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -10286,7 +10426,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 95.25 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10312,28 +10453,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 88.392 63.246 0)
+		(property "Footprint" ""
+			(at 98.0616 82.3082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 87.376 65.278 0)
+		(property "Datasheet" ""
+			(at 121.1756 79.5142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 95.25 73.66 0)
+			(at 84.328 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,11 +10483,20 @@
 		(pin "3"
 			(uuid "4d745340-3d31-42dc-bcee-08520919027b")
 		)
+		(pin "3"
+			(uuid "bb39bf73-27b0-4bd0-b002-b43e7bdb315e")
+		)
 		(pin "2"
 			(uuid "193147d2-4f8c-4e84-9a29-c9f8c234001b")
 		)
 		(pin "1"
 			(uuid "bedfbdcf-94f6-421d-ad13-c79b37d11239")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36da")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1256")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10472,72 +10620,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 346.71 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecf8d0d0-f9f8-411e-a0b4-0854fdc53c5e")
-		(property "Reference" "#PWR070"
-			(at 346.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2597e4a6-1d74-450d-abc5-cdf533d87eac")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 125.73 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10563,28 +10647,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 118.872 63.246 0)
+		(property "Footprint" ""
+			(at 128.5416 82.3082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 117.856 65.278 0)
+		(property "Datasheet" ""
+			(at 151.6556 79.5142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 125.73 73.66 0)
+			(at 114.808 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,11 +10677,20 @@
 		(pin "3"
 			(uuid "a0479f46-d9bf-417b-9842-8606e5a37c1b")
 		)
+		(pin "3"
+			(uuid "7b64e5b3-48b5-4f56-b623-395880c44db4")
+		)
 		(pin "2"
 			(uuid "a97e549d-cfe9-4a22-ad8c-2075636fe6f5")
 		)
 		(pin "1"
 			(uuid "1a815883-e625-46e9-a0ad-28dc58732fb0")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36ce")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c124a")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10817,7 +10908,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pn2907a-smt:PMBT2907A_235")
+		(lib_name "nMOS_1")
+		(lib_id "2N2907A_NMOS:nMOS")
 		(at 344.17 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10843,28 +10935,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-236AB_SOT23_NEX"
-			(at 337.312 16.256 0)
+		(property "Footprint" ""
+			(at 346.9816 35.3182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PMBT2907A_235"
-			(at 336.296 18.288 0)
+		(property "Datasheet" ""
+			(at 370.0956 32.5242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "General Purpose PNP Transistors"
-			(at 344.17 26.67 0)
+			(at 333.248 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,11 +10965,20 @@
 		(pin "3"
 			(uuid "d316b908-dd4c-46c6-aea9-a60adf205f94")
 		)
+		(pin "3"
+			(uuid "ee85eb59-0f3c-4b05-b3d8-27c111d1f8af")
+		)
 		(pin "2"
 			(uuid "d32f1b67-3a22-461a-8b0c-807852293f7a")
 		)
 		(pin "1"
 			(uuid "6d3ab545-b722-446c-a6d4-c57788d2dda2")
+		)
+		(pin "5"
+			(uuid "2bc11bb0-dc3f-4a25-9ddf-097c8b0b36d8")
+		)
+		(pin "4"
+			(uuid "8af813e9-0f61-4cab-9a66-a515f64c1254")
 		)
 		(instances
 			(project "pinewood_timer"
@@ -10891,16 +10990,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 424.18 19.05 0)
+		(lib_id "power:+3.3V")
+		(at 396.26 21.8635 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fae01d35-1bbc-45c5-a9fd-4b31ba14e6ec")
-		(property "Reference" "#PWR077"
-			(at 424.18 25.4 0)
+		(uuid "fa986a36-dce1-46f8-884d-b07e38e74a0e")
+		(property "Reference" "#PWR076"
+			(at 396.26 25.6735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,8 +11007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 420.37 20.32 0)
+		(property "Value" "+3.3V"
+			(at 396.26 16.7835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +11016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 424.18 19.05 0)
+			(at 396.26 21.8635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +11025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 424.18 19.05 0)
+			(at 396.26 21.8635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10934,8 +11033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 424.18 19.05 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 396.26 21.8635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,12 +11043,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb19b746-4b71-42fa-8c74-d4760f1b39c0")
+			(uuid "b042a7da-7124-4b84-acdf-a7717d1fbea3")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d/41e525e5-39fd-4875-af81-d70874baac61"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)

@@ -6822,18 +6822,6 @@
 		(uuid "ff1193d6-f6cb-4a98-bd55-7a27b82d2786")
 	)
 	(rectangle
-		(start 228.6 109.22)
-		(end 283.21 135.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3d352c8c-1ad0-45fa-9869-84f89fcb0fa8)
-	)
-	(rectangle
 		(start 389.89 -87.63)
 		(end 398.78 -59.69)
 		(stroke
@@ -6882,6 +6870,18 @@
 		(uuid d6f0db46-5464-4b8e-a0fa-28bc11aa86a5)
 	)
 	(rectangle
+		(start 224.79 113.03)
+		(end 279.4 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e6f90575-acc1-4b93-bbcf-3d100c0da883)
+	)
+	(rectangle
 		(start 440.69 -107.95)
 		(end 452.12 -80.01)
 		(stroke
@@ -6892,6 +6892,28 @@
 			(type none)
 		)
 		(uuid fa5150ac-e2a0-4259-8272-8fa8d50e87e7)
+	)
+	(text "i want to have a large reset button\nthat is accessible to reset the track\neach run. i also want to have one on\nthe board for funzies"
+		(exclude_from_sim no)
+		(at 282.194 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "02a15ffe-9c32-47e4-8ac2-eb1e814cd3fe")
+	)
+	(text "barrel jack\n3.3v in only\n"
+		(exclude_from_sim no)
+		(at 21.336 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03341815-7aef-416c-86c5-dfb5641b8ebb")
 	)
 	(text "4 single 7-segment displays. goes \nabove/below time display. should just \ndisplay place of each lane."
 		(exclude_from_sim no)
@@ -7048,28 +7070,6 @@
 		)
 		(uuid "9799b576-1aa2-47d7-820b-83de6ee643f8")
 	)
-	(text "status leds?\n*red - rebooting\n*green - ready\n*amber - timing?"
-		(exclude_from_sim no)
-		(at 230.124 113.792 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a0621279-548b-44ca-90cd-361219f73c3d")
-	)
-	(text "i want to have a large reset button\nthat is accessible to reset the track\neach run. i also want to have one on\nthe board for funzies"
-		(exclude_from_sim no)
-		(at 286.004 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b67763b8-ea0a-4278-8a75-72c2d0a0bf1b")
-	)
 	(text "(OUTPUT)\n"
 		(exclude_from_sim no)
 		(at 456.946 -51.054 90)
@@ -7110,6 +7110,17 @@
 			)
 		)
 		(uuid "c86984d2-1826-477a-8a49-596f65b4d467")
+	)
+	(text "status leds?\n*red - rebooting\n*green - ready\n*amber - timing?"
+		(exclude_from_sim no)
+		(at 226.314 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d4c70c33-8c6a-4ae7-9132-227ba126a722")
 	)
 	(text "(OUTPUT)\n"
 		(exclude_from_sim no)
@@ -8266,72 +8277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 262.89 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05362577-f6d2-4d0b-a908-300d3f78b10b")
-		(property "Reference" "#PWR056"
-			(at 262.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 262.89 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 262.89 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aca6a470-25ab-425c-ac84-d1327d234397")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 269.24 24.13 180)
 		(unit 1)
@@ -8947,73 +8892,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 274.32 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c25d46d-d25c-447d-8835-15ec8d060a36")
-		(property "Reference" "#PWR090"
-			(at 274.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.32 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0817c92-8c35-48db-9023-8dd49666d9b8")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 140.97 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9074,73 +8952,6 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31a7d45f-ebae-4160-a1a1-f4c15ac39605")
-		(property "Reference" "#PWR055"
-			(at 252.73 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a61275-bafe-4738-b7dc-1593ab2c0291")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -9693,142 +9504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 252.73 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ce7b063-8caf-4715-91b0-5f93fd524841")
-		(property "Reference" "R44"
-			(at 255.27 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k5"
-			(at 255.27 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.714 128.016 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 252.73 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3ed4fd7-a350-4a08-adfb-e05139e446b0")
-		)
-		(pin "1"
-			(uuid "cf19c83c-40a0-44bb-b8a1-27859acc7201")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 274.32 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "595042a2-1829-49f6-a4fc-f0335aac399e")
-		(property "Reference" "#PWR058"
-			(at 274.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 274.32 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 274.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b694c14-ed95-4ff1-9a00-d0421ed02deb")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 227.33 27.94 0)
 		(unit 1)
@@ -9968,16 +9643,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 252.73 120.65 90)
+		(at 248.92 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70207c89-8ca7-414a-9cd2-0ceacaea1ecd")
+		(uuid "68a775c7-a10d-42e9-81b8-b98ba041d849")
 		(property "Reference" "D5"
-			(at 256.54 120.9674 90)
+			(at 252.73 122.2374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,7 +9661,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 256.54 123.5074 90)
+			(at 252.73 124.7774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +9670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 120.65 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +9679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 120.65 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +9688,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 252.73 120.65 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,13 +9697,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d5e6855-79b9-49c3-a5d4-570a90cbc8f0")
+			(uuid "a7b8c167-961f-48ee-b143-76d5b5f5a1a6")
 		)
 		(pin "2"
-			(uuid "aded897d-0cd8-4658-98d2-11eeac5432bd")
+			(uuid "3bf9d717-4ba4-4fa4-b965-e000ba1a8cc3")
 		)
 		(instances
-			(project "pinewood_timer"
+			(project ""
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
 					(reference "D5")
 					(unit 1)
@@ -10205,83 +9880,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 252.73 116.84 0)
+		(lib_id "Device:LED")
+		(at 270.51 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "819e6759-e3a5-4882-af40-6e2aab9a901c")
-		(property "Reference" "#PWR053"
-			(at 252.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 252.73 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e327295-3c9c-4476-befd-0abdb9f99f66")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 274.32 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84952e4a-304f-4300-b282-0d76905bde08")
-		(property "Reference" "R69"
-			(at 276.86 126.9999 0)
+		(uuid "84216c0c-6c93-45d3-abce-e2f4385935dc")
+		(property "Reference" "D6"
+			(at 274.32 122.2374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,8 +9898,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k5"
-			(at 276.86 129.5399 0)
+		(property "Value" "LED"
+			(at 274.32 124.7774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +9908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.304 128.016 90)
+			(at 270.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,7 +9917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 128.27 0)
+			(at 270.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,95 +9925,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 274.32 128.27 0)
+		(property "Description" "Light emitting diode"
+			(at 270.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "8ed544ba-428c-4258-8d06-c51d89633e3e")
 		)
 		(pin "1"
-			(uuid "31ad3d8f-b3da-4c32-81fd-f95a9d4a5603")
+			(uuid "a2ae0f46-5812-41a4-8f75-7ec00b76ec16")
+		)
+		(pin "2"
+			(uuid "2c74ea4b-2564-42fe-bbb0-98d6f3f10b59")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 262.89 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b4e30f7-98bd-4aa9-bdd2-cd8e9dad4121")
-		(property "Reference" "R68"
-			(at 265.43 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k5"
-			(at 265.43 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.874 128.016 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 262.89 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5018fdf-cb2b-4cee-8e33-0794e8047f8d")
-		)
-		(pin "1"
-			(uuid "a3bae9a6-9360-4771-8ed6-c907e77973fd")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "R68")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11224,6 +10763,76 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 259.08 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a46aae-908e-43fc-bf31-2bb7ee311cc6")
+		(property "Reference" "D7"
+			(at 262.89 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 262.89 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 259.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "010b834d-9bd1-442b-b853-e591b4b3ee9f")
+		)
+		(pin "2"
+			(uuid "fd231956-24ff-4710-b467-db6b60fac4f2")
+		)
+		(instances
+			(project "pinewood_timer"
+				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12102,73 +11711,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 262.89 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6e2c2ee-f7aa-4e56-9ab8-a4cdf9d23211")
-		(property "Reference" "#PWR057"
-			(at 262.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd518b95-7391-42cc-a541-7b75f641c8e7")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 120.65 49.53 0)
 		(unit 1)
@@ -12233,76 +11775,6 @@
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 262.89 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8e1c8ea-7199-4659-ae05-ff0ed81de988")
-		(property "Reference" "D6"
-			(at 266.7 120.9674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 266.7 123.5074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 262.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eacdb62-b56a-4597-98b6-a5ad4da494f2")
-		)
-		(pin "2"
-			(uuid "55ed186a-dd28-4ae4-938b-0983e9e67141")
-		)
-		(instances
-			(project "pinewood_timer"
-				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12593,72 +12065,40 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 274.32 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 20.32 100.33)
+		(size 46.99 16.51)
 		(fields_autoplaced yes)
-		(uuid "ff6fcd62-b8c1-4292-b1af-d579f6504a39")
-		(property "Reference" "D7"
-			(at 278.13 120.9674 90)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31c2e8b2-d194-4ebb-9ae4-9d308b537f49")
+		(property "Sheetname" "power_management"
+			(at 20.32 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "LED"
-			(at 278.13 123.5074 90)
+		(property "Sheetfile" "power_management.kicad_sch"
+			(at 20.32 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 274.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 274.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46266fa9-ed13-4f36-ac6f-889e27898769")
-		)
-		(pin "2"
-			(uuid "55ffa10c-f6bd-4bfd-81c8-8f7310c45a5f")
 		)
 		(instances
 			(project "pinewood_timer"
 				(path "/8c59d8ce-9b8d-4f28-8062-629d479db88d"
-					(reference "D7")
-					(unit 1)
+					(page "5")
 				)
 			)
 		)
