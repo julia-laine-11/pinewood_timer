@@ -1,4 +1,4 @@
-## Timer displays
+## timer_display_pcb
 I had previously made this circuit in a class so I just reused the schematic. There is a lot more happening on the board then I would have for this project.
 
 ### Parts
