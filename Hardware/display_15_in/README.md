@@ -5,6 +5,21 @@ It turns out to be cheaper to do it this way since the price of printing 3-4 boa
 
 This board connects to the main board with 1 8x2 connector and 1 12x2 connector.
 
+### Parts
+- LTS-3401LG - single 7-seg displays
+- 4x TDCR1050M - quad 7-seg displays
+- 20x PN2907A - cathode select bjt
+- 20x 150 Ohm - mux to bjt
+- 16x 47 Ohm - driver to display
+- 2x 74HC138 - mux
+- 2x TLC59211 - driver
+
+#### pictures
+
+<img src="https://github.com/user-attachments/assets/909f7e72-0a5f-46f2-8a1a-1a243212e213" width="300">
+
+>size comparison of digits 
+
 #### schematics
 <img width="1219" height="826" alt="image" src="https://github.com/user-attachments/assets/4cb9bf95-1b1e-40a3-8243-5a72f573ad1c" />
 
