@@ -1,4 +1,4 @@
-### Contents:
+## Contents:
 
 - [breakout_board](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/breakout_board)
   - whats inside:
@@ -43,4 +43,8 @@
     - not the actual 'timer'
       - the 'timer' is in the software
       - updates every .001 seconds
+     
 
+## Photos
+
+### breakout_board
