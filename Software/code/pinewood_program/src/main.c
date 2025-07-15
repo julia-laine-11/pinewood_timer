@@ -2,8 +2,8 @@
 #include <stdint.h>
 #include <stdio.h>
 
-int disp[4] = {1, 2, 3, 4};
-//      0x06, 0x5B, 0x4F, 0x66
+int race_tim_flag = 0;
+int placement     = 0;
 
 void enable_ports() {
     RCC -> AHBENR |= RCC_AHBENR_GPIOAEN;
@@ -21,10 +21,54 @@ void enable_ports() {
 }
 
 
-//-------------------------------
-// Timer 14 ISR goes here
-//-------------------------------
-// TODO
+int check_start(){
+  int start = GPIOC -> IDR;
+  start &= 0x ; //or the mask needed for specific lane
+
+  return start; //just returns 1 or 0 if its on or not. ill be using them as regular io, not ADC
+}
+
+void race_tim_en(){
+  if( check_start() ) race_tim_flag = 1;
+}
+
+///////////////////////////////////////////////////
+int index         = 0;
+int place_arr[4]  = {1, 2, 3, 4};
+//      0x06, 0x5B, 0x4F, 0x66
+
+//or
+int place    = 1234;
+
+//each time lane sensor crossed
+void move_place_arr(){
+  placement = place_arr[index];
+  if(index < 4) index++;
+  else pos = 4;
+}
+
+void move_place_num(int num){
+  if(num > 0)
+  placement = (int)(num / 1000); //returns first number
+  num %= 1000; //chops off first number
+  num *= 10;   //keeps it at 4 digits so its easy to get the first number
+}
+
+//////////////////////////////////////////////
+
+
+int check_lane(int lane){
+  //  int portc_val = GPIOC -> IDR;
+  int sensor_output = GPIOC -> IDR;
+  sensor_output &= 0x ; //or the mask needed for specific lane
+
+  if(lane == 1)
+    NVIC_DisableIRQ(timer for that one)
+    return sensor_output; //just returns 1 or 0 if its on or not. ill be using them as regular io, not ADC
+}
+
+
+
 void TIM14_IRQHandler(){
   //acknowledge the interrupt
   TIM14 -> SR &= ~TIM_SR_UIF;  
