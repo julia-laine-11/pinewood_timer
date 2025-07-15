@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ff7ffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "timer_display_pcb.kicad_prl",
+    "filename": "mainboard.kicad_prl",
     "version": 3
   },
   "project": {
