@@ -43,3 +43,7 @@ This board connects to the main board with 1 8x2 connector and 1 12x2 connector.
 7/12/25 - moved all of the components needed over to one project
 
 7/13/25 - worked out connections between sheets and found connectors for mainboard. began layout (no traces)
+
+7/19/25 - laying more traces and revising old ones. i am starting to hate the connector but i must use it
+       <img width="473" height="296" alt="image" src="https://github.com/user-attachments/assets/27d0d57a-237c-408e-8229-7ba29f3d0f83" />
+
