@@ -5133,7 +5133,7 @@
 		)
 		(uuid "2e3883ab-5c94-40f6-90a0-2448bfb7e274")
 	)
-	(label "C2"
+	(label "C_2"
 		(at 347.969 21.59 0)
 		(effects
 			(font
@@ -5633,7 +5633,7 @@
 		)
 		(uuid "8c780cb2-8e96-4f59-ad7a-a9055b9b8bf2")
 	)
-	(label "C2"
+	(label "C_2"
 		(at 334.01 167.64 270)
 		(effects
 			(font
