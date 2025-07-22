@@ -37,6 +37,21 @@ This board connects to the main board with 1 8x2 connector and 1 12x2 connector.
 
 <img width="1484" height="586" alt="image" src="https://github.com/user-attachments/assets/27c7fcff-c3cb-446f-a2e7-b69c1fd69b7c" />
 
+Updated:
+
+- still needs
+  - power and ground traces
+  - drill holes for mounting
+  - test points
+
+<img width="1580" height="520" alt="image" src="https://github.com/user-attachments/assets/d8a26ed5-c3b9-41e5-bfd3-bb7db28228ed" />
+
+<img width="1580" height="520" alt="image" src="https://github.com/user-attachments/assets/c76ade93-dba6-412e-a0c0-d625e25c8b5a" />
+
+<img width="1580" height="520" alt="image" src="https://github.com/user-attachments/assets/4c7d8327-6291-4680-8b2d-1e896bc45c61" />
+
+<img width="1580" height="520" alt="image" src="https://github.com/user-attachments/assets/3308b6ea-ff59-4c82-9a5f-49d3067d5104" />
+
 
 #### Log
 
@@ -45,5 +60,12 @@ This board connects to the main board with 1 8x2 connector and 1 12x2 connector.
 7/13/25 - worked out connections between sheets and found connectors for mainboard. began layout (no traces)
 
 7/19/25 - laying more traces and revising old ones. i am starting to hate the connector but i must use it
-       <img width="473" height="296" alt="image" src="https://github.com/user-attachments/assets/27d0d57a-237c-408e-8229-7ba29f3d0f83" />
+
+<img width="473" height="296" alt="image" src="https://github.com/user-attachments/assets/27d0d57a-237c-408e-8229-7ba29f3d0f83" />
+
+7/20/25 - sorted out the connector from hell. well, i at least made it better. i also discovered the "distribute evenly" and "align" functions
+
+<img width="403" height="256" alt="image" src="https://github.com/user-attachments/assets/6993aa78-a049-4b92-b40a-ac1c6fdc106a" />
+
+
 
