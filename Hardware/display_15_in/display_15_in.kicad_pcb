@@ -19093,7 +19093,7 @@
 		(uuid "b1151d67-be76-4a96-9825-20e8a0a496de")
 		(at 342.9 335.28 180)
 		(property "Reference" "U2"
-			(at -0.325 -4.385 0)
+			(at 0 -4.385 0)
 			(layer "F.SilkS")
 			(uuid "bca32f1b-0df6-4a5a-8062-87c5d103db9d")
 			(effects
@@ -19717,7 +19717,7 @@
 		(uuid "b863479b-feab-4241-9a9e-0f204e2260e0")
 		(at 495.3 335.28)
 		(property "Reference" "U4"
-			(at -0.325 -4.385 0)
+			(at 0 4.572 0)
 			(layer "F.SilkS")
 			(uuid "71e5a6b3-d9b2-449a-a6a3-504c7afc68e9")
 			(effects
@@ -27909,6 +27909,102 @@
 		(layer "User.4")
 		(uuid "fe10893d-11c6-4698-b9b1-9acf7c903677")
 	)
+	(gr_text "TLC59210IN"
+		(at 490.728 331.216 0)
+		(layer "F.SilkS")
+		(uuid "02a36ad4-20ce-4876-934d-18b06f17ae6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PT204-6B"
+		(at 548.64 350.52 0)
+		(layer "F.SilkS")
+		(uuid "0c8767c8-e1ee-4b7e-882e-5f1d2b86aef3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "74HC138"
+		(at 324.612 338.836 90)
+		(layer "F.SilkS")
+		(uuid "4c80cb37-1302-4bf5-b18f-59a289ab3a72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "74HC138"
+		(at 527.812 338.836 90)
+		(layer "F.SilkS")
+		(uuid "545c14e2-717d-4f4d-a960-3c64059de440")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TLC59210IN"
+		(at 338.328 330.2 0)
+		(layer "F.SilkS")
+		(uuid "69e19036-f68f-4967-aa51-6e46015a5331")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PT204-6B"
+		(at 281.94 350.52 0)
+		(layer "F.SilkS")
+		(uuid "6c8bc476-33f0-4366-b27b-0b4c6f46dc02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PT204-6B"
+		(at 370.84 350.012 0)
+		(layer "F.SilkS")
+		(uuid "980e6730-de15-431e-a70a-13a89750ee6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PT204-6B"
+		(at 459.74 350.012 0)
+		(layer "F.SilkS")
+		(uuid "d1e6444c-01fb-4536-9c13-ee510af08bd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "empty"
 		(at 297.18 132.08 0)
 		(layer "User.2")
@@ -29197,7 +29293,7 @@
 		(uuid "c8705bba-c659-4cd6-ad51-596500dc6955")
 	)
 	(via
-		(at 498.094 339.598)
+		(at 499.968244 338.215099)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
