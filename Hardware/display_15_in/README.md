@@ -50,7 +50,10 @@ Updated:
 
 <img width="1580" height="520" alt="image" src="https://github.com/user-attachments/assets/4c7d8327-6291-4680-8b2d-1e896bc45c61" />
 
-<img width="1580" height="520" alt="image" src="https://github.com/user-attachments/assets/3308b6ea-ff59-4c82-9a5f-49d3067d5104" />
+<img width="1288" height="474" alt="image" src="https://github.com/user-attachments/assets/3869232f-928e-4960-aeb8-e45214dde6c2" />
+
+<img width="1852" height="926" alt="image" src="https://github.com/user-attachments/assets/786e9d03-2366-467e-baa3-49f028db93bb" />
+
 
 
 #### Log
