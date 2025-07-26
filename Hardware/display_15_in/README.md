@@ -55,6 +55,19 @@ Updated:
 <img width="1852" height="926" alt="image" src="https://github.com/user-attachments/assets/786e9d03-2366-467e-baa3-49f028db93bb" />
 
 
+All traces routed (for now)
+
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/4acf42a8-fe9e-420e-8e30-5f6940c504da" />
+
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/5f2f6020-4e9b-46b8-8be1-b808064010df" />
+
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/0f0b0fa2-d67a-4a51-8a10-5d71a757d872" />
+
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/21049428-7b66-4496-b260-d3b44a39e3a4" />
+
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/acb07117-1993-43da-a77d-488e5d2033b3" />
+
+
 
 #### Log
 
@@ -69,6 +82,11 @@ Updated:
 7/20/25 - sorted out the connector from hell. well, i at least made it better. i also discovered the "distribute evenly" and "align" functions
 
 <img width="403" height="256" alt="image" src="https://github.com/user-attachments/assets/6993aa78-a049-4b92-b40a-ac1c6fdc106a" />
+
+7/25/25 - finished traces, added test points
+
+<img width="408" height="184" alt="image" src="https://github.com/user-attachments/assets/e4a56572-b35b-4585-aa7f-af17a3c7ff8c" />
+
 
 
 
