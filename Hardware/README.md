@@ -59,14 +59,17 @@
 
 <img width="952" height="772" alt="image" src="https://github.com/user-attachments/assets/f3f43ed6-036c-44b8-be7e-dc3683e3d7cc" />
 
+
 #### PCB
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/4acf42a8-fe9e-420e-8e30-5f6940c504da" />
 
-<img width="1337" height="425" alt="image" src="https://github.com/user-attachments/assets/d95a411a-8a28-48d1-adf7-7f63b618df35" />
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/5f2f6020-4e9b-46b8-8be1-b808064010df" />
 
-* the receivers will be pointing down
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/0f0b0fa2-d67a-4a51-8a10-5d71a757d872" />
 
-<img width="1484" height="586" alt="image" src="https://github.com/user-attachments/assets/27c7fcff-c3cb-446f-a2e7-b69c1fd69b7c" />
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/21049428-7b66-4496-b260-d3b44a39e3a4" />
 
+<img width="1577" height="540" alt="image" src="https://github.com/user-attachments/assets/acb07117-1993-43da-a77d-488e5d2033b3" />
 
 ### mainboard
 
