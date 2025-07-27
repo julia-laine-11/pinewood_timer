@@ -72,9 +72,8 @@
 
 #### schematic
 
-*currently has incorrect chip (L151 instead of F091)
+<img width="1232" height="752" alt="image" src="https://github.com/user-attachments/assets/dacd481a-891b-4d41-b13a-5672002f83b7" />
 
-<img width="1035" height="844" alt="image" src="https://github.com/user-attachments/assets/bb63cc30-f836-4b68-8cf4-8bbf2e25eb59" />
 
 
 ### timer_display_pcb 
