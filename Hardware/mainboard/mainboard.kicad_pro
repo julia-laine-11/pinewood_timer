@@ -569,6 +569,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -620,6 +632,14 @@
     [
       "5f7c2eda-1e0f-4231-89f6-49a17b370d9e",
       "Root"
+    ],
+    [
+      "7b524a24-56f0-4a49-a03c-55156da3f2cd",
+      "programming"
+    ],
+    [
+      "252a18e0-4a86-4de4-8f7b-710d0b9d3cc4",
+      "stm"
     ]
   ],
   "text_variables": {}
