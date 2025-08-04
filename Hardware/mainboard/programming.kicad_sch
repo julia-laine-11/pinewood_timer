@@ -2814,6 +2814,16 @@
 		)
 		(uuid "d3373ae4-ee77-4cd8-8c7a-3fd4af932273")
 	)
+	(text "RED\n"
+		(exclude_from_sim no)
+		(at 168.656 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d71b4602-cd65-4ba3-b0f9-a2cde8cf5ff3")
+	)
 	(label "5v5_usb"
 		(at 72.39 90.17 180)
 		(effects
@@ -3146,7 +3156,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 107.95 71.12 90)
 			(effects
 				(font
@@ -3365,7 +3375,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAZ5V1-13-F"
+		(property "Value" "zener"
 			(at 81.28 73.152 0)
 			(effects
 				(font
@@ -3492,7 +3502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 114.8874 83.106 0)
 			(effects
 				(font
@@ -4124,7 +4134,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 95.25 71.12 90)
 			(effects
 				(font
@@ -4309,7 +4319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 149.86 82.5499 0)
 			(effects
 				(font
@@ -4396,7 +4406,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k5"
 			(at 161.6234 83.868 0)
 			(effects
 				(font
@@ -4482,7 +4492,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAZ5V1-13-F"
+		(property "Value" "zener"
 			(at 81.28 87.376 0)
 			(effects
 				(font
