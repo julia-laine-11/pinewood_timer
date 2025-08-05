@@ -6148,7 +6148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B4B-EH-A"
+		(property "Value" "status bot"
 			(at 180.34 36.068 90)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B4B-EH-A"
+		(property "Value" "status eot"
 			(at 180.848 55.118 90)
 			(effects
 				(font

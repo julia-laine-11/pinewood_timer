@@ -1202,59 +1202,50 @@
 				)
 			)
 		)
-		(symbol "USB_C_Receptacle_PowerOnly_24P_1"
+		(symbol "USB-C-PORT:KUSBX-SMT-CS-6-BTR"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 16.51 0)
+				(at 20.32 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_PowerOnly_24P"
-				(at 0 13.97 0)
+			(property "Value" "KUSBX-SMT-CS-6-BTR"
+				(at 20.32 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 3.81 2.54 0)
+			(property "Footprint" "KUSBX-SMT-CS-6-BTR_KYC"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 1.524 23.622 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Power-Only 24P Type-C Receptacle connector"
-				(at 0.762 20.828 0)
+			(property "Datasheet" "KUSBX-SMT-CS-6-BTR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 24P 24C"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1263,7 +1254,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Receptacle*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "KUSBX-SMT-CS-6-BTR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1272,175 +1271,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_PowerOnly_24P_1_0_0"
-				(rectangle
-					(start -0.254 -12.7)
-					(end 0.254 -11.684)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_fp_filters" "KUSBX-SMT-CS-6-BTR_KYC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_PowerOnly_24P_1_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -8.89 -1.27)
-					(mid -6.985 -3.1667)
-					(end -5.08 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 -1.27)
-					(mid -6.985 -1.9023)
-					(end -6.35 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 -1.27)
-					(mid -6.985 -1.9023)
-					(end -6.35 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.27)
-					(end -6.35 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -6.35 6.35)
-					(mid -6.985 6.9823)
-					(end -7.62 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 6.35)
-					(mid -6.985 6.9823)
-					(end -7.62 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -5.08 6.35)
-					(mid -6.985 8.2467)
-					(end -8.89 6.35)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 3.683)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -3.302)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "KUSBX-SMT-CS-6-BTR_0_1"
 				(polyline
 					(pts
-						(xy -8.89 -1.27) (xy -8.89 6.35)
+						(xy 7.62 -10.16) (xy 33.02 -10.16)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1449,10 +1295,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 6.35) (xy -5.08 -1.27)
+						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1461,10 +1307,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.302) (xy 0 6.858)
+						(xy 33.02 -10.16) (xy 33.02 5.08)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1473,56 +1319,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy -2.54 1.778) (xy -2.54 3.048)
+						(xy 33.02 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 2.54 3.048) (xy 2.54 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.858) (xy 0 9.398) (xy 1.27 6.858) (xy -1.27 6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 4.318)
-					(end 3.175 5.588)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_PowerOnly_24P_1_1_1"
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 5.08)
+				(pin power_out line
+					(at 40.64 -2.54 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -1539,8 +1348,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
+					(at 0 0 0)
+					(length 7.62)
 					(name "CC1"
 						(effects
 							(font
@@ -1557,8 +1366,8 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 7.62 180)
-					(length 5.08)
+					(at 0 -2.54 0)
+					(length 7.62)
 					(name "VBUS"
 						(effects
 							(font
@@ -1574,9 +1383,27 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
+					(at 0 -5.08 0)
+					(length 7.62)
 					(name "CC2"
 						(effects
 							(font
@@ -1592,17 +1419,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 -17.78 90)
-					(length 5.08)
-					(name "SHIELD"
+				(pin power_in line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S1"
+					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,6 +2113,12 @@
 		(uuid "799cba7f-aefe-45a1-92bb-67e9ea38dd70")
 	)
 	(junction
+		(at 68.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c104849-8e8b-407a-940a-e37174ac77b0")
+	)
+	(junction
 		(at 146.05 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2298,24 +2131,20 @@
 		(uuid "e10894cd-949b-42b1-96b4-db1dc18826f5")
 	)
 	(no_connect
-		(at 66.04 105.41)
-		(uuid "32d1b71f-f12a-44a9-a1ec-031c0fd49dc4")
+		(at 25.4 104.14)
+		(uuid "0196b5c9-51ad-45fa-b404-7a10e1f34e04")
+	)
+	(no_connect
+		(at 25.4 99.06)
+		(uuid "21898ca6-7f2f-456a-a365-a75bbf0375dc")
 	)
 	(no_connect
 		(at 36.83 26.67)
 		(uuid "60ce3351-fb66-486c-bead-abee9833b880")
 	)
 	(no_connect
-		(at 43.18 115.57)
-		(uuid "6d908e65-a124-4534-97e3-ee0942d6e94a")
-	)
-	(no_connect
 		(at 38.1 71.12)
 		(uuid "7db80f55-0c92-401d-ad22-5c48dff7bfad")
-	)
-	(no_connect
-		(at 66.04 102.87)
-		(uuid "96092c11-5a75-4f82-8174-260c7b9f6b3c")
 	)
 	(no_connect
 		(at 38.1 73.66)
@@ -2381,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 90.17) (xy 86.36 90.17)
+			(xy 87.63 104.14) (xy 86.36 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2461,6 +2290,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 101.6) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5a5837-4b0f-470a-84ea-39acdd5d6a61")
+	)
+	(wire
+		(pts
+			(xy 24.13 101.6) (xy 25.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63657542-6138-4f26-b582-1378a8c95ace")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 160.02 78.74)
 		)
 		(stroke
@@ -2501,6 +2350,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 99.06) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef7aadc-50f7-4a00-adb4-7c22f35a88d5")
+	)
+	(wire
+		(pts
 			(xy 96.52 76.2) (xy 99.06 76.2)
 		)
 		(stroke
@@ -2511,13 +2370,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 87.63 90.17)
+			(xy 87.63 76.2) (xy 87.63 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8209b6b9-2617-44eb-aeef-49374c26a2d2")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bec9f83-36f9-409b-9dbc-f14d88a2daa7")
 	)
 	(wire
 		(pts
@@ -2528,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "8db2f4a8-854c-4270-b48d-d6cbdaff0bdd")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d8d9e1-c553-4c73-ab5b-e655419935b1")
 	)
 	(wire
 		(pts
@@ -2558,6 +2437,16 @@
 			(type default)
 		)
 		(uuid "b0537ff9-df8a-4b61-ad00-67c9dfb505ec")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8320fc-bbd3-4f2a-997b-c8a4b9e74616")
 	)
 	(wire
 		(pts
@@ -2618,16 +2507,6 @@
 			(type default)
 		)
 		(uuid "cc315d9c-97ab-42a6-8e4a-2f6276f9698d")
-	)
-	(wire
-		(pts
-			(xy 66.04 90.17) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d00b28b5-4a15-4777-ac40-872df4271686")
 	)
 	(wire
 		(pts
@@ -2784,7 +2663,7 @@
 	)
 	(text "USB - power in\n"
 		(exclude_from_sim no)
-		(at 16.51 93.726 0)
+		(at 18.034 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2825,14 +2704,24 @@
 		(uuid "d71b4602-cd65-4ba3-b0f9-a2cde8cf5ff3")
 	)
 	(label "5v5_usb"
-		(at 72.39 90.17 180)
+		(at 24.13 101.6 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
 			(justify right bottom)
 		)
-		(uuid "23195b38-41f9-454a-bfa0-6d40901e33b4")
+		(uuid "08ef8e36-a1fb-4d47-a40b-c66134ada4a0")
+	)
+	(label "5v5_usb"
+		(at 67.31 104.14 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "41d6d2fb-5e1a-4187-a280-b0ec02d36d8e")
 	)
 	(label "5v5_post_diode"
 		(at 87.63 87.63 90)
@@ -3072,6 +2961,88 @@
 		)
 	)
 	(symbol
+		(lib_id "USB-C-PORT:KUSBX-SMT-CS-6-BTR")
+		(at 25.4 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4842ce6e-9bbf-4e9a-9586-da3346b5eec8")
+		(property "Reference" "J8"
+			(at 45.72 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KUSBX-SMT-CS-6-BTR"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "KUSBX-SMT-CS-6-BTR_KYC"
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "KUSBX-SMT-CS-6-BTR"
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A5"
+			(uuid "041cd039-eef6-4d04-896c-552f9723aa8e")
+		)
+		(pin "A12"
+			(uuid "d35959ab-cfa3-4b0f-97f8-d522ad9fa245")
+		)
+		(pin "B9"
+			(uuid "f1d6d605-5155-4074-8a3e-95122f4d2a44")
+		)
+		(pin "A9"
+			(uuid "74df27d8-8fec-48fe-9b07-76fcb8312925")
+		)
+		(pin "B12"
+			(uuid "76c0c2d6-13b2-4584-ac73-a6112dc61f3e")
+		)
+		(pin "B5"
+			(uuid "0cb211f5-f728-45b7-a381-1819d78adaf9")
+		)
+		(instances
+			(project ""
+				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 87.63 0)
 		(unit 1)
@@ -3219,73 +3190,6 @@
 			(project "mainboard"
 				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e1d591b-1b55-4bcf-8dcb-8ef3039cc3e6")
-		(property "Reference" "#PWR012"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc53eca6-15cd-4b12-8680-871d42eb8909")
-		)
-		(instances
-			(project "mainboard"
-				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3572,84 +3476,6 @@
 		)
 	)
 	(symbol
-		(lib_name "USB_C_Receptacle_PowerOnly_24P_1")
-		(lib_id "Connector:USB_C_Receptacle_PowerOnly_24P")
-		(at 50.8 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fa3f9c6-50ee-47ae-81e4-aed895a62646")
-		(property "Reference" "J9"
-			(at 50.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_24P"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "usbc_power_only:KUSBX-SMT-CS-6-BTR_KYC"
-			(at 54.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 52.324 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Power-Only 24P Type-C Receptacle connector"
-			(at 51.562 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S1"
-			(uuid "986bc48d-3f93-476c-a804-7ad4d3b00aea")
-		)
-		(pin "B5"
-			(uuid "d43fd19e-3dde-420f-83cb-9c63ad787c9d")
-		)
-		(pin "A9"
-			(uuid "28a3ff21-4968-45bd-9eeb-33a0ae48aeab")
-		)
-		(pin "A12"
-			(uuid "5ed69616-43b3-4b3c-8dad-1e964f214309")
-		)
-		(pin "A5"
-			(uuid "ac2b7886-0f9b-4372-9a16-c5fc0781235f")
-		)
-		(instances
-			(project ""
-				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 68.58 90)
 		(unit 1)
@@ -3818,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Value" "SBH11-PBPC-D05-ST-BK"
+		(property "Value" "jtag"
 			(at 50.8 61.976 0)
 			(effects
 				(font
@@ -4028,6 +3854,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc4034e0-efd6-4ed4-bbef-2c136901f70d")
+		(property "Reference" "#PWR017"
+			(at 77.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d271b0-7d6d-4df0-b0f8-fe009ac99749")
+		)
+		(instances
+			(project "mainboard"
+				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 134.62 76.2 0)
 		(unit 1)
@@ -4220,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Socket"
+		(property "Value" "usb-ttl"
 			(at 40.767 22.606 0)
 			(effects
 				(font
@@ -4477,7 +4370,7 @@
 	)
 	(symbol
 		(lib_id "SMAZ5V1-13-F:SMAZ5V1-13-F")
-		(at 81.28 90.17 0)
+		(at 81.28 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4485,7 +4378,7 @@
 		(dnp no)
 		(uuid "fed453e0-e12d-4e18-b5ed-8ab672a8281b")
 		(property "Reference" "D3"
-			(at 81.28 84.836 0)
+			(at 81.28 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4386,7 @@
 			)
 		)
 		(property "Value" "zener"
-			(at 81.28 87.376 0)
+			(at 81.28 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4394,7 @@
 			)
 		)
 		(property "Footprint" "zener_diode_5v1:DIOM5226X240N"
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4422,7 @@
 			)
 		)
 		(property "PARTREV" "19 - 2"
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4432,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes Inc."
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4442,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.4mm"
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4452,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,7 +4462,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4471,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 81.28 90.17 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
