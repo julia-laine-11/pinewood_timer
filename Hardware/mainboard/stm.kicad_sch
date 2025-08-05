@@ -3422,6 +3422,26 @@
 		(color 0 0 0 0)
 		(uuid "ed9f3327-f4a0-45bd-862f-18aac0b3ae1e")
 	)
+	(no_connect
+		(at 93.98 49.53)
+		(uuid "2f7105d4-5d7c-436a-89dc-335f2b4e9aa4")
+	)
+	(no_connect
+		(at 104.14 95.25)
+		(uuid "9faaacd0-331f-4b8b-a335-16b9f10ca3de")
+	)
+	(no_connect
+		(at 104.14 138.43)
+		(uuid "b1035695-e188-4c89-a855-bbf9811e7b41")
+	)
+	(no_connect
+		(at 104.14 87.63)
+		(uuid "e0404856-75ea-4920-a59c-d676fdff1492")
+	)
+	(no_connect
+		(at 104.14 85.09)
+		(uuid "f0854535-d3ab-4617-8aec-a42831adcee3")
+	)
 	(wire
 		(pts
 			(xy 93.98 39.37) (xy 106.68 39.37)
@@ -8697,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 33.02 72.39 0)
 			(effects
 				(font
