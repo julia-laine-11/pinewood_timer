@@ -3678,6 +3678,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 90.17) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616e7d36-1bd2-420b-9c5a-3277164a97cb")
+	)
+	(wire
+		(pts
 			(xy 154.94 80.01) (xy 162.56 80.01)
 		)
 		(stroke
@@ -5718,7 +5728,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 90.17 0)
+		(at 85.09 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5727,7 +5737,7 @@
 		(fields_autoplaced yes)
 		(uuid "804fa7a1-e032-4cb8-9fb6-9ea7983a5463")
 		(property "Reference" "GND8"
-			(at 83.82 85.5979 0)
+			(at 87.63 85.5979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5746,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 83.82 88.1379 0)
+			(at 87.63 88.1379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5755,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
-			(at 86.36 90.17 0)
+			(at 90.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 90.17 0)
+			(at 90.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5773,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 81.28 90.17 0)
+			(at 85.09 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
