@@ -3535,6 +3535,10 @@
 		(uuid "2f7105d4-5d7c-436a-89dc-335f2b4e9aa4")
 	)
 	(no_connect
+		(at 81.28 49.53)
+		(uuid "38fcbdaa-41d6-421f-a842-bb7e77b7f958")
+	)
+	(no_connect
 		(at 104.14 95.25)
 		(uuid "9faaacd0-331f-4b8b-a335-16b9f10ca3de")
 	)
