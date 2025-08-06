@@ -28,6 +28,8 @@ Timer system for a pinewood derby track. My grandma asked me to help her make on
 - displays time in each lane
 - displays placement in each lane
 - cost less than $100-$120
+    - <img width="459" height="646" alt="image" src="https://github.com/user-attachments/assets/b4fa9edf-ac52-48f1-865a-c8efdee930d3" />
+
 
 ##### Requirements per each lane
 - start sensor - same trigger for all lanes
