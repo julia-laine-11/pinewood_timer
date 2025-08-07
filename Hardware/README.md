@@ -22,29 +22,6 @@
     - main board where the stm32f091rct6 lives
     - jst connectors to each board/input/output around the system
 
-- [pinewood_timer](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/pinewood_timer)
-*will *not* be printed
-  - whats inside:
-    - kicad project
-      - schematic
-      - no pcb - there are individual ones for each part of the system
-  - about:
-    - overall schematic of all of the systems
-
-- [timer_display_pcb](https://github.com/julia-laine-11/pinewood_timer/tree/main/Hardware/timer_display_pcb)
-*will *not* be printed
-  - whats inside:
-    - kicad project(s)
-      - schematic
-      - pcb
-  - about
-    - time display over each lane
-    - not the actual 'timer'
-      - the 'timer' is in the software
-      - updates every .001 seconds
-     
-    - will not be printed because display_15_in will replace it
-     
 
 ## Photos
 
@@ -110,5 +87,6 @@
 <img width="1122" height="530" alt="image" src="https://github.com/user-attachments/assets/3e8145db-2857-4a3b-8103-7f1f65c161cf" />
 
 <img width="1122" height="530" alt="image" src="https://github.com/user-attachments/assets/90ac04bd-f18d-4112-8fbe-d7dba5d5e411" />
+
 
 
