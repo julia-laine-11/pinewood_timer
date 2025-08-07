@@ -4,6 +4,14 @@ This board will be placed in a central location on the track. It connects to the
 
 
 #### Current schematic
+8/7/25 - fixed little silkscreen words. fixed DRC violations
+
+<img width="965" height="821" alt="image" src="https://github.com/user-attachments/assets/a4c4bbee-9200-4520-9908-1e0850fa6d8d" />
+
+
+
+### Old:
+
 8/5/25 - i actually routed stuff today wohoo. i also added the design rules because i forgot to do that
 
 <img width="894" height="783" alt="image" src="https://github.com/user-attachments/assets/7dfb19fc-dd14-4819-b75d-803fd9ccac24" />
@@ -22,9 +30,6 @@ not too much changed about the schematic:
 i just added this for the start switch because i forgot about it
 
 <img width="962" height="670" alt="image" src="https://github.com/user-attachments/assets/af106879-0e99-440d-b5dc-d1c4bae25fc7" />
-
-
-### Old:
 8/3/25 - added connectors and sheets
 
 <img width="1195" height="754" alt="image" src="https://github.com/user-attachments/assets/90bd0b59-72cb-44b3-b88c-ae34acdd5eb5" />
