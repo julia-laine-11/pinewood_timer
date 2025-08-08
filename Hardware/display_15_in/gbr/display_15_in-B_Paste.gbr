@@ -1,0 +1,72 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8-8.0.8-0~ubuntu24.04.1*%
+%TF.CreationDate,2025-08-07T17:00:54-04:00*%
+%TF.ProjectId,display_15_in,64697370-6c61-4795-9f31-355f696e2e6b,2*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.8-8.0.8-0~ubuntu24.04.1) date 2025-08-07 17:00:54*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%ADD10R,3.800000X2.000000*%
+%ADD11Outline5P,-1.900000X1.000000X1.900000X1.000000X1.900000X-1.000000X-1.500000X-1.000000X-1.900000X-0.600000X180.000000*%
+%ADD12Outline5P,-1.900000X1.000000X1.900000X1.000000X1.900000X-1.000000X-1.500000X-1.000000X-1.900000X-0.600000X270.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,GND4*%
+X307467000Y-100156000D03*
+%TD*%
+D11*
+%TO.C,3V3*%
+X241173000Y-146384000D03*
+%TD*%
+D12*
+%TO.C,3V1*%
+X68580000Y-167005000D03*
+%TD*%
+D10*
+%TO.C,GND3*%
+X109347000Y-100918000D03*
+%TD*%
+D11*
+%TO.C,3V2*%
+X342265000Y-181182000D03*
+%TD*%
+M02*

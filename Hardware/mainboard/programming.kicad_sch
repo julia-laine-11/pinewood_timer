@@ -339,6 +339,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2119,6 +2221,12 @@
 		(uuid "8c104849-8e8b-407a-940a-e37174ac77b0")
 	)
 	(junction
+		(at 87.63 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa4bc284-4ad1-4254-a365-6b66ccd82c1c")
+	)
+	(junction
 		(at 146.05 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2370,7 +2478,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 87.63 104.14)
+			(xy 87.63 76.2) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2457,6 +2565,16 @@
 			(type default)
 		)
 		(uuid "bbd4d75f-4da0-435e-a02a-87cdfbe281d9")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 87.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0cf4b0-f0a4-4a12-8af5-f53549f8b25c")
 	)
 	(wire
 		(pts
@@ -2562,7 +2680,7 @@
 	)
 	(rectangle
 		(start 113.03 64.77)
-		(end 166.37 91.44)
+		(end 166.37 93.98)
 		(stroke
 			(width 0)
 			(type default)
@@ -2890,6 +3008,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a1fa2b-f328-4ad4-aa2a-0a85ea27975e")
+		(property "Reference" "TP4"
+			(at 92.71 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b396f604-ee62-4534-b524-ba57a6e68d1b")
+		)
+		(instances
+			(project "mainboard"
+				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
+					(reference "TP4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4004,6 +4189,73 @@
 			(project "mainboard"
 				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dea062af-0898-4935-a0ff-676d48e071e0")
+		(property "Reference" "TP5"
+			(at 148.59 89.6619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 92.2019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2591a3f7-0a3a-4d03-9587-aa1c5f203df5")
+		)
+		(instances
+			(project "mainboard"
+				(path "/5f7c2eda-1e0f-4231-89f6-49a17b370d9e/7b524a24-56f0-4a49-a03c-55156da3f2cd"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
