@@ -5,19 +5,24 @@
 int race_tim_flag = 0;
 int placement     = 0;
 
+
 void enable_ports() {
-    RCC -> AHBENR |= RCC_AHBENR_GPIOAEN;
+  RCC -> AHBENR |= RCC_AHBENR_GPIOAEN;
 
-    //segments
-    GPIOA -> MODER &=  ~0x3FFF;
-    GPIOA -> MODER |=   0x1555;
+  //A
+  GPIOA -> MODER &= ~ 0x3FFFFF;
+  GPIOA -> MODER |=   0x155555;  // output -> 0-10 : PLACEMENT DISP
 
-    //enable
-    // 0000 0000 0000 0000 0000 0000 0000 0000
-    // 1514 1312 1110 0908 0706 0504 0302 0100
-    // ---- ---- 0101 0101 ---- ---- ---- ----
-    GPIOA -> MODER &= ~0xFFF000;
-    GPIOA -> MODER |=  0x555000;
+  //B
+  GPIOB -> MODER &= ~ 0x3FFFFFFF; // input  -> 11-14 : END SENSORS
+  GPIOB -> MODER |=   0x00155555; // output -> 0-10 : TIMER DISP 1
+
+
+  //C
+  GPIOC -> MODER &= ~ 0xFCFFFFFF; // input  -> 11 : RACE START
+  GPIOC -> MODER |=   0x54155555; // output -> 0-10 : TIMER DISP 2, 13-15 : STATUS LEDs
+
+  
 }
 
 
@@ -63,7 +68,7 @@ int check_lane(int lane){
   sensor_output &= 0x ; //or the mask needed for specific lane
 
   if(lane == 1)
-    NVIC_DisableIRQ(timer for that one)
+    NVIC_DisableIRQ(timer for that one);
     return sensor_output; //just returns 1 or 0 if its on or not. ill be using them as regular io, not ADC
 }
 
