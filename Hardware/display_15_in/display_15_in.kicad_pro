@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gbr/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../Desktop/display_15_in.step",
