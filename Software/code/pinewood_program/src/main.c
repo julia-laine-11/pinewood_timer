@@ -28,10 +28,12 @@ void enable_ports() {
 
 int check_start(){
   int start = GPIOC -> IDR;
-  start &= 0x ; //or the mask needed for specific lane
 
-  return start; //just returns 1 or 0 if its on or not. ill be using them as regular io, not ADC
+  start &= 0x800; //or the mask needed for specific lane
+
+  return start;
 }
+
 
 void race_tim_en(){
   if( check_start() ) race_tim_flag = 1;
@@ -63,6 +65,12 @@ void move_place_num(int num){
 
 
 int check_lane(int lane){
+  //lane 1: PB11 0x0800
+  //lane 2: PB12 0x1000
+  //lane 3: PB13 0x2000
+  //lane 4: PB14 0x4000
+
+
   //  int portc_val = GPIOC -> IDR;
   int sensor_output = GPIOC -> IDR;
   sensor_output &= 0x ; //or the mask needed for specific lane
