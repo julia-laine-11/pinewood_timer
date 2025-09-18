@@ -3780,16 +3780,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 68.58) (xy 15.24 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387b7581-8807-4feb-9bb8-5f5f37b1be3b")
-	)
-	(wire
-		(pts
 			(xy 154.94 54.61) (xy 162.56 54.61)
 		)
 		(stroke
@@ -3880,16 +3870,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 68.58) (xy 17.78 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d788bd-ae48-4718-b863-642c0661e73d")
-	)
-	(wire
-		(pts
 			(xy 97.79 54.61) (xy 92.71 54.61)
 		)
 		(stroke
@@ -3940,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 68.58) (xy 17.78 74.93)
+			(xy 17.78 73.66) (xy 17.78 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5822,7 +5802,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 15.24 67.31 0)
+		(at 17.78 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5831,7 +5811,7 @@
 		(fields_autoplaced yes)
 		(uuid "80add5c1-f856-403d-8b2f-1052e46cc5cc")
 		(property "Reference" "3V1"
-			(at 17.78 62.7379 0)
+			(at 20.32 69.0879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5820,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 17.78 65.2779 0)
+			(at 20.32 71.6279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5829,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
-			(at 20.32 67.31 0)
+			(at 22.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 67.31 0)
+			(at 22.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5847,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 15.24 67.31 0)
+			(at 17.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
