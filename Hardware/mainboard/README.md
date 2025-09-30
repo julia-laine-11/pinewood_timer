@@ -2,6 +2,15 @@
 
 This board will be placed in a central location on the track. It connects to the power, reset button, start sensors, display at the end, and end sensors. A usb-c power supply will power it.
 
+#### Current Board
+
+9/30/25 - today i soldered the LED on. i got scared it wasnt working, but it turns out it was just a blue LED and therefore needed a smaller resistor. Then i plugged it in and i thought hte JTAG was backwards, but it turns out the decoup capacitors I placed are not in face decoupling and just capacitors. so i removed them and added a wire around them. im having issues connecting to the board. 
+
+i got access to the board files from ece362, so i plan on comparing my layout to theirs to see what i did wrong. im disappointed but i think i can fix it (hopefully)
+
+![1000094184](https://github.com/user-attachments/assets/c78dbdb0-e13a-41b1-a277-28200e3143d0)
+
+
 
 #### Current schematic
 8/7/25 - fixed little silkscreen words. fixed DRC violations
