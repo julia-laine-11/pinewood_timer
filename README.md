@@ -1,4 +1,3 @@
-*I am not currently working on this as I finish up my senior design. I will continue in June after I graduate and move :)
 
 # pinewood_timer
 Timer system for a pinewood derby track. My grandma asked me to help her make one since her boy scout troop's track does not have one. I hope that I can make these more affordable so that her troop and other troops can get accurate timers that dont cost an arm and a leg.
