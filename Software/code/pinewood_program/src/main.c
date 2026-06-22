@@ -2,126 +2,129 @@
 #include <stdint.h>
 #include <stdio.h>
 
-int race_tim_flag = 0;
-int placement     = 0;
+#include "display.h"
+#include "race.h"
+#include "pins.h"
+#include "uart.h"
 
+void internal_clock(void);
 
-void enable_ports() {
-  RCC -> AHBENR |= RCC_AHBENR_GPIOAEN;
-
-  //A
-  GPIOA -> MODER &= ~ 0x3FFFFF;
-  GPIOA -> MODER |=   0x155555;  // output -> 0-10 : PLACEMENT DISP
-
-  //B
-  GPIOB -> MODER &= ~ 0x3FFFFFFF; // input  -> 11-14 : END SENSORS
-  GPIOB -> MODER |=   0x00155555; // output -> 0-10 : TIMER DISP 1
-
-
-  //C
-  GPIOC -> MODER &= ~ 0xFCFFFFFF; // input  -> 11 : RACE START
-  GPIOC -> MODER |=   0x54155555; // output -> 0-10 : TIMER DISP 2, 13-15 : STATUS LEDs
-
-  
+static void enable_gpio_clocks(void)
+{
+    RCC->AHBENR |= RCC_AHBENR_GPIOAEN | RCC_AHBENR_GPIOBEN | RCC_AHBENR_GPIOCEN;
+    /* GPIOD enabled in uart5_init() for PD2 RX. */
 }
 
-
-int check_start(){
-  int start = GPIOC -> IDR;
-
-  start &= 0x800; //or the mask needed for specific lane
-
-  return start;
+/*
+ * Configure PA0-PA10 (or PB/PC) as outputs:
+ * MODER nibble pattern 0101 0101 0101 0101 0100 = output on pins 0-10.
+ */
+static void configure_display_port(GPIO_TypeDef *port)
+{
+    port->MODER &= ~0x03FF03FFU;
+    port->MODER |= 0x01540154U;
 }
 
+static void configure_inputs(void)
+{
+    /* PB11-PB14 finish sensors — input with pull-up. */
+    FINISH_PORT->MODER &= ~0x3C000000U;
+    FINISH_PORT->PUPDR &= ~0x3C000000U;
+    FINISH_PORT->PUPDR |= 0x28000000U;
 
-void race_tim_en(){
-  if( check_start() ) race_tim_flag = 1;
+    /* PC11 start switch — input with pull-up. */
+    START_PORT->MODER &= ~(3U << (11U * 2U));
+    START_PORT->PUPDR &= ~(3U << (11U * 2U));
+    START_PORT->PUPDR |= (1U << (11U * 2U));
+
+    /* PA15 reset button — input with pull-up (PC12 is UART5_TX). */
+    RESET_PORT->MODER &= ~(3U << (15U * 2U));
+    RESET_PORT->PUPDR &= ~(3U << (15U * 2U));
+    RESET_PORT->PUPDR |= (1U << (15U * 2U));
 }
 
-///////////////////////////////////////////////////
-int index         = 0;
-int place_arr[4]  = {1, 2, 3, 4};
-//      0x06, 0x5B, 0x4F, 0x66
-
-//or
-int place    = 1234;
-
-//each time lane sensor crossed
-void move_place_arr(){
-  placement = place_arr[index];
-  if(index < 4) index++;
-  else pos = 4;
+static void configure_status_leds(void)
+{
+    /* PC13, PC14, PC15 — outputs, start off. */
+    GPIOC->MODER &= ~0xFC000000U;
+    GPIOC->MODER |= 0x54000000U;
+    GPIOC->ODR &= ~(LED_READY_PIN | LED_RUNNING_PIN | LED_FINISHED_PIN);
 }
 
-void move_place_num(int num){
-  if(num > 0)
-  placement = (int)(num / 1000); //returns first number
-  num %= 1000; //chops off first number
-  num *= 10;   //keeps it at 4 digits so its easy to get the first number
+/* TIM14 — 48 MHz / 48 / 1000 = 1 kHz lane time ticks. */
+static void setup_tim14(void)
+{
+    RCC->APB1ENR |= RCC_APB1ENR_TIM14EN;
+
+    TIM14->PSC = 48U - 1U;
+    TIM14->ARR = 1000U - 1U;
+    TIM14->DIER |= TIM_DIER_UIE;
+    NVIC->ISER[0] = (1U << TIM14_IRQn);
+    TIM14->CR1 |= TIM_CR1_CEN;
 }
 
-//////////////////////////////////////////////
+/* TIM6 — 48 MHz / 48 / 500 = 2 kHz sensor poll + display mux. */
+static void setup_tim6(void)
+{
+    RCC->APB1ENR |= RCC_APB1ENR_TIM6EN;
 
-
-int check_lane(int lane){
-  //lane 1: PB11 0x0800
-  //lane 2: PB12 0x1000
-  //lane 3: PB13 0x2000
-  //lane 4: PB14 0x4000
-
-
-  //  int portc_val = GPIOC -> IDR;
-  int sensor_output = GPIOC -> IDR;
-  sensor_output &= 0x ; //or the mask needed for specific lane
-
-  if(lane == 1)
-    NVIC_DisableIRQ(timer for that one);
-    return sensor_output; //just returns 1 or 0 if its on or not. ill be using them as regular io, not ADC
+    TIM6->PSC = 48U - 1U;
+    TIM6->ARR = 500U - 1U;
+    TIM6->DIER |= TIM_DIER_UIE;
+    NVIC->ISER[0] = (1U << TIM6_DAC_IRQn);
+    TIM6->CR1 |= TIM_CR1_CEN;
 }
 
-
-
-void TIM14_IRQHandler(){
-  //acknowledge the interrupt
-  TIM14 -> SR &= ~TIM_SR_UIF;  
-  //call update_variables
-  update_variables();
-  //call write_display
-  write_display();
+static void update_status_leds(void)
+{
+    switch (race_state()) {
+    case RACE_IDLE:
+        display_set_status_leds(1, 0, 0);
+        break;
+    case RACE_RUNNING:
+        display_set_status_leds(0, 1, 0);
+        break;
+    case RACE_FINISHED:
+        display_set_status_leds(0, 0, 1);
+        break;
+    }
 }
 
-
-void setup_tim14() {
-  RCC -> APB1ENR |= RCC_APB1ENR_TIM14EN;
-
-  // invoke an update interrupt twice per second (2 Hz).
-  TIM14 -> PSC = 24000 - 1; //48 000 000 / 480 -> 1000
-  TIM14 -> ARR = 1000 - 1; //1000 / 100 -> 1Hz
-
-  //Enable UIE bit in DIER (use TIM_DIER_UIE mask)
-  TIM14 -> DIER |= TIM_DIER_UIE;
-  //Enable the TIM7 interrupt (NVIC ISER)
-  NVIC -> ISER[0] |= (1 << TIM14_IRQn);
-  //Enable TIM7 by setting CEN bit in TIM7 CR)  - set TIM_CR1_CEN in TIM7_CR1 (dont set the TIM7_ARR to 0)
-  TIM14 -> CR1 |= TIM_CR1_CEN;
+void TIM14_IRQHandler(void)
+{
+    TIM14->SR &= ~TIM_SR_UIF;
+    race_tick_times();
 }
 
+void TIM6_DAC_IRQHandler(void)
+{
+    TIM6->SR &= ~TIM_SR_UIF;
+    race_poll_inputs();
+    display_refresh_step();
+    update_status_leds();
+}
 
-int main(){
-
+int main(void)
+{
     internal_clock();
-    enable_ports();
-    // lane select
-    // 1   2   3   4
-    // 380 580 680 700
+    enable_gpio_clocks();
 
-    // 0000 0100 0000 0000
-    // 0000 0111 0000 0000
+    configure_display_port(PLACEMENT_PORT);
+    configure_display_port(TIMER_L12_PORT);
+    configure_display_port(TIMER_L34_PORT);
+    configure_inputs();
+    configure_status_leds();
 
-    GPIOA -> BSRR = 0x700;
-    GPIOA -> BSRR = 0x0001;
+    race_init();
+    display_init();
+    uart5_init();
 
-    
-    return 1;
+    setup_tim14();
+    setup_tim6();
+
+    puts("PINEWOOD READY\r\n");
+
+    while (1) {
+        __WFI();
+    }
 }
